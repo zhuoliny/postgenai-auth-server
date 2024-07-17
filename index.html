@@ -1,0 +1,50 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<title>SandLab Study Webform</title>
+    <link rel="stylesheet" href="basscss.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+	<div class="clearfix mb2 white bg-navy">
+		<div class="left">
+		  <a href="index.html" class="button py2 m0 button-transparent">Pilot User Study</a>
+		</div>
+	</div>
+
+    <div class="w3-light-grey">
+        <div id="progressBar" class="w3-container w3-light-blue w3-center" style="width:0%">1/5</div>
+    </div>
+
+    <div class="bg-white">
+        <br>
+        <h2 class="h2 center" id="hint"></h2>
+        <br>
+    </div>
+
+    <div class="center">
+        <div class="col col-12">
+            <div class="js-sortable-copy js-grid sortable grid clearfix myn1" id="words">
+            </div>
+        </div>
+
+        <div class="col col-12">
+            <br>
+            <h2 class="center h2">Drag words here:</h2>
+            <ul class="p3 ml2 mr2 border maroon border-blue js-sortable-copy-target grid flex flex-wrap" id="answerBox">
+            </ul>
+            <br>
+        </div>
+
+        <div class="col col-12">
+            <button id="prevBtn" class="button bg-navy" onclick="previousPuzzle()">Previous</button>
+            <button id="nxtBtn" class="button bg-navy" onclick="nextPuzzle()">Next</button>
+            <button id="submitBtn" class="button bg-red" onclick="wrapUpSession()">Submit</button>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="html5sortable.js"></script>
+    <script src="study.js"></script>
+</body>
