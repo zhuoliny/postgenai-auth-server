@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-# Step 1: Define the data categories
+#Define the data categories
 categories = {
     "Movies": [
         ("Harry Potter", "positive"), ("Howls Moving Castle", "positive"), ("Ponyo", "positive"),
@@ -66,13 +66,13 @@ categories = {
     ]
 }
 
-# Step 2: Load the CSV file containing user responses
+
 data = pd.read_csv('user_data.csv')
 print("Data loaded:")
 print(data.head())
 
 
-# Step 3: Group users by matching_code to find pairs
+
 grouped = data.groupby('matching_code')
 
 # Function to generate puzzles for a given category
