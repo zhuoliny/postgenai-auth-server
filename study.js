@@ -177,31 +177,21 @@ async function saveResponse() {
 
     category[puzzleID - 1]["selectedWords"] = selected_words;
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
-    var response_json = category;
+    var response_json = JSON.stringify(category);
 
-    const existingFile = await (await fetch(
-        `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`,
-        {
-          method: 'GET'
-        }
-      )).json();
-
-    await (await fetch(
-            `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`, {
-            method: 'PUT',
-            body: JSON.stringify({
-                message: "saving response",
-                content: btoa(response_json),
-                sha: existingFile.sha,
-            }),
-            }
-        )).json();
+    firebase.database().ref(`user=${userID}_puzzle=${puzzleID}_week=${weekID}`).push().set(response_json)
+        .then(function(snapshot) {
+            success(); // some success method
+        }, function(error) {
+            console.log('error' + error);
+            error(); // some error method
+        });
 }
 
 function wrapUpSession() {
     saveResponse();
 
-    const url = `http://localhost:${port}/thankyou.html`
+    const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
 
     // open link in new tab
     window.open(url, "_self");
