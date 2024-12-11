@@ -56,19 +56,19 @@ function loadCategory() {
 }
 
 function sendStudyParams() {
-    $.ajax({
-        type: "POST",
-        url: "/",
-        data: { params: {'puzzleID': puzzleID, 
-                            'userID': userID, 
-                            'weekID': weekID
-                        } 
-                },
-        success: function(data) {},
-        error: function(jqXHR, textStatus, err) {
-            alert('text status '+textStatus+', err '+err)
-        }
-    });
+    // $.ajax({
+    //     type: "POST",
+    //     url: "/",
+    //     data: { params: {'puzzleID': puzzleID, 
+    //                         'userID': userID, 
+    //                         'weekID': weekID
+    //                     } 
+    //             },
+    //     success: function(data) {},
+    //     error: function(jqXHR, textStatus, err) {
+    //         alert('text status '+textStatus+', err '+err)
+    //     }
+    // });
 }
 
 // todo: currently the puzzles are not shuffled. 
@@ -202,15 +202,15 @@ function saveResponse() {
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
     var response_json = JSON.stringify(category);
 
-    $.ajax({
-        type: "POST",
-        url: "/finishPuzzle",
-        data: { response: response_json },
-        success: function(data) {},
-        error: function(jqXHR, textStatus, err) {
-            alert('text status '+textStatus+', err '+err)
-        }
-    });
+    // $.ajax({
+    //     type: "POST",
+    //     url: "/finishPuzzle",
+    //     data: { response: response_json },
+    //     success: function(data) {},
+    //     error: function(jqXHR, textStatus, err) {
+    //         alert('text status '+textStatus+', err '+err)
+    //     }
+    // });
 }
 
 function wrapUpSession() {
