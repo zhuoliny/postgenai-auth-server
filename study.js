@@ -182,21 +182,13 @@ async function saveResponse() {
     const existingFile = await (await fetch(
         `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`,
         {
-          method: 'GET',
-          headers: {
-            Accept: 'application/vnd.github+json',
-            Authorization: `Bearer 128ad05bf224f4f8d29dd4e286bdf4e6862f3918`
-          }
+          method: 'GET'
         }
       )).json();
 
     await (await fetch(
             `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`, {
             method: 'PUT',
-            headers: {
-                Accept: 'application/vnd.github+json',
-                Authorization: `Bearer 128ad05bf224f4f8d29dd4e286bdf4e6862f3918`
-            },
             body: JSON.stringify({
                 message: "saving response",
                 content: btoa(response_json),
