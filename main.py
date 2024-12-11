@@ -4,7 +4,7 @@ from collections import defaultdict
 with open('user_data.csv', 'r') as csvfile:
     csv_reader = csv.reader('user_data.csv')
 
-# define User class to store user data
+# define user class to store user data
 class User:
     def __init__(self, user_id, code, categories):
         self.user_id = user_id
