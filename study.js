@@ -39,14 +39,20 @@ function updateProgressBar() {
 }
 
 function loadCategory() {
-    $.ajax({
-        type: 'GET',
-        url: '/getCategory',
-        dataType: 'json',
-        success: function (data) {
-            category = data;
-        }
-    }); 
+    // $.ajax({
+    //     type: 'GET',
+    //     url: '/getCategory',
+    //     dataType: 'json',
+    //     success: function (data) {
+    //         category = data;
+    //     }
+    // }); 
+
+    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`)
+    .done(function( data ) {
+        console.log("loading category")
+        category = data;
+    });
 }
 
 function sendStudyParams() {
