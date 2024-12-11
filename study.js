@@ -9,7 +9,7 @@ const weekID = urlParams.get('weekID');
 //sendStudyParams();
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+//firebase.initializeApp(firebaseConfig);
 var database = firebase.database();
 
 const maxPuzzleID = 6; 
