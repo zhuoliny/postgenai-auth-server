@@ -39,16 +39,14 @@ function updateProgressBar() {
 }
 
 function loadCategory() {
-    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/zhuzhu/category_week1.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`)
+    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`)
     .done(function( data ) {
-        console.log("loading category")
+        console.log("category loading ...")
         category = data;
     });
 }
 
-function sendStudyParams() {
-
-}
+//function sendStudyParams() { }
 
 // todo: currently the puzzles are not shuffled. 
 function shuffle(array) {
@@ -134,7 +132,7 @@ function previousPuzzle() {
 
     // create parameterized link
     var prevPuzzleID = parseInt(puzzleID) - 1;
-    const url = `http://localhost:${port}/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
+    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
     window.open(url, "_self");
@@ -146,13 +144,13 @@ function nextPuzzle() {
 
     // create parameterized link
     var nextPuzzleID = parseInt(puzzleID) + 1;
-    const url = `http://localhost:${port}/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
+    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
     window.open(url, "_self");
 }
 
-function saveResponse() {
+async function saveResponse() {
     var selected_words = [];
     var responses_div = document.getElementById("answerBox").children;
 
@@ -179,17 +177,33 @@ function saveResponse() {
 
     category[puzzleID - 1]["selectedWords"] = selected_words;
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
-    var response_json = JSON.stringify(category);
+    var response_json = category;
 
-    // $.ajax({
-    //     type: "POST",
-    //     url: "/finishPuzzle",
-    //     data: { response: response_json },
-    //     success: function(data) {},
-    //     error: function(jqXHR, textStatus, err) {
-    //         alert('text status '+textStatus+', err '+err)
-    //     }
-    // });
+    const existingFile = await (await fetch(
+        `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`,
+        {
+          method: 'GET',
+          headers: {
+            Accept: 'application/vnd.github+json',
+            Authorization: `Bearer 128ad05bf224f4f8d29dd4e286bdf4e6862f3918`
+          }
+        }
+      )).json();
+
+    await (await fetch(
+            `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`, {
+            method: 'PUT',
+            headers: {
+                Accept: 'application/vnd.github+json',
+                Authorization: `Bearer 128ad05bf224f4f8d29dd4e286bdf4e6862f3918`
+            },
+            body: JSON.stringify({
+                message: "saving response",
+                content: btoa(response_json),
+                sha: existingFile.sha,
+            }),
+            }
+        )).json();
 }
 
 function wrapUpSession() {
