@@ -39,7 +39,7 @@ function updateProgressBar() {
 }
 
 function loadCategory() {
-    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`)
+    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`)
     .done(function( data ) {
         console.log("category loading ...")
         category = data;
@@ -180,7 +180,7 @@ async function saveResponse() {
     var response_json = category;
 
     const existingFile = await (await fetch(
-        `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`,
+        `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`,
         {
           method: 'GET',
           headers: {
@@ -191,7 +191,7 @@ async function saveResponse() {
       )).json();
 
     await (await fetch(
-            `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`, {
+            `https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`, {
             method: 'PUT',
             headers: {
                 Accept: 'application/vnd.github+json',
