@@ -10,7 +10,7 @@ const weekID = urlParams.get('weekID');
 
 // Initialize Firebase
 //firebase.initializeApp(firebaseConfig);
-var database = firebase.database();
+//var database = firebase.database();
 
 const maxPuzzleID = 6; 
 //const maxNumbWords = 16;
