@@ -8,6 +8,20 @@ const userID = urlParams.get('userID');
 const weekID = urlParams.get('weekID'); 
 //sendStudyParams();
 
+const firebaseConfig = {
+    apiKey: "AIzaSyA-iihA5zqu814Sp6eBano4TvkDJCgSkPg",
+    authDomain: "post-gai-server.firebaseapp.com",
+    projectId: "post-gai-server",
+    storageBucket: "post-gai-server.firebasestorage.app",
+    messagingSenderId: "263113946374",
+    appId: "1:263113946374:web:d8780045c285d108d7da87",
+    measurementId: "G-2CNLYTH1BV"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+var database = firebase.database();
+
 const maxPuzzleID = 6; 
 //const maxNumbWords = 16;
 
@@ -187,7 +201,7 @@ async function saveResponse() {
         unselected: unselected_words
     }
 
-    firebase.database().ref(`user=${userID}`).push().set(userObject)
+    database.ref(`user=${userID}`).push().set(userObject)
         .then(function(snapshot) {
             success("saved response"); // some success method
         }, function(error) {
