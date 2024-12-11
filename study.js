@@ -6,7 +6,7 @@ const urlParams = new URLSearchParams(queryString);
 const puzzleID = urlParams.get('puzzleID'); 
 const userID = urlParams.get('userID'); 
 const weekID = urlParams.get('weekID'); 
-sendStudyParams();
+//sendStudyParams();
 
 const maxPuzzleID = 6; 
 //const maxNumbWords = 16;
@@ -39,16 +39,7 @@ function updateProgressBar() {
 }
 
 function loadCategory() {
-    // $.ajax({
-    //     type: 'GET',
-    //     url: '/getCategory',
-    //     dataType: 'json',
-    //     success: function (data) {
-    //         category = data;
-    //     }
-    // }); 
-
-    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`)
+    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/zhuzhu/category_week1.json?token=GHSAT0AAAAAACZYK64RMJZJ5R6KG3XX3O5EZ2Z6A5A`)
     .done(function( data ) {
         console.log("loading category")
         category = data;
@@ -56,19 +47,7 @@ function loadCategory() {
 }
 
 function sendStudyParams() {
-    // $.ajax({
-    //     type: "POST",
-    //     url: "/",
-    //     data: { params: {'puzzleID': puzzleID, 
-    //                         'userID': userID, 
-    //                         'weekID': weekID
-    //                     } 
-    //             },
-    //     success: function(data) {},
-    //     error: function(jqXHR, textStatus, err) {
-    //         alert('text status '+textStatus+', err '+err)
-    //     }
-    // });
+
 }
 
 // todo: currently the puzzles are not shuffled. 
