@@ -1,3 +1,6 @@
+import firebase from "firebase/app";
+import "firebase/compat/database";
+
 // set & get parameters
 const port = 8080;
 const queryString = window.location.search;
@@ -9,8 +12,18 @@ const weekID = urlParams.get('weekID');
 //sendStudyParams();
 
 // Initialize Firebase
-//firebase.initializeApp(firebaseConfig);
-//var database = firebase.database();
+const firebaseConfig = {
+    apiKey: "AIzaSyA-iihA5zqu814Sp6eBano4TvkDJCgSkPg",
+    authDomain: "post-gai-server.firebaseapp.com",
+    databaseURL: "https://post-gai-server-default-rtdb.firebaseio.com",
+    projectId: "post-gai-server",
+    storageBucket: "post-gai-server.firebasestorage.app",
+    messagingSenderId: "263113946374",
+    appId: "1:263113946374:web:d8780045c285d108d7da87",
+    measurementId: "G-2CNLYTH1BV"
+};
+const app = firebase.initializeApp(firebaseConfig);
+const database = firebase.database();
 
 const maxPuzzleID = 6; 
 //const maxNumbWords = 16;
