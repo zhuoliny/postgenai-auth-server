@@ -43,8 +43,33 @@
             <button id="submitBtn" class="button bg-red" onclick="wrapUpSession()">Submit</button>
         </div>
     </div>
-    
+
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="html5sortable.js" type="text/javascript"></script>
     <script src="study.js" type="text/javascript"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA-iihA5zqu814Sp6eBano4TvkDJCgSkPg",
+          authDomain: "post-gai-server.firebaseapp.com",
+          databaseURL: "https://post-gai-server-default-rtdb.firebaseio.com",
+          projectId: "post-gai-server",
+          storageBucket: "post-gai-server.firebasestorage.app",
+          messagingSenderId: "263113946374",
+          appId: "1:263113946374:web:d8780045c285d108d7da87",
+          measurementId: "G-2CNLYTH1BV"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
