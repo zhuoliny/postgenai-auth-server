@@ -147,7 +147,7 @@ function nextPuzzle() {
     const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
-    window.open(url, "_self");
+    //window.open(url, "_self");
 }
 
 async function saveResponse() {
