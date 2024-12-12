@@ -1,6 +1,3 @@
-import firebase from "firebase/app";
-import "firebase/database";
-
 // set & get parameters
 //const port = 8080;
 const queryString = window.location.search;
