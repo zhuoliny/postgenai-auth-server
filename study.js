@@ -179,21 +179,14 @@ async function saveResponse() {
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
     //var response_json = JSON.stringify(category);
 
-    var userObject = {
+    var database = firebase.database();
+    database.ref(`user=${userID}`).set({
         username: userID,
         weekid: weekID,
         puzzleid: puzzleID,
         selected: selected_words,
         unselected: unselected_words
-    }
-
-    firebase.database().ref(`user=${userID}`).push().set(userObject)
-        .then(function(snapshot) {
-            success("saved response"); // some success method
-        }, function(error) {
-            console.log('error' + error);
-            error("unsaved response"); // some error method
-        });
+    });
 }
 
 function wrapUpSession() {
