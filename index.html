@@ -67,9 +67,7 @@
         const analytics = getAnalytics(app);
         const database = getDatabase(app);
 
-        database.ref(`user=zhuzhu`).set({
-            username: "zhuzhu",
-            weekid: "1",
+        set(ref(database, 'users/' + "zhuzhu"), {
             puzzleid: "1",
             selected: "test",
             unselected: "untest"
