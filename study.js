@@ -150,7 +150,7 @@ function nextPuzzle() {
     //window.open(url, "_self");
 }
 
-async function saveResponse() {
+function saveResponse() {
     var selected_words = [];
     var responses_div = document.getElementById("answerBox").children;
 
@@ -177,7 +177,6 @@ async function saveResponse() {
 
     category[puzzleID - 1]["selectedWords"] = selected_words;
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
-    //var response_json = JSON.stringify(category);
 
     set(ref(database, 'users/' + `${userID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
         selected: selected_words,
