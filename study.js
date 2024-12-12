@@ -179,11 +179,7 @@ async function saveResponse() {
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
     //var response_json = JSON.stringify(category);
 
-    var database = firebase.database();
-    database.ref(`user=${userID}`).set({
-        username: userID,
-        weekid: weekID,
-        puzzleid: puzzleID,
+    set(ref(database, 'users/' + `${userID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
         selected: selected_words,
         unselected: unselected_words
     });

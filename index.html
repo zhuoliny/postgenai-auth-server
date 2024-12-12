@@ -66,12 +66,6 @@
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
         const database = getDatabase(app);
-
-        set(ref(database, 'users/' + "zhuzhu"), {
-            puzzleid: "1",
-            selected: "test",
-            unselected: "untest"
-        });
     </script>
     <script src="html5sortable.js" type="text/javascript"></script>
     <script src="study.js" type="text/javascript"></script>
