@@ -65,6 +65,15 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
+
+        var database = firebase.database();
+        database.ref(`user=zhuzhu`).set({
+            username: "zhuzhu",
+            weekid: "1",
+            puzzleid: "1",
+            selected: "test",
+            unselected: "untest"
+        });
     </script>
     <script src="html5sortable.js" type="text/javascript"></script>
     <script src="study.js" type="text/javascript"></script>
