@@ -182,28 +182,37 @@ function saveResponse() {
     }); 
 }
 
+//function definition
+function waitingResponseToBeSaved() {
+    console.log("saving response");
+}
+
 export function previousPuzzle() {
     // save responses before moving to previous puzzle
     saveResponse();
 
+    SetTimeout(waitingResponseToBeSaved, 3000);
+
     // create parameterized link
-    //var prevPuzzleID = parseInt(puzzleID) - 1;
-    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
+    var prevPuzzleID = parseInt(puzzleID) - 1;
+    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
-    //window.open(url, "_self");
+    window.open(url, "_self");
 }
 
 export function nextPuzzle() {
     // save responses before moving to next puzzle
     saveResponse();
 
+    SetTimeout(waitingResponseToBeSaved, 3000);
+
     // create parameterized link
-    //var nextPuzzleID = parseInt(puzzleID) + 1;
-    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
+    var nextPuzzleID = parseInt(puzzleID) + 1;
+    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
-    //window.open(url, "_self");
+    window.open(url, "_self");
 }
 
 export function wrapUpSession() {
