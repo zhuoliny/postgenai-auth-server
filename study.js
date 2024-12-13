@@ -29,8 +29,8 @@ const userID = urlParams.get('userID');
 const weekID = urlParams.get('weekID'); 
 //sendStudyParams();
 
-const maxPuzzleID = 6; 
-//const maxNumbWords = 16;
+const maxPuzzleID = 12; 
+const maxNumbWords = 16;
 
 updateProgressBar();
 
@@ -40,6 +40,8 @@ document.getElementById("submitBtn").disabled = true;
 
 let category;
 loadCategory(); 
+
+let generaldata;
 
 // update puzzle after the category is loaded. 
 let selected_puzzle;
@@ -67,9 +69,16 @@ function loadCategory() {
     });
 }
 
+function loadGeneraldata(targetCategory) {
+    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/generaldata/${targetCategory}.csv`)
+    .done(function( data ) {
+        console.log("general data loading ...")
+        generaldata = data.csvToArray();
+    });
+}
+
 //function sendStudyParams() { }
 
-// todo: currently the puzzles are not shuffled. 
 function shuffle(array) {
     let currentIndex = array.length;
 
@@ -84,6 +93,20 @@ function shuffle(array) {
         [array[currentIndex], array[randomIndex]] = [
         array[randomIndex], array[currentIndex]];
     }
+}
+
+function getRandomElementsFromArray(arr, n) {
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
 }
 
 function updateButton() {
@@ -104,10 +127,39 @@ function updateButton() {
 
 function updatePuzzle() {
     selected_puzzle = Object.values(category[puzzleID - 1]);
+    selected_puzzle_words = selected_puzzle[0];
+    selected_puzzle_traps = selected_puzzle[1];
+    selected_puzzle_category = selected_puzzle[3];
+    loadGeneraldata(selected_puzzle_category);
+
+    // get general data of the category
+    (async() => {
+        console.log("waiting for general data to be loaded");
+        while(generaldata == undefined) 
+            await new Promise(resolve => setTimeout(resolve, 500));
+        console.log("general data is loaded");
+    })();
+
+    // build puzzle
+    the_puzzle = [];
+    if (selected_puzzle_traps.length > 4 && selected_puzzle_traps.length < 8) {
+        the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 1)); // current # of trap is fixed; TODO: need to figure out the suitable # of traps.
+        the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-1-selected_puzzle_words));
+    } else {
+        if (selected_puzzle_traps.length > 8) {
+            the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 2));
+            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-2-selected_puzzle_words));
+        } else {
+            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-selected_puzzle_words));
+        }
+    }
+    
+    // shuffle the words in the puzzle
+    shuffle(the_puzzle); 
 
     // update word set
     var wordsSet_div = document.getElementById("words");
-    for (let i = 0; i < selected_puzzle[0].length; i++) {
+    for (let i = 0; i < the_puzzle[0].length; i++) {
         var word_wrapper_div = document.createElement("div");
         word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
         word_wrapper_div.setAttribute('draggable', 'true');
@@ -115,7 +167,7 @@ function updatePuzzle() {
         word_wrapper_div.setAttribute('aria-grabbed', 'false');
 
         var the_word_div = document.createElement("div");
-        the_word_div.innerHTML = selected_puzzle[0][i];
+        the_word_div.innerHTML = the_puzzle[0][i];
         the_word_div.setAttribute('class', 'bg-blue py3 white center');
         //var div_id = maxNumbWords - i;
         //the_word_div.setAttribute('id', `word${div_id}`);
@@ -125,7 +177,7 @@ function updatePuzzle() {
     } 
 
     // update hint
-    document.getElementById(`hint`).innerHTML = selected_puzzle[1];
+    document.getElementById(`hint`).innerHTML = selected_puzzle[2];
 
     // update answer box
     var answerBox_div = document.getElementById("answerBox");

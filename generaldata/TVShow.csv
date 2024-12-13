@@ -1,0 +1,1975 @@
+Title,Category
+Game of Thrones,"[u'Adventure', u'Drama', u'Fantasy']"
+Breaking Bad,"[u'Crime', u'Drama', u'Thriller']"
+The Walking Dead,"[u'Drama', u'Horror']"
+The Big Bang Theory,[u'Comedy']
+Dexter,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+How I Met Your Mother,"[u'Comedy', u'Drama', u'Romance']"
+Friends,"[u'Comedy', u'Romance']"
+Sherlock,"[u'Crime', u'Drama', u'Mystery']"
+Lost,"[u'Adventure', u'Drama', u'Fantasy', u'Mystery', u'Sci-Fi', u'Thriller']"
+Prison Break,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+House M.D.,"[u'Drama', u'Mystery']"
+Supernatural,"[u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Thriller']"
+True Detective,"[u'Crime', u'Drama', u'Mystery']"
+Arrow,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Mystery', u'Sci-Fi']"
+The Simpsons,"[u'Animation', u'Comedy']"
+House of Cards,[u'Drama']
+Family Guy,"[u'Animation', u'Comedy']"
+Modern Family,[u'Comedy']
+South Park,"[u'Animation', u'Comedy']"
+True Blood,"[u'Drama', u'Fantasy', u'Mystery', u'Romance', u'Thriller']"
+The Vampire Diaries,"[u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Romance', u'Thriller']"
+Homeland,"[u'Drama', u'Mystery', u'Thriller']"
+Suits,"[u'Comedy', u'Drama']"
+Heroes,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Arrested Development,[u'Comedy']
+Two and a Half Men,[u'Comedy']
+Scrubs,"[u'Comedy', u'Drama']"
+The Office,[u'Comedy']
+Firefly,"[u'Adventure', u'Drama', u'Sci-Fi']"
+Fringe,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+American Horror Story,"[u'Drama', u'Horror', u'Thriller']"
+The Sopranos,"[u'Crime', u'Drama']"
+The Wire,"[u'Crime', u'Drama', u'Thriller']"
+Spartacus: War of the Damned,"[u'Action', u'Adventure', u'Biography', u'Drama', u'History']"
+Sons of Anarchy,"[u'Crime', u'Drama', u'Thriller']"
+Once Upon a Time,"[u'Adventure', u'Fantasy', u'Romance']"
+Seinfeld,[u'Comedy']
+Grey&#x27;s Anatomy,"[u'Drama', u'Romance']"
+Californication,"[u'Comedy', u'Drama']"
+24,"[u'Action', u'Drama', u'Mystery', u'Thriller']"
+Orange Is the New Black,"[u'Comedy', u'Crime', u'Drama']"
+Doctor Who,"[u'Adventure', u'Drama', u'Family', u'Mystery', u'Sci-Fi']"
+Community,[u'Comedy']
+Futurama,"[u'Animation', u'Comedy', u'Sci-Fi']"
+Vikings,"[u'Action', u'Drama', u'History', u'War']"
+Mad Men,[u'Drama']
+The Mentalist,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Boardwalk Empire,"[u'Crime', u'Drama', u'History']"
+New Girl,[u'Comedy']
+Entourage,"[u'Comedy', u'Drama']"
+Hannibal,"[u'Crime', u'Drama', u'Horror', u'Thriller']"
+It&#x27;s Always Sunny in Philadelphia,[u'Comedy']
+Glee,"[u'Comedy', u'Drama', u'Music', u'Musical']"
+The X-Files,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Battlestar Galactica,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Castle,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+That &#x27;70s Show,[u'Comedy']
+Avatar: The Last Airbender,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy', u'Mystery']"
+Chuck,"[u'Action', u'Comedy', u'Drama']"
+Gossip Girl,"[u'Drama', u'Romance']"
+Bones,"[u'Comedy', u'Crime', u'Drama', u'Mystery', u'Romance']"
+Person of Interest,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Rome,"[u'Action', u'Drama', u'History', u'Romance', u'War']"
+Criminal Minds,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Agents of S.H.I.E.L.D.,"[u'Action', u'Drama', u'Sci-Fi']"
+Pretty Little Liars,"[u'Drama', u'Mystery', u'Thriller']"
+Buffy the Vampire Slayer,"[u'Action', u'Drama', u'Fantasy']"
+Downton Abbey,"[u'Drama', u'Romance']"
+Revenge,"[u'Drama', u'Mystery', u'Thriller']"
+Fargo,"[u'Crime', u'Drama', u'Thriller']"
+Smallville,"[u'Adventure', u'Drama', u'Romance', u'Sci-Fi']"
+Twin Peaks,"[u'Drama', u'Mystery', u'Thriller']"
+Parks and Recreation,[u'Comedy']
+Desperate Housewives,"[u'Comedy', u'Drama', u'Mystery', u'Romance']"
+Malcolm in the Middle,[u'Comedy']
+30 Rock,[u'Comedy']
+White Collar,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Weeds,"[u'Comedy', u'Crime', u'Drama']"
+Lie to Me,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Six Feet Under,[u'Drama']
+My Name Is Earl,[u'Comedy']
+The Fresh Prince of Bel-Air,[u'Comedy']
+Freaks and Geeks,"[u'Comedy', u'Drama']"
+The IT Crowd,[u'Comedy']
+Death Note,"[u'Animation', u'Crime', u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Thriller']"
+Shameless,"[u'Comedy', u'Drama']"
+NCIS,"[u'Action', u'Comedy', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Flash,"[u'Action', u'Adventure', u'Drama', u'Fantasy', u'Sci-Fi']"
+Sex and the City,"[u'Comedy', u'Romance']"
+Married with Children,[u'Comedy']
+The Blacklist,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Gotham,"[u'Crime', u'Drama', u'Thriller']"
+American Dad!,"[u'Animation', u'Comedy']"
+Grimm,"[u'Drama', u'Fantasy', u'Horror', u'Mystery']"
+The Newsroom,[u'Drama']
+Under the Dome,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Revolution,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Teen Wolf,"[u'Comedy', u'Drama', u'Horror', u'Romance', u'Thriller']"
+The Following,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Misfits,"[u'Comedy', u'Drama', u'Fantasy', u'Sci-Fi']"
+Terra Nova,"[u'Adventure', u'Mystery', u'Sci-Fi']"
+Falling Skies,"[u'Action', u'Sci-Fi', u'Thriller']"
+CSI: Crime Scene Investigation,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Archer,"[u'Animation', u'Action', u'Comedy']"
+Psych,"[u'Comedy', u'Crime', u'Mystery']"
+Leyla and Mecnun,"[u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Mystery', u'Romance']"
+2 Broke Girls,[u'Comedy']
+The O.C.,"[u'Comedy', u'Drama', u'Romance']"
+Top Gear,"[u'Comedy', u'Talk-Show']"
+Better Call Saul,"[u'Crime', u'Drama']"
+Elementary,"[u'Crime', u'Drama', u'Mystery']"
+The Killing,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Dragon Ball Z,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Curb Your Enthusiasm,[u'Comedy']
+Oz,"[u'Crime', u'Drama', u'Thriller']"
+The Office,"[u'Comedy', u'Drama']"
+Burn Notice,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Deadwood,"[u'Crime', u'Drama', u'History', u'Western']"
+Stargate SG-1,"[u'Action', u'Adventure', u'Sci-Fi']"
+Justified,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+The King of Queens,[u'Comedy']
+The Legend of Korra,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Family', u'Fantasy']"
+Gilmore Girls,"[u'Comedy', u'Drama']"
+Skins,[u'Drama']
+Star Trek: The Next Generation,"[u'Action', u'Adventure', u'Mystery', u'Sci-Fi']"
+FlashForward,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Veronica Mars,"[u'Crime', u'Drama', u'Mystery']"
+The Originals,"[u'Drama', u'Fantasy', u'Horror', u'Mystery']"
+One Tree Hill,"[u'Drama', u'Sport']"
+Merlin,"[u'Adventure', u'Drama', u'Family', u'Fantasy']"
+Luther,"[u'Crime', u'Drama', u'Mystery']"
+Frasier,[u'Comedy']
+SpongeBob SquarePants,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Charmed,"[u'Drama', u'Fantasy', u'Mystery']"
+Terminator: The Sarah Connor Chronicles,"[u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+The 100,"[u'Drama', u'Sci-Fi']"
+Da Vinci&#x27;s Demons,"[u'Adventure', u'Drama', u'Fantasy', u'History', u'Mystery']"
+The Shield,"[u'Crime', u'Drama', u'Thriller']"
+Monk,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Louie,"[u'Comedy', u'Drama']"
+Angel,"[u'Action', u'Drama', u'Fantasy', u'Thriller']"
+Fawlty Towers,[u'Comedy']
+Nip/Tuck,[u'Drama']
+Law &#x26; Order: Special Victims Unit,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Tudors,"[u'Drama', u'History', u'Romance', u'War']"
+The Inbetweeners,[u'Comedy']
+Jericho,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi']"
+Everybody Loves Raymond,[u'Comedy']
+Mr. Bean,"[u'Comedy', u'Family']"
+Stargate: Atlantis,"[u'Action', u'Drama', u'Sci-Fi', u'Adventure']"
+Bates Motel,"[u'Drama', u'Mystery', u'Thriller']"
+V,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Orphan Black,"[u'Action', u'Drama', u'Sci-Fi']"
+Girls,"[u'Comedy', u'Drama']"
+Penny Dreadful,"[u'Drama', u'Horror']"
+Pushing Daisies,"[u'Comedy', u'Drama', u'Fantasy', u'Mystery', u'Romance']"
+CSI: Miami,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Batman: The Animated Series,"[u'Animation', u'Action', u'Adventure', u'Crime', u'Drama', u'Fantasy', u'Mystery', u'Romance', u'Sci-Fi', u'Thriller']"
+Scandal,"[u'Drama', u'Thriller']"
+Sleepy Hollow,"[u'Adventure', u'Drama', u'Fantasy', u'Mystery', u'Thriller']"
+The Good Wife,"[u'Crime', u'Drama', u'Mystery']"
+Nikita,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Continuum,"[u'Action', u'Sci-Fi', u'Thriller']"
+Cowboy Bebop,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Sci-Fi', u'Thriller']"
+Star Trek,"[u'Action', u'Adventure', u'Sci-Fi']"
+Hawaii Five-0,"[u'Action', u'Crime', u'Drama']"
+Brooklyn Nine-Nine,"[u'Comedy', u'Crime']"
+Eastbound &#x26; Down,"[u'Comedy', u'Drama', u'Sport']"
+Dollhouse,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+ER,[u'Drama']
+The West Wing,[u'Drama']
+Banshee,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Touch,"[u'Drama', u'Mystery', u'Sci-Fi']"
+Eureka,"[u'Comedy', u'Drama', u'Sci-Fi']"
+Flight of the Conchords,"[u'Comedy', u'Music']"
+Attack on Titan,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Fantasy', u'Horror']"
+Almost Human,"[u'Action', u'Crime', u'Drama', u'Sci-Fi']"
+Friday Night Lights,"[u'Drama', u'Sport']"
+Monty Python&#x27;s Flying Circus,"[u'Comedy', u'Music']"
+Spaced,[u'Comedy']
+The Secret Circle,"[u'Drama', u'Fantasy', u'Horror', u'Romance']"
+Adventure Time,"[u'Animation', u'Adventure', u'Comedy', u'Fantasy']"
+The Strain,"[u'Drama', u'Horror', u'Thriller']"
+Twilight Zone,"[u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+MythBusters,"[u'Documentary', u'Mystery']"
+SGU Stargate Universe,"[u'Drama', u'Sci-Fi']"
+The Borgias,"[u'Crime', u'Drama', u'History']"
+Alias,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Full House,"[u'Comedy', u'Drama', u'Family']"
+Joey,"[u'Comedy', u'Romance']"
+Extras,"[u'Comedy', u'Drama']"
+3rd Rock from the Sun,"[u'Comedy', u'Sci-Fi']"
+Warehouse 13,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Alcatraz,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The 4400,"[u'Sci-Fi', u'Drama', u'Mystery', u'Thriller']"
+Cougar Town,[u'Comedy']
+Ghost Whisperer,"[u'Drama', u'Fantasy']"
+Ugly Betty,"[u'Comedy', u'Drama']"
+The Americans,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Naruto: Shipp&#xFB;den,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Fantasy']"
+Naruto,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Thriller']"
+Star Trek: Voyager,"[u'Action', u'Adventure', u'Sci-Fi']"
+Wilfred,[u'Comedy']
+Black Books,[u'Comedy']
+Dead Like Me,"[u'Comedy', u'Drama', u'Fantasy']"
+CSI: NY,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Will &#x26; Grace,[u'Comedy']
+King of the Hill,"[u'Animation', u'Comedy', u'Drama']"
+90210,"[u'Comedy', u'Drama', u'Romance']"
+Workaholics,[u'Comedy']
+Awkward.,"[u'Comedy', u'Drama', u'Romance']"
+Leverage,"[u'Action', u'Crime', u'Mystery']"
+Torchwood,"[u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+The League,"[u'Comedy', u'Sport']"
+Hell on Wheels,"[u'Drama', u'Western']"
+Robot Chicken,"[u'Animation', u'Comedy']"
+Numb3rs,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Black Mirror,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Coupling,[u'Comedy']
+Fullmetal Alchemist Brotherhood,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Boston Legal,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Cheers,"[u'Comedy', u'Drama']"
+Black Sails,"[u'Adventure', u'Drama']"
+Saturday Night Live,"[u'Comedy', u'Music']"
+Hart of Dixie,"[u'Comedy', u'Drama', u'Romance']"
+Ray Donovan,"[u'Crime', u'Drama']"
+Carniv&#xE0;le,"[u'Drama', u'Fantasy', u'Mystery', u'Thriller']"
+Boy Meets World,"[u'Comedy', u'Drama', u'Family']"
+Blue Mountain State,"[u'Comedy', u'Sport']"
+NCIS: Los Angeles,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Xena: Warrior Princess,"[u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Romance']"
+Fullmetal Alchemist,"[u'Animation', u'Comedy', u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi']"
+Star Trek: Deep Space Nine,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Raising Hope,"[u'Comedy', u'Family']"
+Peep Show,[u'Comedy']
+Life,"[u'Crime', u'Drama', u'Mystery']"
+M*A*S*H,"[u'Comedy', u'Drama', u'War']"
+Happy Endings,[u'Comedy']
+One Piece,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Romance']"
+Home Improvement,"[u'Comedy', u'Family']"
+The Cleveland Show,"[u'Animation', u'Comedy']"
+The Middle,[u'Comedy']
+Bleach,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Thriller']"
+Legend of the Seeker,"[u'Action', u'Adventure', u'Drama', u'Fantasy']"
+How to Get Away with Murder,"[u'Crime', u'Drama', u'Mystery']"
+Dragon Ball Z,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Defiance,"[u'Action', u'Drama', u'Sci-Fi']"
+Chappelle&#x27;s Show,"[u'Comedy', u'Music']"
+Bored to Death,"[u'Comedy', u'Crime', u'Mystery']"
+According to Jim,[u'Comedy']
+Bob&#x27;s Burgers,"[u'Animation', u'Comedy']"
+Hannah Montana,"[u'Comedy', u'Family', u'Music']"
+Star Trek: Enterprise,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Broadchurch,"[u'Crime', u'Drama', u'Mystery']"
+Dragon Ball,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Daredevil,"[u'Action', u'Crime', u'Sci-Fi']"
+Beauty and the Beast,"[u'Drama', u'Romance', u'Thriller']"
+The Nanny,[u'Comedy']
+Everybody Hates Chris,[u'Comedy']
+Haven,"[u'Crime', u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+Silicon Valley,[u'Comedy']
+Dawson&#x27;s Creek,[u'Drama']
+Anger Management,[u'Comedy']
+Roseanne,"[u'Comedy', u'Drama']"
+Suburgatory,[u'Comedy']
+Dexter&#x27;s Laboratory,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+Forever,"[u'Drama', u'Sci-Fi']"
+The Wonder Years,"[u'Comedy', u'Drama', u'Romance']"
+Outlander,"[u'Drama', u'Romance', u'Sci-Fi']"
+The Fall,"[u'Drama', u'Thriller']"
+Rules of Engagement,"[u'Comedy', u'Romance']"
+Blackadder Goes Forth,"[u'Comedy', u'War']"
+The Daily Show with Jon Stewart,"[u'Comedy', u'News', u'Talk-Show']"
+The Tomorrow People,"[u'Action', u'Drama', u'Sci-Fi']"
+Whose Line Is It Anyway?,"[u'Comedy', u'Game-Show']"
+MacGyver,"[u'Action', u'Adventure', u'Crime', u'Drama']"
+Hemlock Grove,"[u'Horror', u'Mystery', u'Thriller']"
+Only Fools and Horses....,[u'Comedy']
+Constantine,"[u'Fantasy', u'Horror']"
+Farscape,"[u'Adventure', u'Sci-Fi']"
+The Colbert Report,"[u'Comedy', u'News', u'Talk-Show']"
+Kyle XY,"[u'Drama', u'Mystery', u'Sci-Fi']"
+Saved by the Bell,[u'Comedy']
+Undercover,"[u'Action', u'Crime', u'Drama']"
+Dark Angel,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi']"
+The Cosby Show,"[u'Comedy', u'Family', u'Romance']"
+Law &#x26; Order,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Event,"[u'Crime', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Damages,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Drake &#x26; Josh,"[u'Comedy', u'Family']"
+Party Down,[u'Comedy']
+The Black Adder,"[u'Comedy', u'History']"
+The A-Team,"[u'Action', u'Adventure', u'Crime']"
+Dracula,"[u'Drama', u'Horror']"
+Las Vegas,"[u'Crime', u'Drama']"
+Episodes,[u'Comedy']
+Masters of Sex,[u'Drama']
+"Sabrina, the Teenage Witch","[u'Comedy', u'Family', u'Fantasy']"
+Don&#x27;t Trust the B---- in Apartment 23,[u'Comedy']
+Rescue Me,"[u'Drama', u'Comedy']"
+Dharma &#x26; Greg,"[u'Comedy', u'Romance']"
+Alphas,"[u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+Life on Mars,"[u'Crime', u'Drama', u'Mystery', u'Sci-Fi']"
+Star Wars: The Clone Wars,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Fantasy', u'Sci-Fi']"
+Parenthood,"[u'Comedy', u'Drama']"
+Black-Adder II,"[u'Comedy', u'History']"
+The Leftovers,"[u'Drama', u'Fantasy', u'Mystery']"
+Ally McBeal,"[u'Comedy', u'Drama', u'Fantasy', u'Music', u'Romance']"
+Father Ted,[u'Comedy']
+"Beverly Hills, 90210","[u'Drama', u'Romance']"
+Neon Genesis Evangelion,"[u'Animation', u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+Greek,"[u'Comedy', u'Drama']"
+Peaky Blinders,[u'Drama']
+An Idiot Abroad,"[u'Documentary', u'Comedy', u'Reality-TV']"
+Covert Affairs,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+ALF,"[u'Comedy', u'Drama', u'Family', u'Sci-Fi']"
+Better Off Ted,[u'Comedy']
+Reign,"[u'Drama', u'Fantasy']"
+The Suite Life of Zack and Cody,"[u'Comedy', u'Family']"
+Moonlight,"[u'Drama', u'Fantasy', u'Horror', u'Thriller']"
+iCarly,"[u'Comedy', u'Family']"
+Babylon 5,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Marco Polo,[u'Adventure']
+Agent Carter,"[u'Action', u'Adventure', u'Sci-Fi']"
+Harper&#x27;s Island,"[u'Drama', u'Horror', u'Mystery', u'Thriller']"
+Samurai Jack,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Doctor Who,"[u'Adventure', u'Drama', u'Family', u'Sci-Fi']"
+Johnny Bravo,"[u'Animation', u'Comedy']"
+Jersey Shore,"[u'Comedy', u'Drama', u'Reality-TV', u'Romance']"
+Black Adder the Third,[u'Comedy']
+Red Dwarf,"[u'Comedy', u'Sci-Fi']"
+7th Heaven,"[u'Drama', u'Family']"
+Being Human,"[u'Drama', u'Fantasy', u'Horror']"
+Trailer Park Boys,"[u'Comedy', u'Crime', u'Drama']"
+The Flintstones,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+Reaper,"[u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Thriller']"
+Justice League,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Family', u'Fantasy', u'Mystery', u'Romance', u'Sci-Fi', u'Thriller']"
+Rugrats,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Fantasy']"
+Medium,"[u'Crime', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Spin City,[u'Comedy']
+Roswell,"[u'Drama', u'Mystery', u'Romance', u'Sci-Fi', u'Thriller']"
+Lost Girl,"[u'Crime', u'Fantasy']"
+Rizzoli &#x26; Isles,"[u'Crime', u'Drama', u'Mystery']"
+Dragon Ball,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Studio 60 on the Sunset Strip,"[u'Comedy', u'Drama']"
+Teenage Mutant Ninja Turtles,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Crime', u'Drama', u'Family', u'Fantasy', u'Mystery', u'Sci-Fi', u'Thriller']"
+Rick and Morty,"[u'Animation', u'Adventure', u'Comedy', u'Sci-Fi']"
+The Boondocks,"[u'Animation', u'Action', u'Comedy', u'Drama']"
+Courage the Cowardly Dog,"[u'Animation', u'Comedy', u'Fantasy', u'Horror']"
+The Golden Girls,"[u'Comedy', u'Drama']"
+Pinky and the Brain,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+8 Simple Rules,"[u'Comedy', u'Drama']"
+Hercules: The Legendary Journeys,"[u'Action', u'Adventure', u'Drama', u'Fantasy', u'Romance']"
+Caprica,"[u'Action', u'Drama', u'Sci-Fi']"
+Helix,"[u'Sci-Fi', u'Thriller']"
+Hey Arnold!,"[u'Animation', u'Adventure', u'Comedy', u'Drama', u'Family']"
+Being Human,"[u'Comedy', u'Drama', u'Fantasy', u'Horror']"
+Pok&#xE9;mon,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Fantasy']"
+American Idol,"[u'Game-Show', u'Music', u'Reality-TV']"
+Top Gear,[u'Documentary']
+Southland,"[u'Crime', u'Drama', u'Thriller']"
+Camelot,"[u'Drama', u'Fantasy']"
+Agatha Christie&#x27;s Poirot,"[u'Drama', u'Mystery', u'Crime', u'Thriller']"
+The Last Ship,"[u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+The Mindy Project,[u'Comedy']
+The Carrie Diaries,"[u'Comedy', u'Romance']"
+Hustle,"[u'Crime', u'Drama', u'Mystery']"
+Last Resort,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Quantum Leap,"[u'Action', u'Adventure', u'Drama', u'Family', u'Mystery', u'Sci-Fi']"
+My Wife and Kids,[u'Comedy']
+Man vs. Wild,"[u'Adventure', u'Reality-TV']"
+Beavis and Butt-Head,"[u'Animation', u'Comedy', u'Music']"
+The Powerpuff Girls,"[u'Animation', u'Action', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+The L Word,"[u'Drama', u'Romance']"
+Brothers &#x26; Sisters,[u'Drama']
+Awake,"[u'Drama', u'Fantasy', u'Mystery', u'Sci-Fi']"
+The Bridge,"[u'Crime', u'Mystery', u'Thriller']"
+Ringer,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Knight Rider,"[u'Action', u'Crime', u'Sci-Fi']"
+X-Men,"[u'Animation', u'Action', u'Family', u'Sci-Fi', u'Thriller']"
+Chicago Fire,"[u'Action', u'Drama']"
+House of Lies,"[u'Comedy', u'Drama']"
+Go On,[u'Comedy']
+Wizards of Waverly Place,"[u'Comedy', u'Family', u'Fantasy']"
+Hung,"[u'Comedy', u'Drama']"
+DuckTales,"[u'Animation', u'Adventure', u'Comedy', u'Family']"
+Blue Bloods,"[u'Crime', u'Drama']"
+Samurai Champloo,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama']"
+Phineas and Ferb,"[u'Animation', u'Comedy', u'Family']"
+Daria,"[u'Animation', u'Comedy']"
+Aqua Teen Hunger Force,"[u'Animation', u'Comedy']"
+Cold Case,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Closer,"[u'Crime', u'Drama', u'Mystery']"
+"Scooby Doo, Where Are You!","[u'Animation', u'Comedy', u'Mystery']"
+Erufen r&#xEE;to,"[u'Animation', u'Drama', u'Horror', u'Romance', u'Sci-Fi', u'Thriller']"
+Big Love,[u'Drama']
+Veep,[u'Comedy']
+United States of Tara,"[u'Comedy', u'Drama']"
+The Fairly OddParents,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Baywatch,"[u'Drama', u'Action', u'Adventure']"
+The Venture Bros.,"[u'Animation', u'Adventure', u'Comedy', u'Sci-Fi', u'Thriller']"
+Private Practice,"[u'Comedy', u'Drama', u'Romance']"
+Columbo,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Nurse Jackie,"[u'Comedy', u'Drama']"
+Strike Back,"[u'Action', u'Drama', u'Thriller']"
+Utopia,"[u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+"Ed, Edd, &#x27;n&#x27; Eddy","[u'Animation', u'Comedy']"
+Pan Am,"[u'Drama', u'History']"
+Switched at Birth,"[u'Drama', u'Family']"
+Scorpion,"[u'Action', u'Drama']"
+Family Matters,"[u'Comedy', u'Drama', u'Family']"
+Law &#x26; Order: Criminal Intent,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Secret Life of the American Teenager,"[u'Comedy', u'Drama', u'Family', u'Romance']"
+Survivor,"[u'Adventure', u'Game-Show', u'Reality-TV']"
+QI,"[u'Comedy', u'Game-Show']"
+Lilyhammer,"[u'Comedy', u'Crime', u'Drama']"
+Witches of East End,"[u'Drama', u'Fantasy']"
+Jackass,"[u'Action', u'Comedy', u'Reality-TV', u'Thriller']"
+The Unit,"[u'Action', u'Drama', u'Thriller', u'War']"
+Keeping Up with the Kardashians,"[u'Drama', u'Reality-TV']"
+The Lying Game,"[u'Drama', u'Mystery']"
+Little Britain,[u'Comedy']
+666 Park Avenue,"[u'Drama', u'Fantasy', u'Mystery', u'Sci-Fi', u'Thriller']"
+Code Geass: Lelouch of the Rebellion,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Sci-Fi', u'Thriller']"
+Human Target,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Thriller']"
+Batman Beyond,"[u'Adventure', u'Animation', u'Action', u'Crime', u'Mystery', u'Sci-Fi', u'Drama', u'Thriller']"
+My Little Pony: Friendship Is Magic,"[u'Animation', u'Comedy', u'Family', u'Fantasy', u'Musical']"
+Miami Vice,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Royal Pains,"[u'Comedy', u'Drama']"
+Drawn Together,"[u'Animation', u'Comedy']"
+&#x27;Allo &#x27;Allo!,"[u'Comedy', u'War']"
+America&#x27;s Next Top Model,"[u'Game-Show', u'Reality-TV']"
+The Transformers,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Star Wars: Clone Wars,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi']"
+Mystery Science Theater 3000,"[u'Comedy', u'Sci-Fi']"
+No Ordinary Family,"[u'Action', u'Comedy', u'Drama', u'Sci-Fi']"
+Dragon Ball GT,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Boss,"[u'Crime', u'Drama']"
+The Mighty Boosh,"[u'Comedy', u'Fantasy', u'Musical']"
+Mighty Morphin Power Rangers,"[u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Behzat &#xC7;.: Bir Ankara Polisiyesi,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The River,"[u'Action', u'Adventure', u'Horror', u'Sci-Fi']"
+Nashville,"[u'Drama', u'Music']"
+Extant,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Smash,"[u'Drama', u'Musical']"
+Digimon: Digital Monsters,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Conan,"[u'Comedy', u'Music', u'Talk-Show']"
+Derek,"[u'Comedy', u'Drama']"
+Mike &#x26; Molly,[u'Comedy']
+Undeclared,[u'Comedy']
+The Knick,[u'Drama']
+Lois &#x26; Clark: The New Adventures of Superman,"[u'Adventure', u'Comedy', u'Drama', u'Romance', u'Sci-Fi']"
+Perception,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Mad About You,"[u'Comedy', u'Romance']"
+My So-Called Life,[u'Drama']
+Hell&#x27;s Kitchen,"[u'Game-Show', u'Reality-TV']"
+The Bridge,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Ren &#x26; Stimpy Show,"[u'Animation', u'Comedy', u'Thriller']"
+Without a Trace,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Queer as Folk,[u'Drama']
+Intelligence,"[u'Action', u'Sci-Fi']"
+Tales from the Crypt,"[u'Comedy', u'Crime', u'Horror', u'Thriller']"
+Happy Tree Friends,"[u'Animation', u'Comedy', u'Horror']"
+Flashpoint,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Animaniacs,"[u'Animation', u'Comedy', u'Family', u'Musical']"
+Sanctuary,"[u'Crime', u'Mystery', u'Sci-Fi']"
+Drop Dead Diva,"[u'Comedy', u'Drama']"
+Dominion,"[u'Action', u'Drama', u'Fantasy', u'Horror', u'Sci-Fi']"
+"Magnum, P.I.","[u'Action', u'Adventure', u'Crime', u'Drama', u'Mystery']"
+I Love Lucy,"[u'Comedy', u'Family']"
+Midsomer Murders,"[u'Crime', u'Drama', u'Mystery']"
+Rocko&#x27;s Modern Life,"[u'Animation', u'Comedy']"
+Young Justice,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Romance', u'Sci-Fi']"
+Invader ZIM,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+"Two Guys, a Girl and a Pizza Place",[u'Comedy']
+Jackie Chan Adventures,"[u'Animation', u'Fantasy', u'Family', u'Action', u'Comedy', u'Adventure']"
+The Killing,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Teen Titans,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Regular Show,"[u'Animation', u'Adventure', u'Comedy', u'Fantasy']"
+How to Make It in America,"[u'Comedy', u'Drama']"
+Unbreakable Kimmy Schmidt,[u'Comedy']
+The Black Donnellys,"[u'Crime', u'Drama']"
+JAG,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Absolutely Fabulous,[u'Comedy']
+Just Shoot Me!,[u'Comedy']
+Recess,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Sport']"
+In Treatment,[u'Drama']
+Lizzie McGuire,"[u'Comedy', u'Drama', u'Family']"
+Rookie Blue,"[u'Crime', u'Drama']"
+Resurrection,"[u'Drama', u'Fantasy']"
+Longmire,"[u'Action', u'Crime', u'Drama', u'Western']"
+Robin Hood,"[u'Action', u'Adventure', u'Comedy', u'Drama', u'Romance']"
+The Last Man on Earth,"[u'Action', u'Comedy', u'Sci-Fi']"
+The Pretender,"[u'Drama', u'Sci-Fi', u'Mystery', u'Thriller']"
+Doug,"[u'Animation', u'Comedy', u'Drama', u'Family', u'Fantasy']"
+Breakout Kings,"[u'Crime', u'Drama', u'Thriller']"
+The Returned,"[u'Drama', u'Fantasy', u'Thriller']"
+Spider-Man,"[u'Animation', u'Action', u'Adventure', u'Crime', u'Drama', u'Family', u'Fantasy', u'Romance', u'Sci-Fi', u'Thriller']"
+Melissa &#x26; Joey,[u'Comedy']
+Reno 911!,"[u'Comedy', u'Crime']"
+Sliders,"[u'Sci-Fi', u'Adventure', u'Fantasy']"
+Grounded for Life,[u'Comedy']
+Last Man Standing,[u'Comedy']
+Metalocalypse,"[u'Animation', u'Comedy', u'Music']"
+Yugio deyueru monsutazu,"[u'Animation', u'Adventure', u'Family', u'Fantasy']"
+Dinosaurs,"[u'Animation', u'Comedy', u'Family']"
+The Drew Carey Show,"[u'Comedy', u'Drama']"
+Victorious,"[u'Comedy', u'Drama', u'Family', u'Music', u'Romance']"
+Good Luck Charlie,"[u'Comedy', u'Drama', u'Family']"
+The Big C,"[u'Comedy', u'Drama']"
+That&#x27;s So Raven,"[u'Comedy', u'Family', u'Fantasy']"
+Franklin &#x26; Bash,"[u'Comedy', u'Crime']"
+The Finder,"[u'Comedy', u'Crime', u'Drama']"
+The Ricky Gervais Show,"[u'Animation', u'Comedy']"
+Moonlighting,"[u'Comedy', u'Drama', u'Mystery', u'Romance']"
+The Musketeers,"[u'Adventure', u'Drama']"
+Tru Calling,"[u'Adventure', u'Drama', u'Fantasy']"
+The Fosters,[u'Drama']
+Pawn Stars,[u'Reality-TV']
+Whitney,[u'Comedy']
+Empire,"[u'Drama', u'Music']"
+Cow and Chicken,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Ezel,"[u'Crime', u'Drama', u'Mystery', u'Romance', u'Thriller']"
+Graceland,"[u'Action', u'Crime', u'Drama']"
+Kim Possible,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Mystery', u'Romance']"
+Devious Maids,"[u'Comedy', u'Drama', u'Mystery']"
+Unforgettable,"[u'Crime', u'Drama']"
+CatDog,"[u'Animation', u'Comedy', u'Family']"
+Northern Exposure,"[u'Comedy', u'Drama', u'Fantasy']"
+"Murder, She Wrote","[u'Comedy', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Ripper Street,"[u'Crime', u'Mystery']"
+The Adventures of Sherlock Holmes,"[u'Crime', u'Drama', u'Mystery']"
+Believe,"[u'Drama', u'Fantasy', u'Sci-Fi']"
+Berserk,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Horror']"
+Tyrant,"[u'Action', u'Drama', u'Thriller']"
+The Penguins of Madagascar,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family']"
+Batman,"[u'Action', u'Adventure', u'Comedy', u'Crime', u'Family', u'Fantasy', u'Mystery', u'Sci-Fi']"
+Star-Crossed,"[u'Romance', u'Sci-Fi']"
+Portlandia,[u'Comedy']
+MI-5,"[u'Drama', u'Thriller']"
+Tosh.0,[u'Comedy']
+Thundercats,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi']"
+What I Like About You,"[u'Comedy', u'Drama']"
+Body of Proof,"[u'Crime', u'Drama']"
+The Amazing Race,"[u'Action', u'Adventure', u'Game-Show', u'Reality-TV']"
+The Adventures of Tintin,"[u'Animation', u'Adventure', u'Crime', u'Family', u'Mystery']"
+Even Stevens,"[u'Comedy', u'Drama', u'Family']"
+Late Night with Conan O&#x27;Brien,"[u'Comedy', u'Music', u'Talk-Show']"
+"Walker, Texas Ranger","[u'Action', u'Comedy', u'Crime', u'Drama', u'Western']"
+Life Unexpected,[u'Drama']
+Kenan &#x26; Kel,"[u'Family', u'Comedy']"
+The Muppet Show,"[u'Comedy', u'Family', u'Music']"
+Z Nation,"[u'Action', u'Drama', u'Horror', u'Sci-Fi']"
+Little House on the Prairie,"[u'Drama', u'Family', u'Romance', u'Western']"
+Dirty Sexy Money,[u'Drama']
+Penn &#x26; Teller: Bullshit!,"[u'Comedy', u'Documentary']"
+Mom,[u'Comedy']
+Family Ties,"[u'Comedy', u'Family']"
+Treme,"[u'Drama', u'Music']"
+Stalker,"[u'Drama', u'Thriller']"
+Trigun,"[u'Animation', u'Action', u'Comedy', u'Drama', u'Sci-Fi', u'Western']"
+The Grim Adventures of Billy &#x26; Mandy,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Primeval,"[u'Action', u'Adventure', u'Mystery', u'Sci-Fi']"
+Shark,"[u'Crime', u'Drama', u'Mystery']"
+I&#x27;m Alan Partridge,[u'Comedy']
+Shameless,"[u'Comedy', u'Drama']"
+Ned&#x27;s Declassified School Survival Guide,"[u'Comedy', u'Family']"
+Wonderfalls,"[u'Comedy', u'Drama']"
+NewsRadio,"[u'Comedy', u'Romance']"
+Sword Art Online,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Romance', u'Sci-Fi', u'Thriller']"
+Da Ali G Show,"[u'Comedy', u'Talk-Show']"
+The Bugs Bunny Show,"[u'Animation', u'Comedy']"
+The Hills,"[u'Drama', u'Reality-TV']"
+Summer Heights High,"[u'Comedy', u'Drama', u'Family', u'Musical', u'Romance']"
+Invasion,"[u'Drama', u'Horror', u'Mystery', u'Romance', u'Sci-Fi', u'Thriller']"
+Clerks,"[u'Animation', u'Comedy']"
+He-Man and the Masters of the Universe,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi']"
+Rectify,[u'Drama']
+Reba,"[u'Comedy', u'Drama']"
+Outsourced,[u'Comedy']
+Isler G&#xFC;&#xE7;ler,[u'Comedy']
+Salem,"[u'Drama', u'Fantasy', u'Thriller']"
+Everwood,[u'Drama']
+Garth Marenghi&#x27;s Darkplace,"[u'Comedy', u'Horror']"
+The Odyssey,"[u'Adventure', u'Fantasy', u'Drama']"
+Baby Daddy,"[u'Comedy', u'Drama', u'Family']"
+Last Week Tonight with John Oliver,"[u'Comedy', u'News', u'Talk-Show']"
+Secret Diary of a Call Girl,[u'Drama']
+Inspector Gadget,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Crime', u'Family', u'Mystery', u'Sci-Fi']"
+Happy Days,"[u'Comedy', u'Family', u'Music']"
+From Dusk Till Dawn,"[u'Action', u'Crime', u'Horror']"
+The Crazy Ones,[u'Comedy']
+Bewitched,"[u'Comedy', u'Family', u'Fantasy']"
+Gargoyles,"[u'Animation', u'Action', u'Adventure', u'Crime', u'Drama', u'Family', u'Fantasy', u'Mystery', u'Romance', u'Thriller']"
+The Young Ones,[u'Comedy']
+InuYasha,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Romance', u'Sci-Fi']"
+The New Normal,[u'Comedy']
+Ghost in the Shell: Stand Alone Complex,"[u'Animation', u'Action', u'Crime', u'Sci-Fi', u'Thriller']"
+The Bugs Bunny/Looney Tunes Comedy Hour,"[u'Animation', u'Family', u'Comedy']"
+The Goldbergs,[u'Comedy']
+Magic City,"[u'Crime', u'Drama']"
+Video Game High School,"[u'Action', u'Romance', u'Sci-Fi']"
+12 Monkeys,"[u'Adventure', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+The New Adventures of Old Christine,[u'Comedy']
+Battlestar Galactica,"[u'Sci-Fi', u'Action', u'Adventure']"
+The Thick of It,[u'Comedy']
+The Jetsons,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+Gravity Falls,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Mystery']"
+BoJack Horseman,"[u'Animation', u'Comedy']"
+Hot in Cleveland,[u'Comedy']
+Halt and Catch Fire,[u'Drama']
+Foster&#x27;s Home for Imaginary Friends,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Chip &#x27;n&#x27; Dale Rescue Rangers,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Mystery']"
+Growing Pains,"[u'Comedy', u'Family']"
+Rurouni Kenshin: Wandering Samurai,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'History', u'Romance', u'Thriller']"
+Magnificent Century,"[u'Biography', u'Drama', u'History', u'Romance', u'War']"
+Rubicon,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Becker,[u'Comedy']
+The Glades,"[u'Action', u'Crime', u'Drama', u'Mystery']"
+Early Edition,"[u'Drama', u'Fantasy', u'Sci-Fi']"
+Late Show with David Letterman,"[u'Comedy', u'Music', u'Talk-Show']"
+Ellen: The Ellen DeGeneres Show,"[u'Comedy', u'Talk-Show']"
+The Affair,[u'Drama']
+Life&#x27;s Too Short,[u'Comedy']
+Masters of Horror,"[u'Horror', u'Thriller']"
+Defying Gravity,"[u'Drama', u'Sci-Fi']"
+Highlander,"[u'Action', u'Adventure', u'Fantasy', u'Mystery', u'Sci-Fi']"
+Dallas,[u'Drama']
+Missing,"[u'Action', u'Drama', u'Thriller']"
+Duck Dynasty,[u'Reality-TV']
+Impractical Jokers,"[u'Comedy', u'Reality-TV']"
+Once Upon a Time in Wonderland,"[u'Adventure', u'Drama', u'Fantasy', u'Mystery', u'Romance']"
+Degrassi: The Next Generation,[u'Drama']
+Copper,"[u'Action', u'Drama']"
+Chicago P.D.,"[u'Action', u'Drama']"
+Heroes,[u'Drama']
+Dragon Ball Z Kai,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Sci-Fi']"
+Hellcats,"[u'Comedy', u'Drama']"
+Looking,"[u'Comedy', u'Drama']"
+Jane by Design,"[u'Comedy', u'Drama']"
+Up All Night,[u'Comedy']
+Are You Afraid of the Dark?,"[u'Drama', u'Family', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+Keeping Up Appearances,[u'Comedy']
+Call the Midwife,[u'Drama']
+In Plain Sight,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Sailor Moon,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Romance', u'Thriller']"
+So You Think You Can Dance,"[u'Game-Show', u'Music', u'Reality-TV']"
+Surface,"[u'Adventure', u'Mystery', u'Sci-Fi', u'Thriller']"
+FLCL,"[u'Animation', u'Comedy', u'Drama', u'Fantasy', u'Sci-Fi']"
+The Voice,"[u'Game-Show', u'Music', u'Reality-TV']"
+The Pink Panther Show,"[u'Animation', u'Comedy']"
+Zoey 101,"[u'Comedy', u'Drama', u'Family']"
+Eli Stone,"[u'Comedy', u'Drama', u'Fantasy', u'Musical']"
+The Mask,"[u'Animation', u'Comedy', u'Fantasy']"
+Samantha Who?,"[u'Comedy', u'Mystery', u'Romance']"
+Bosch,"[u'Drama', u'Mystery']"
+Borgen,[u'Drama']
+Darkwing Duck,"[u'Animation', u'Family', u'Comedy', u'Action', u'Mystery']"
+The Angry Beavers,"[u'Animation', u'Comedy', u'Family']"
+Gavin &#x26; Stacey,"[u'Comedy', u'Romance']"
+Bottom,"[u'Comedy', u'Crime']"
+Eastwick,"[u'Drama', u'Fantasy']"
+Journeyman,"[u'Fantasy', u'Romance', u'Sci-Fi']"
+21 Jump Street,"[u'Crime', u'Drama', u'Mystery']"
+NYPD Blue,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Hello Ladies,[u'Comedy']
+Joan of Arcadia,"[u'Drama', u'Fantasy']"
+The Late Late Show with Craig Ferguson,"[u'Comedy', u'Music', u'Talk-Show']"
+Code Geass: Lelouch of the Rebellion R2,"[u'Animation', u'Action', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Green Wing,"[u'Comedy', u'Drama']"
+Hellsing X,"[u'Animation', u'Action', u'Fantasy', u'Horror']"
+The Tonight Show with Jay Leno,"[u'Comedy', u'Music', u'Talk-Show']"
+"Tim and Eric Awesome Show, Great Job!","[u'Comedy', u'Music']"
+Steins;Gate,"[u'Animation', u'Comedy', u'Drama', u'Romance', u'Sci-Fi', u'Thriller']"
+The Outer Limits,"[u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+The Avengers: Earth&#x27;s Mightiest Heroes,"[u'Animation', u'Action', u'Family', u'Sci-Fi']"
+George Lopez,"[u'Comedy', u'Drama']"
+Life on Mars,"[u'Crime', u'Drama', u'Mystery', u'Sci-Fi']"
+The Angry Video Game Nerd,[u'Comedy']
+Selfie,[u'Comedy']
+The Hitch Hikers Guide to the Galaxy,"[u'Comedy', u'Sci-Fi', u'Adventure']"
+The Incredible Hulk,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Crossing Jordan,"[u'Crime', u'Drama', u'Mystery']"
+Andromeda,"[u'Action', u'Adventure', u'Drama', u'Fantasy', u'Romance', u'Sci-Fi']"
+My Mad Fat Diary,"[u'Comedy', u'Drama']"
+The Suite Life on Deck,"[u'Action', u'Adventure', u'Comedy', u'Family']"
+The Brady Bunch,"[u'Comedy', u'Family']"
+Step by Step,[u'Comedy']
+A Young Doctor&#x27;s Notebook,"[u'Comedy', u'Drama']"
+Shake It Up!,"[u'Comedy', u'Family']"
+Police Squad!,"[u'Comedy', u'Crime']"
+Dallas,[u'Drama']
+Hercules,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy']"
+Fairy Tail,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy']"
+Tiny Toon Adventures,"[u'Animation', u'Comedy', u'Family']"
+The Hour,[u'Drama']
+"Harvey Birdman, Attorney at Law","[u'Animation', u'Comedy', u'Sci-Fi']"
+Kurtlar Vadisi,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Kenny vs. Spenny,"[u'Comedy', u'Game-Show', u'Reality-TV']"
+Project Runway,"[u'Game-Show', u'Reality-TV']"
+Mr Selfridge,[u'Drama']
+Bitten,"[u'Drama', u'Fantasy', u'Horror', u'Mystery']"
+Avrupa Yakasi,[u'Comedy']
+Terriers,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Make It or Break It,"[u'Drama', u'Sport']"
+Superman,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+The Nine Lives of Chloe King,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Fantasy', u'Sci-Fi']"
+The Cape,"[u'Action', u'Drama']"
+TURN: Washington&#x27;s Spies,"[u'Drama', u'War']"
+GCB,"[u'Comedy', u'Drama']"
+Homicide: Life on the Street,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Get Smart,"[u'Comedy', u'Crime']"
+All in the Family,"[u'Comedy', u'Drama']"
+Gilligan&#x27;s Island,"[u'Comedy', u'Family']"
+Felicity,[u'Drama']
+The War at Home,[u'Comedy']
+Arthur,"[u'Animation', u'Comedy', u'Family']"
+The Librarians,[u'Adventure']
+Mistresses,"[u'Drama', u'Thriller']"
+Dancing with the Stars,"[u'Family', u'Game-Show', u'Music', u'Reality-TV']"
+Being Erica,"[u'Comedy', u'Drama', u'Fantasy']"
+TaleSpin,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Family', u'Fantasy', u'Mystery']"
+The Wild Thornberrys,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Fantasy']"
+Late Night with Jimmy Fallon,"[u'Comedy', u'Music', u'Talk-Show']"
+Atlantis,"[u'Adventure', u'Drama', u'Fantasy']"
+Through the Wormhole,"[u'Documentary', u'Family', u'Mystery']"
+The Adventures of Pete &#x26; Pete,"[u'Comedy', u'Drama']"
+Three&#x27;s Company,[u'Comedy']
+Melrose Place,[u'Drama']
+Miranda,[u'Comedy']
+Legends,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+The Prisoner,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi']"
+The Guild,[u'Comedy']
+H2O: Just Add Water,"[u'Drama', u'Family', u'Fantasy']"
+The Andy Griffith Show,"[u'Comedy', u'Family']"
+Millennium,"[u'Crime', u'Drama', u'Mystery', u'Horror', u'Thriller']"
+Third Watch,"[u'Action', u'Crime', u'Drama']"
+Knight Rider,"[u'Adventure', u'Mystery', u'Thriller']"
+iZombie,"[u'Comedy', u'Crime', u'Drama', u'Horror', u'Sci-Fi']"
+"Sister, Sister","[u'Comedy', u'Drama', u'Family']"
+Kings,"[u'Drama', u'Sci-Fi']"
+Lucky Louie,[u'Comedy']
+Claymore,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Fantasy', u'Mystery']"
+The Dresden Files,"[u'Action', u'Crime', u'Drama', u'Fantasy', u'Mystery']"
+Persons Unknown,"[u'Drama', u'Mystery', u'Thriller']"
+Big Brother,"[u'Game-Show', u'Reality-TV']"
+The Smurfs,"[u'Animation', u'Family', u'Fantasy']"
+The Riches,"[u'Comedy', u'Crime', u'Drama']"
+Foyle&#x27;s War,"[u'Crime', u'Drama', u'Mystery', u'War']"
+Real Time with Bill Maher,"[u'Comedy', u'News', u'Talk-Show']"
+Captain Planet and the Planeteers,"[u'Animation', u'Adventure', u'Comedy', u'Family']"
+The Chicago Code,"[u'Action', u'Crime', u'Drama']"
+Broad City,[u'Comedy']
+Garfield and Friends,"[u'Animation', u'Comedy']"
+Bionic Woman,"[u'Action', u'Sci-Fi', u'Thriller']"
+Wings,"[u'Comedy', u'Drama']"
+The Vicar of Dibley,[u'Comedy']
+Twisted,"[u'Drama', u'Mystery', u'Thriller']"
+Monster,"[u'Animation', u'Drama', u'Mystery', u'Thriller']"
+The Addams Family,"[u'Comedy', u'Family', u'Horror']"
+MADtv,[u'Comedy']
+The Client List,[u'Drama']
+Home Movies,"[u'Animation', u'Comedy', u'Drama']"
+Survivors,"[u'Drama', u'Sci-Fi']"
+Transparent,"[u'Comedy', u'Drama']"
+Kitchen Nightmares,[u'Reality-TV']
+The Neighbors,"[u'Comedy', u'Romance', u'Sci-Fi']"
+I Dream of Jeannie,"[u'Comedy', u'Family', u'Fantasy']"
+Stephen King&#x27;s Dead Zone,"[u'Drama', u'Fantasy', u'Mystery', u'Sci-Fi']"
+Hunted,"[u'Action', u'Drama']"
+Fairly Legal,"[u'Comedy', u'Drama']"
+La Femme Nikita,"[u'Action', u'Drama', u'Romance', u'Thriller']"
+Jeeves and Wooster,[u'Comedy']
+The Being Frank Show,[u'Talk-Show']
+Poketto Monsut&#xE2;,"[u'Animation', u'Action', u'Adventure', u'Thriller']"
+Sesame Street,"[u'Animation', u'Comedy', u'Family', u'Fantasy', u'Music']"
+Wolverine and the X-Men,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Goosebumps,"[u'Fantasy', u'Horror', u'Thriller']"
+Breaking In,"[u'Comedy', u'Crime']"
+Day Break,"[u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+Key and Peele,[u'Comedy']
+Sonny with a Chance,"[u'Comedy', u'Family', u'Romance']"
+Men at Work,"[u'Comedy', u'Drama']"
+Here Comes Honey Boo Boo,[u'Reality-TV']
+"Dr. Quinn, Medicine Woman","[u'Drama', u'Family', u'Western']"
+Ergo Proxy,"[u'Animation', u'Adventure', u'Crime', u'Mystery', u'Sci-Fi']"
+In Living Color,[u'Comedy']
+A Gifted Man,"[u'Drama', u'Fantasy']"
+The Gates,"[u'Crime', u'Drama', u'Fantasy', u'Mystery', u'Thriller']"
+John Doe,"[u'Drama', u'Mystery', u'Sci-Fi']"
+Crossing Lines,"[u'Action', u'Crime', u'Drama']"
+Taxi,[u'Comedy']
+The Tick,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Vegas,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Western']"
+Party of Five,[u'Drama']
+Storage Wars,[u'Reality-TV']
+Jessie,"[u'Comedy', u'Family']"
+Red Band Society,"[u'Comedy', u'Drama']"
+Punk&#x27;d,"[u'Comedy', u'Reality-TV']"
+Jimmy Kimmel Live!,"[u'Comedy', u'Music', u'Talk-Show']"
+Fresh Meat,"[u'Comedy', u'Drama']"
+Red vs. Blue: The Blood Gulch Chronicles,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Sci-Fi']"
+Bunheads,"[u'Comedy', u'Drama']"
+Darker Than Black,"[u'Animation', u'Action', u'Fantasy', u'Horror', u'Sci-Fi', u'Thriller']"
+Whitechapel,"[u'Crime', u'Mystery', u'Thriller']"
+Necessary Roughness,[u'Drama']
+Dirt,[u'Drama']
+Wallander,"[u'Crime', u'Thriller']"
+Crisis,"[u'Action', u'Drama', u'Thriller']"
+Hunter x Hunter,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy']"
+Lipstick Jungle,"[u'Comedy', u'Drama']"
+The Listener,"[u'Crime', u'Drama', u'Fantasy', u'Sci-Fi']"
+TRON: Uprising,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+Faking It,[u'Comedy']
+Codename: Kids Next Door,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Sci-Fi']"
+Space: Above and Beyond,"[u'Drama', u'Sci-Fi']"
+The Munsters,"[u'Comedy', u'Family', u'Fantasy', u'Horror', u'Sci-Fi']"
+Dirty Jobs,[u'Reality-TV']
+Ravenswood,"[u'Drama', u'Horror']"
+My Family,[u'Comedy']
+The Oblongs,"[u'Animation', u'Comedy', u'Sci-Fi']"
+Alfred Hitchcock Presents,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Sarah Silverman Program.,[u'Comedy']
+The Good Guys,"[u'Action', u'Comedy']"
+Big Time Rush,"[u'Comedy', u'Musical']"
+V,"[u'Action', u'Adventure', u'Sci-Fi', u'Thriller']"
+Danny Phantom,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Sci-Fi']"
+Ashes to Ashes,"[u'Crime', u'Drama', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Madam Secretary,[u'Drama']
+Viva la Bam,"[u'Comedy', u'Reality-TV']"
+Mortal Kombat,"[u'Action', u'Crime', u'Fantasy', u'Thriller']"
+X-Men: Evolution,"[u'Animation', u'Action', u'Drama', u'Fantasy', u'Romance', u'Sci-Fi', u'Thriller']"
+You&#x27;re the Worst,"[u'Comedy', u'Romance']"
+Kingdom Hospital,"[u'Drama', u'Fantasy', u'Horror', u'Mystery']"
+Doc Martin,"[u'Comedy', u'Drama']"
+Major Crimes,"[u'Crime', u'Drama', u'Mystery']"
+Jane the Virgin,[u'Comedy']
+Still Standing,[u'Comedy']
+Beast Wars: Transformers,"[u'Action', u'Fantasy', u'Animation', u'Sci-Fi', u'Thriller']"
+America&#x27;s Got Talent,"[u'Game-Show', u'Music', u'Reality-TV']"
+Brotherhood,"[u'Crime', u'Drama']"
+Wipeout,"[u'Comedy', u'Game-Show', u'Reality-TV']"
+New Amsterdam,"[u'Crime', u'Drama', u'Sci-Fi']"
+Accidentally on Purpose,"[u'Comedy', u'Romance']"
+Serial Experiments Lain,"[u'Animation', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+Diff&#x27;rent Strokes,"[u'Comedy', u'Drama', u'Family']"
+"Doogie Howser, M.D.","[u'Comedy', u'Drama', u'Family']"
+Who&#x27;s the Boss?,"[u'Comedy', u'Family', u'Romance']"
+Ugly Americans,"[u'Animation', u'Comedy', u'Horror']"
+Aaahh!!! Real Monsters,"[u'Animation', u'Comedy', u'Horror']"
+Soul Eater,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Horror']"
+Dads,[u'Comedy']
+Mr. Show with Bob and David,[u'Comedy']
+The Amanda Show,"[u'Comedy', u'Family']"
+The Apprentice,"[u'Game-Show', u'Reality-TV']"
+Mob City,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Clarissa Explains It All,[u'Comedy']
+Mr. Sunshine,[u'Comedy']
+About a Boy,"[u'Comedy', u'Drama', u'Romance']"
+Galavant,"[u'Comedy', u'Musical']"
+Night Court,[u'Comedy']
+Perfect Strangers,"[u'Comedy', u'Family']"
+Ed,"[u'Comedy', u'Drama']"
+The Spectacular Spider-Man,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+Yu Yu Hakusho: Ghost Files,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Horror', u'Romance', u'Thriller']"
+Bloodline,"[u'Drama', u'Thriller']"
+Cranford,[u'Drama']
+Deadliest Catch,"[u'Documentary', u'Adventure', u'Reality-TV']"
+Ultimate Spider-Man,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+Celebrity Deathmatch,"[u'Animation', u'Action', u'Comedy', u'Sport']"
+The Batman,"[u'Animation', u'Action', u'Adventure', u'Crime', u'Family', u'Mystery', u'Sci-Fi', u'Thriller']"
+Mork &#x26; Mindy,"[u'Comedy', u'Family', u'Sci-Fi']"
+Legit,[u'Comedy']
+Black-ish,[u'Comedy']
+Ancient Aliens,"[u'Documentary', u'History', u'Sci-Fi']"
+Emily Owens M.D.,[u'Drama']
+The Paradise,[u'Drama']
+Inspector Morse,"[u'Crime', u'Drama', u'Mystery']"
+Ghost Hunters,[u'Documentary']
+The Dukes of Hazzard,"[u'Action', u'Adventure', u'Comedy']"
+Freakazoid!,"[u'Animation', u'Comedy', u'Fantasy']"
+Power,"[u'Crime', u'Drama']"
+EastEnders,"[u'Crime', u'Drama']"
+Timon &#x26; Pumbaa,"[u'Animation', u'Comedy', u'Family']"
+That Mitchell and Webb Look,[u'Comedy']
+Blood Ties,"[u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Romance']"
+Mushi-Shi,"[u'Animation', u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Thriller']"
+House of Payne,"[u'Comedy', u'Drama', u'Family', u'Romance']"
+Charlie&#x27;s Angels,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Mystery']"
+A Bit of Fry and Laurie,[u'Comedy']
+Army Wives,[u'Drama']
+Sports Night,"[u'Comedy', u'Drama', u'Sport']"
+The Practice,"[u'Crime', u'Drama', u'Mystery', u'Romance', u'Thriller']"
+Crossbones,"[u'Adventure', u'Drama']"
+Da Ali G Show,"[u'Comedy', u'Talk-Show']"
+Airwolf,"[u'Action', u'Adventure', u'Sci-Fi']"
+Inspector Lewis,"[u'Crime', u'Drama', u'Mystery']"
+The Young Indiana Jones Chronicles,"[u'Action', u'Adventure', u'Family', u'Mystery']"
+Common Law,"[u'Comedy', u'Crime']"
+Wolf&#x27;s Rain,"[u'Action', u'Sci-Fi', u'Animation', u'Fantasy', u'Adventure', u'Drama']"
+The Soup,[u'Comedy']
+Frisky Dingo,"[u'Animation', u'Comedy', u'Sci-Fi']"
+Harry&#x27;s Law,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Gary Unmarried,[u'Comedy']
+The Bernie Mac Show,"[u'Comedy', u'Drama', u'Family']"
+The Kids in the Hall,[u'Comedy']
+Hogan&#x27;s Heroes,"[u'Comedy', u'War']"
+The Adventures of Brisco County Jr.,"[u'Action', u'Sci-Fi', u'Western', u'Adventure', u'Comedy']"
+Outnumbered,"[u'Comedy', u'Drama']"
+The Twilight Zone,"[u'Sci-Fi', u'Fantasy', u'Mystery', u'Thriller', u'Horror']"
+Enlightened,"[u'Comedy', u'Drama']"
+The X Factor,"[u'Music', u'Reality-TV']"
+Austin &#x26; Ally,"[u'Comedy', u'Music']"
+DreamWorks Dragons,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Fantasy']"
+&#x27;Til Death,[u'Comedy']
+"Yes, Dear",[u'Comedy']
+The Bold and the Beautiful,"[u'Drama', u'Romance']"
+Teenage Mutant Ninja Turtles,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Sci-Fi', u'Thriller']"
+The Adventures of Jimmy Neutron: Boy Genius,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Sci-Fi']"
+Popular,"[u'Comedy', u'Drama']"
+Brickleberry,"[u'Animation', u'Comedy']"
+Black Lagoon,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Crime', u'Mystery']"
+Thundercats,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+The Life &#x26; Times of Tim,"[u'Animation', u'Comedy']"
+The Hard Times of RJ Berger,[u'Comedy']
+Brass Eye,[u'Comedy']
+Fresh Off the Boat,[u'Comedy']
+Outcasts,"[u'Drama', u'Sci-Fi']"
+Childrens Hospital,[u'Comedy']
+The Tonight Show with Conan O&#x27;Brien,"[u'Comedy', u'Music', u'Talk-Show']"
+The Critic,"[u'Animation', u'Comedy', u'Drama', u'Romance']"
+Man v. Food,[u'Reality-TV']
+The Yogi Bear Show,"[u'Animation', u'Family', u'Comedy']"
+Forbidden Love,"[u'Drama', u'Romance']"
+Survivorman,"[u'Documentary', u'Adventure']"
+Trophy Wife,[u'Comedy']
+The Tonight Show Starring Jimmy Fallon,"[u'Comedy', u'Music', u'Talk-Show']"
+Beetlejuice,"[u'Comedy', u'Animation', u'Fantasy', u'Horror']"
+Mrs. Brown&#x27;s Boys,[u'Comedy']
+Tengen toppa gurren lagann,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Sci-Fi']"
+Shaun the Sheep,"[u'Animation', u'Comedy', u'Family']"
+Taz-Mania,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+The League of Gentlemen,"[u'Comedy', u'Horror']"
+Adventures of the Gummi Bears,"[u'Fantasy', u'Animation', u'Family']"
+Paranoia Agent,"[u'Animation', u'Drama', u'Horror', u'Mystery']"
+Mozart in the Jungle,[u'Comedy']
+Yes Minister,[u'Comedy']
+Spawn,"[u'Animation', u'Action', u'Crime', u'Drama', u'Fantasy', u'Horror', u'Thriller']"
+The Nostalgia Critic,[u'Comedy']
+Sleeper Cell,"[u'Crime', u'Drama', u'Thriller']"
+Dilbert,"[u'Animation', u'Comedy']"
+Gang Related,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Detective Conan,"[u'Animation', u'Comedy', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+All That,"[u'Comedy', u'Music']"
+Ben 10,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Titus,"[u'Comedy', u'Drama']"
+Transporter: The Series,"[u'Action', u'Crime']"
+Jonas,"[u'Comedy', u'Family', u'Music']"
+The Dick Van Dyke Show,"[u'Comedy', u'Family']"
+Phil of the Future,"[u'Adventure', u'Comedy', u'Family', u'Sci-Fi']"
+Teenage Mutant Ninja Turtles,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Sci-Fi']"
+Skins,"[u'Comedy', u'Drama']"
+WWF Raw,[u'Sport']
+The Firm,"[u'Action', u'Drama', u'Mystery', u'Thriller']"
+British Men Behaving Badly,[u'Comedy']
+Zero Hour,"[u'Drama', u'Fantasy', u'Thriller']"
+Wire in the Blood,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Low Winter Sun,"[u'Crime', u'Drama']"
+Bonanza,[u'Western']
+The Fades,"[u'Fantasy', u'Horror']"
+Sealab 2021,"[u'Animation', u'Comedy', u'Sci-Fi']"
+Chowder,"[u'Animation', u'Comedy', u'Family']"
+The Amazing World of Gumball,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+10 Things I Hate About You,[u'Comedy']
+Mission: Impossible,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Thriller']"
+Men in Trees,"[u'Comedy', u'Drama', u'Romance']"
+The Simple Life,"[u'Comedy', u'Reality-TV']"
+Kurtlar Vadisi: Pusu,"[u'Action', u'Adventure', u'Drama', u'Thriller']"
+The Biggest Loser,"[u'Game-Show', u'Reality-TV']"
+Star Wars Rebels,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi']"
+The Confession,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Girl Meets World,"[u'Comedy', u'Family']"
+The Kill Point,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+The Love Boat,"[u'Comedy', u'Romance']"
+Cory in the House,"[u'Comedy', u'Drama', u'Family']"
+Blossom,"[u'Comedy', u'Drama']"
+Friends with Better Lives,[u'Comedy']
+Fear Factor,"[u'Game-Show', u'Reality-TV', u'Thriller']"
+Shark Tank,[u'Reality-TV']
+The Unusuals,"[u'Comedy', u'Drama']"
+Martin,"[u'Comedy', u'Drama', u'Romance']"
+The Playboy Club,"[u'Crime', u'Drama']"
+Kardes Payi,"[u'Comedy', u'Drama', u'Family']"
+Jonathan Creek,"[u'Crime', u'Drama', u'Mystery']"
+The Larry Sanders Show,[u'Comedy']
+The Michael J. Fox Show,[u'Comedy']
+The Real Ghostbusters,"[u'Animation', u'Action', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Ben and Kate,[u'Comedy']
+Gantz,"[u'Animation', u'Drama', u'Fantasy', u'Horror', u'Sci-Fi', u'Thriller']"
+Baccano!,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Crime', u'Fantasy', u'Horror', u'Thriller']"
+Luck,"[u'Drama', u'Sport']"
+$#*! My Dad Says,[u'Comedy']
+Stromberg,[u'Comedy']
+Clone High,"[u'Animation', u'Comedy', u'Sci-Fi']"
+Off the Map,"[u'Action', u'Adventure', u'Drama']"
+The Six Million Dollar Man,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Mystery', u'Sci-Fi']"
+Mr. Bean: The Animated Series,"[u'Animation', u'Comedy', u'Family']"
+American Pickers,"[u'Documentary', u'Reality-TV']"
+Backstrom,"[u'Comedy', u'Crime', u'Drama']"
+SeaQuest 2032,"[u'Action', u'Family', u'Adventure', u'Sci-Fi']"
+Highschool of the Dead,"[u'Animation', u'Action', u'Drama', u'Horror', u'Romance', u'Thriller']"
+Nash Bridges,"[u'Action', u'Crime', u'Drama', u'Mystery']"
+How Not to Live Your Life,[u'Comedy']
+Lexx,"[u'Adventure', u'Sci-Fi', u'Fantasy', u'Comedy']"
+Days of Our Lives,[u'Drama']
+Top Cat,"[u'Animation', u'Comedy', u'Family']"
+Boston Public,"[u'Comedy', u'Drama']"
+Threshold,"[u'Action', u'Drama', u'Sci-Fi', u'Thriller']"
+Batman: The Brave and the Bold,"[u'Animation', u'Action', u'Adventure', u'Crime', u'Family', u'Fantasy', u'Sci-Fi']"
+Death in Paradise,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Touched by an Angel,"[u'Drama', u'Family', u'Fantasy']"
+Top Gear USA,[u'Documentary']
+Buck Rogers in the 25th Century,"[u'Action', u'Adventure', u'Sci-Fi']"
+The Increasingly Poor Decisions of Todd Margaret,[u'Comedy']
+Little Britain USA,[u'Comedy']
+Remington Steele,"[u'Adventure', u'Comedy', u'Crime', u'Drama', u'Mystery', u'Romance']"
+The Return of Sherlock Holmes,"[u'Crime', u'Drama', u'Mystery']"
+Love/Hate,"[u'Crime', u'Drama']"
+Death Valley,"[u'Comedy', u'Horror']"
+Top Chef,"[u'Game-Show', u'Reality-TV']"
+The Comeback,[u'Comedy']
+The Magic School Bus,"[u'Animation', u'Fantasy', u'Adventure', u'Family']"
+Judging Amy,[u'Drama']
+The Melancholy of Haruhi Suzumiya,"[u'Animation', u'Comedy', u'Sci-Fi']"
+The Millers,[u'Comedy']
+Goof Troop,"[u'Animation', u'Family', u'Comedy']"
+Due South,"[u'Adventure', u'Drama', u'Comedy', u'Crime']"
+Murphy Brown,[u'Comedy']
+The Graham Norton Show,"[u'Comedy', u'Talk-Show']"
+Squidbillies,"[u'Animation', u'Comedy']"
+Sanford and Son,[u'Comedy']
+My Boys,[u'Comedy']
+Are You Being Served?,[u'Comedy']
+Ghost Adventures,"[u'History', u'Sci-Fi', u'Thriller']"
+The Rockford Files,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+John from Cincinnati,[u'Drama']
+Fortitude,"[u'Drama', u'Mystery', u'Thriller']"
+WKRP in Cincinnati,[u'Comedy']
+The Bletchley Circle,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Face Off,"[u'Game-Show', u'Reality-TV']"
+The Beverly Hillbillies,"[u'Comedy', u'Family']"
+Home and Away,[u'Drama']
+Traveler,"[u'Action', u'Crime', u'Thriller']"
+Enlisted,[u'Comedy']
+Masterchef,[u'Reality-TV']
+Life with Louie,"[u'Animation', u'Family', u'Comedy']"
+Mock the Week,"[u'Comedy', u'Game-Show']"
+Murdoch Mysteries,"[u'Crime', u'Drama', u'Mystery']"
+The Marvelous Misadventures of Flapjack,"[u'Animation', u'Comedy', u'Family']"
+"Bill Nye, the Science Guy","[u'Documentary', u'Comedy', u'Family']"
+Space: 1999,"[u'Adventure', u'Drama', u'Sci-Fi']"
+South of Nowhere,"[u'Drama', u'Romance']"
+Beauty and the Beast,"[u'Crime', u'Fantasy', u'Drama', u'Romance']"
+State of Affairs,"[u'Drama', u'Thriller']"
+Dance Moms,[u'Reality-TV']
+Mind of Mencia,[u'Comedy']
+Sledge Hammer!,"[u'Action', u'Comedy']"
+Surviving Jack,[u'Comedy']
+Rocket Power,"[u'Animation', u'Family', u'Sport']"
+Anthony Bourdain: No Reservations,[u'Documentary']
+"Yes, Prime Minister",[u'Comedy']
+The Young and the Restless,[u'Drama']
+Comic Book Men,[u'Reality-TV']
+Gomorrah,"[u'Crime', u'Drama', u'Thriller']"
+Hill Street Blues,[u'Drama']
+Salute Your Shorts,"[u'Comedy', u'Drama']"
+Super Fun Night,[u'Comedy']
+Mixology,[u'Comedy']
+Young &#x26; Hungry,[u'Comedy']
+Lark Rise to Candleford,[u'Drama']
+Guys with Kids,[u'Comedy']
+Hex,"[u'Horror', u'Drama', u'Fantasy', u'Comedy']"
+The Outer Limits,"[u'Fantasy', u'Horror', u'Sci-Fi', u'Drama', u'Mystery', u'Thriller']"
+The Mysteries of Laura,"[u'Comedy', u'Crime', u'Mystery']"
+Endeavour,"[u'Crime', u'Drama', u'Mystery']"
+Psychoville,"[u'Comedy', u'Horror', u'Mystery', u'Sci-Fi']"
+Blade: The Series,"[u'Action', u'Fantasy', u'Horror', u'Sci-Fi']"
+Extreme Makeover: Home Edition,"[u'Family', u'Reality-TV']"
+The New Batman Adventures,"[u'Animation', u'Action', u'Adventure', u'Crime', u'Drama', u'Family', u'Fantasy', u'Mystery']"
+Angel Beats!,"[u'Animation', u'Action', u'Sci-Fi']"
+Strangers with Candy,[u'Comedy']
+Sweet Life,"[u'Comedy', u'Family']"
+The Class,[u'Comedy']
+The Jeffersons,[u'Comedy']
+"Are You There, Chelsea?",[u'Comedy']
+Soap,[u'Comedy']
+The Looney Tunes Show,"[u'Animation', u'Comedy', u'Family']"
+Ouran High School Host Club,"[u'Animation', u'Comedy', u'Romance']"
+Ramsay&#x27;s Kitchen Nightmares,[u'Reality-TV']
+Cult,"[u'Drama', u'Mystery', u'Thriller']"
+Vicious,[u'Comedy']
+Kitchen Confidential,[u'Comedy']
+Relic Hunter,"[u'Fantasy', u'Mystery', u'Adventure', u'Action', u'Sci-Fi']"
+Sam &#x26; Cat,"[u'Comedy', u'Drama', u'Family']"
+Teletubbies,"[u'Family', u'Fantasy', u'Musical']"
+Corner Gas,[u'Comedy']
+The Bugs Bunny/Road Runner Hour,"[u'Animation', u'Comedy']"
+A to Z,[u'Comedy']
+A Touch of Frost,"[u'Crime', u'Drama', u'Mystery']"
+Leave It to Beaver,"[u'Comedy', u'Family']"
+Inside the Actors Studio,[u'Talk-Show']
+Over There,"[u'Action', u'Drama', u'War']"
+The Proud Family,"[u'Animation', u'Family', u'Comedy', u'Fantasy']"
+Mary Tyler Moore,[u'Comedy']
+Dynasty,[u'Drama']
+Life with Derek,"[u'Comedy', u'Drama', u'Family']"
+Hope &#x26; Faith,[u'Comedy']
+Manhattan,[u'Drama']
+Chelsea Lately,"[u'Comedy', u'Talk-Show']"
+Cracker,"[u'Crime', u'Drama', u'Mystery']"
+Manhattan Love Story,[u'Comedy']
+Diagnosis Murder,"[u'Crime', u'Mystery', u'Drama']"
+October Road,"[u'Comedy', u'Drama', u'Romance']"
+Star Trek: The Animated Series,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Duckman: Private Dick/Family Man,"[u'Animation', u'Comedy', u'Drama']"
+Saving Hope,"[u'Drama', u'Fantasy']"
+&#xC6;on Flux,"[u'Animation', u'Adventure', u'Sci-Fi', u'Thriller']"
+The Bachelor,"[u'Game-Show', u'Reality-TV', u'Romance']"
+Kuzey G&#xFC;ney,[u'Drama']
+Mad Love,"[u'Comedy', u'Romance']"
+"Dr. Katz, Professional Therapist","[u'Animation', u'Comedy']"
+Starsky and Hutch,"[u'Action', u'Crime', u'Drama']"
+Eye Candy,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Undateable,[u'Comedy']
+El Chavo del Ocho,"[u'Comedy', u'Family']"
+Knights of the Zodiac,"[u'Animation', u'Adventure', u'Drama', u'Family', u'Fantasy']"
+Friday Night Dinner,[u'Comedy']
+The View,[u'Talk-Show']
+The Whitest Kids U&#x27;Know,[u'Comedy']
+Hit &#x26; Miss,[u'Drama']
+The Royle Family,[u'Comedy']
+The Mob Doctor,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Saving Grace,"[u'Drama', u'Fantasy']"
+The Universe,"[u'Documentary', u'History']"
+Matlock,"[u'Crime', u'Drama', u'Mystery']"
+RuPaul&#x27;s Drag Race,[u'Reality-TV']
+Alien Nation,"[u'Drama', u'Sci-Fi']"
+The Thin Blue Line,"[u'Comedy', u'Crime']"
+Partners,[u'Comedy']
+Queer as Folk,[u'Drama']
+The Avengers,"[u'Action', u'Comedy', u'Crime', u'Mystery', u'Sci-Fi', u'Thriller']"
+Ben de &#xD6;zledim,"[u'Comedy', u'Fantasy']"
+Men of a Certain Age,"[u'Comedy', u'Drama']"
+&#xC4;kta m&#xE4;nniskor,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Aladdin,"[u'Animation', u'Comedy', u'Family']"
+ReBoot,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Sci-Fi', u'Thriller']"
+Dog the Bounty Hunter,"[u'Adventure', u'Crime', u'Reality-TV']"
+Earth 2,"[u'Adventure', u'Sci-Fi']"
+The Flash,"[u'Action', u'Crime', u'Fantasy', u'Sci-Fi']"
+Jeremiah,"[u'Action', u'Drama', u'Sci-Fi']"
+The Exes,[u'Comedy']
+NCIS: New Orleans,"[u'Crime', u'Drama']"
+Neighbours,[u'Drama']
+Bad Education,[u'Comedy']
+Popeye the Sailor,"[u'Animation', u'Comedy', u'Family', u'Romance']"
+Teen Titans Go!,"[u'Animation', u'Action', u'Comedy', u'Family']"
+A.N.T. Farm,"[u'Comedy', u'Drama', u'Family']"
+Catfish: The TV Show,[u'Reality-TV']
+Ground Floor,[u'Comedy']
+Duck Dodgers,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Betrayal,[u'Drama']
+The Oprah Winfrey Show,"[u'Drama', u'Talk-Show']"
+The Memoirs of Sherlock Holmes,"[u'Crime', u'Drama', u'Mystery']"
+The Defenders,[u'Drama']
+The Lone Gunmen,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Scooby-Doo! Mystery Incorporated,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Mystery']"
+Waking the Dead,"[u'Crime', u'Drama', u'Mystery']"
+Green Lantern: The Animated Series,"[u'Animation', u'Action', u'Sci-Fi']"
+Fraggle Rock,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Musical']"
+The Night Shift,"[u'Action', u'Comedy', u'Drama']"
+The Man in the High Castle,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Charlie&#x27;s Angels,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Mystery']"
+Cops,"[u'Action', u'Crime', u'Reality-TV']"
+Teen Mom,[u'Reality-TV']
+Eleventh Hour,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Parker Lewis Can&#x27;t Lose,[u'Comedy']
+Whose Line Is It Anyway?,"[u'Comedy', u'Game-Show']"
+Walking with Dinosaurs,"[u'Documentary', u'Animation', u'History']"
+Future Diary,"[u'Animation', u'Action', u'Drama', u'Romance', u'Thriller']"
+Borgia,[u'Drama']
+Ridiculousness,"[u'Comedy', u'Reality-TV']"
+Hawaii Five-O,"[u'Crime', u'Drama', u'Mystery']"
+Into the Universe with Stephen Hawking,[u'Documentary']
+Mad Dogs,"[u'Comedy', u'Crime', u'Drama']"
+Ellen,[u'Comedy']
+"What&#x27;s New, Scooby-Doo?","[u'Animation', u'Comedy', u'Mystery']"
+Crusade,"[u'Action', u'Drama', u'Sci-Fi']"
+Bad Judge,[u'Comedy']
+Psycho-Pass,"[u'Animation', u'Action', u'Crime', u'Sci-Fi', u'Thriller']"
+Dark Blue,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+American Dragon: Jake Long,"[u'Animation', u'Family']"
+The Guardian,"[u'Drama', u'Crime']"
+A Different World,[u'Comedy']
+CHiPs,"[u'Crime', u'Drama', u'Mystery']"
+Criminal Minds: Suspect Behavior,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+1600 Penn,[u'Comedy']
+Jon &#x26; Kate Plus 8,"[u'Family', u'Reality-TV']"
+Deception,"[u'Crime', u'Drama', u'Mystery']"
+The Facts of Life,[u'Comedy']
+Primeval: New World,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Captain Tsubasa,"[u'Animation', u'Biography', u'Drama', u'Family', u'Sport']"
+Hotel Babylon,"[u'Comedy', u'Drama']"
+Kojak,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+"Eerie, Indiana","[u'Drama', u'Family', u'Horror', u'Sci-Fi', u'Thriller']"
+The Waltons,"[u'Drama', u'Family', u'Romance']"
+Fear Itself,[u'Horror']
+Superjail!,"[u'Animation', u'Comedy', u'Crime', u'Fantasy']"
+Mission Hill,"[u'Animation', u'Comedy', u'Drama']"
+Heartland,"[u'Drama', u'Family']"
+Transformers Prime,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+Not Going Out,[u'Comedy']
+Fruits Basket,"[u'Animation', u'Comedy', u'Drama', u'Fantasy', u'Romance']"
+Kung Fu,"[u'Adventure', u'Drama', u'Western']"
+The Inbetweeners,[u'Comedy']
+Finding Carter,[u'Drama']
+Alarm f&#xFC;r Cobra 11 - Die Autobahnpolizei,"[u'Action', u'Crime', u'Drama']"
+Wonder Woman,"[u'Action', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi']"
+Amazing Stories,"[u'Adventure', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+Gungrave,"[u'Animation', u'Action', u'Crime', u'Drama', u'Horror', u'Sci-Fi']"
+Golden Boy,[u'Drama']
+Underbelly,"[u'Crime', u'Drama', u'Mystery']"
+Laverne &#x26; Shirley,"[u'Comedy', u'Family']"
+McLeod&#x27;s Daughters,[u'Drama']
+What About Brian,"[u'Comedy', u'Drama', u'Romance']"
+Space Ghost Coast to Coast,"[u'Animation', u'Comedy', u'Sci-Fi', u'Talk-Show']"
+Sarabhai vs Sarabhai,[u'Comedy']
+The Real World,"[u'Drama', u'Reality-TV']"
+Lost in Space,"[u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Good Times,[u'Comedy']
+Melrose Place,[u'Drama']
+Charles in Charge,"[u'Comedy', u'Family']"
+Total Drama,"[u'Animation', u'Comedy', u'Drama']"
+Smart Guy,"[u'Comedy', u'Drama', u'Family']"
+Jeopardy!,[u'Game-Show']
+Privileged,[u'Comedy']
+Yalan D&#xFC;nya,[u'Comedy']
+Blood+,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Horror']"
+Jack the Ripper,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Fantasy Island,"[u'Adventure', u'Comedy', u'Drama', u'Fantasy']"
+Rob &#x26; Big,"[u'Comedy', u'Reality-TV', u'Sport']"
+Prime Suspect,"[u'Crime', u'Drama', u'Thriller']"
+The Girls Next Door,"[u'Comedy', u'Reality-TV', u'Romance']"
+The Fall Guy,"[u'Action', u'Adventure']"
+America&#x27;s Funniest Home Videos,"[u'Comedy', u'Family', u'Reality-TV']"
+Tokyo Ghoul,"[u'Action', u'Drama', u'Fantasy', u'Horror', u'Animation']"
+V.I.P.,"[u'Action', u'Comedy', u'Crime']"
+Coronation Street,[u'Drama']
+Aliens in America,[u'Comedy']
+Sirens,[u'Comedy']
+Phoenix Nights,[u'Comedy']
+The Honeymooners,"[u'Comedy', u'Family']"
+Hardcore Pawn,[u'Reality-TV']
+Angry Boys,[u'Comedy']
+One Foot in the Grave,[u'Comedy']
+Kommissar Rex,"[u'Crime', u'Action', u'Mystery']"
+Drunk History,"[u'Comedy', u'History']"
+Rush,"[u'Action', u'Drama']"
+Moone Boy,[u'Comedy']
+How It&#x27;s Made,[u'Documentary']
+Clannad: After Story,"[u'Animation', u'Comedy', u'Drama', u'Romance']"
+The Jerry Springer Show,"[u'Comedy', u'Drama', u'Talk-Show']"
+Laguna Beach: The Real Orange County,"[u'Drama', u'Reality-TV']"
+Second Spring,"[u'Comedy', u'Drama', u'Family', u'Romance']"
+The O&#x27;Reilly Factor,[u'Talk-Show']
+Stella,[u'Comedy']
+Satyamev Jayate,"[u'Documentary', u'Talk-Show']"
+G.I. Joe,"[u'Animation', u'Action', u'Adventure', u'War']"
+The Game,"[u'Comedy', u'Drama', u'Romance', u'Sport']"
+Wallander,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Moral Orel,"[u'Animation', u'Comedy', u'Drama']"
+The Secret World of Alex Mack,"[u'Comedy', u'Drama', u'Fantasy', u'Sci-Fi', u'Thriller']"
+Summerland,[u'Drama']
+WWE Smackdown!,[u'Sport']
+Green Acres,"[u'Comedy', u'Family']"
+Motive,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+American Gothic,"[u'Drama', u'Horror', u'Thriller']"
+Miss Fisher&#x27;s Murder Mysteries,"[u'Crime', u'Drama', u'Mystery']"
+General Hospital,[u'Drama']
+Sugar Rush,"[u'Drama', u'Romance']"
+Birds of Prey,"[u'Action', u'Adventure', u'Drama', u'Fantasy', u'Sci-Fi']"
+Shin Chan,"[u'Animation', u'Action', u'Comedy', u'Fantasy']"
+Dad&#x27;s Army,"[u'Comedy', u'War']"
+Totally Spies!,"[u'Animation', u'Comedy', u'Action', u'Mystery']"
+Commander in Chief,[u'Drama']
+The Untold History of the United States,[u'Documentary']
+Huff,"[u'Drama', u'Comedy']"
+Devil May Cry,"[u'Animation', u'Action', u'Fantasy', u'Horror']"
+Clannad,"[u'Animation', u'Comedy', u'Drama', u'Fantasy', u'Romance']"
+House of Anubis,"[u'Drama', u'Family', u'Mystery']"
+The PJs,"[u'Animation', u'Comedy']"
+Porridge,[u'Comedy']
+Coach,"[u'Comedy', u'Sport']"
+Small Wonder,"[u'Comedy', u'Sci-Fi']"
+Brainiac: Science Abuse,"[u'Documentary', u'Comedy']"
+Chasing Life,[u'Drama']
+Kickin&#x27; It,"[u'Action', u'Comedy', u'Family']"
+The Day Today,[u'Comedy']
+My Own Worst Enemy,"[u'Action', u'Drama', u'Thriller']"
+The Twilight Zone,"[u'Adventure', u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi']"
+Never Mind the Buzzcocks,"[u'Comedy', u'Game-Show', u'Music']"
+The X Factor,"[u'Music', u'Reality-TV']"
+Between Two Ferns with Zach Galifianakis,"[u'Comedy', u'Talk-Show']"
+Samurai 7,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+Hollyoaks,[u'Drama']
+Tales from the Darkside,"[u'Fantasy', u'Horror', u'Thriller']"
+Better with You,[u'Comedy']
+The Tick,[u'Comedy']
+Blue Exorcist,"[u'Animation', u'Action', u'Drama', u'Fantasy', u'Horror']"
+Full Metal Panic!,"[u'Action', u'Comedy', u'Romance', u'Sci-Fi', u'Animation']"
+Happy Town,"[u'Drama', u'Mystery', u'Thriller']"
+Barney &#x26; Friends,"[u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Musical', u'Sci-Fi']"
+Wonder Showzen,"[u'Animation', u'Comedy']"
+Detroit 1-8-7,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Wentworth,"[u'Crime', u'Drama']"
+As Told by Ginger,"[u'Animation', u'Family']"
+Pingu,"[u'Animation', u'Family']"
+The Trip,[u'Comedy']
+GTO: Great Teacher Onizuka,"[u'Drama', u'Comedy', u'Action', u'Adventure']"
+Bar&#xE1;tok k&#xF6;zt,"[u'Family', u'Drama']"
+The Bachelorette,"[u'Game-Show', u'Reality-TV', u'Romance']"
+Toddlers and Tiaras,[u'Reality-TV']
+A Pup Named Scooby-Doo,"[u'Animation', u'Comedy', u'Mystery']"
+Chobits,"[u'Animation', u'Comedy', u'Drama', u'Romance', u'Sci-Fi']"
+Fastlane,"[u'Action', u'Crime', u'Thriller']"
+Sinbad,"[u'Action', u'Adventure', u'Fantasy']"
+Siberia,"[u'Adventure', u'Drama', u'Mystery', u'Sci-Fi', u'Thriller']"
+Nathan for You,"[u'Documentary', u'Comedy']"
+Mortal Kombat: Conquest,"[u'Action', u'Adventure', u'Fantasy', u'Sci-Fi']"
+Endgame,"[u'Crime', u'Drama']"
+Wacky Races,"[u'Animation', u'Family', u'Sport']"
+Ranma &#xBD;,"[u'Animation', u'Action', u'Comedy', u'Fantasy', u'Romance']"
+Web Therapy,[u'Comedy']
+Line of Duty,"[u'Crime', u'Drama', u'Thriller']"
+Black Box,[u'Drama']
+Newhart,[u'Comedy']
+Pimp My Ride,[u'Reality-TV']
+The Real Housewives of Beverly Hills,[u'Reality-TV']
+New Tricks,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Have I Got News for You,"[u'Comedy', u'Game-Show']"
+The Wayans Bros.,[u'Comedy']
+Allen Gregory,"[u'Animation', u'Comedy']"
+Jake 2.0,"[u'Drama', u'Sci-Fi']"
+The Bionic Woman,"[u'Action', u'Sci-Fi', u'Adventure']"
+Mind Your Language,[u'Comedy']
+Static Shock,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Dejimon adobench&#xE2;,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi', u'Thriller']"
+Picket Fences,[u'Drama']
+Real Husbands of Hollywood,"[u'Comedy', u'Reality-TV']"
+Sonic the Hedgehog,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Tom Goes to the Mayor,"[u'Comedy', u'Animation']"
+Do No Harm,[u'Drama']
+Check It Out! with Dr. Steve Brule,"[u'Comedy', u'Talk-Show']"
+"Welcome Back, Kotter",[u'Comedy']
+Life As We Know It,"[u'Comedy', u'Drama']"
+Chase,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Johnny Test,"[u'Animation', u'Comedy', u'Sci-Fi']"
+The Carol Burnett Show,"[u'Comedy', u'Family']"
+The Persuaders!,"[u'Action', u'Adventure', u'Comedy']"
+Robin Hood,"[u'Action', u'Fantasy', u'Drama']"
+Barney Miller,"[u'Comedy', u'Drama']"
+Spider-Man,"[u'Adventure', u'Animation', u'Drama', u'Sci-Fi', u'Action', u'Crime', u'Thriller']"
+The Booth at the End,"[u'Drama', u'Mystery']"
+Earth: Final Conflict,"[u'Action', u'Drama', u'Mystery', u'Sci-Fi']"
+Mutant X,"[u'Action', u'Drama', u'Adventure', u'Fantasy', u'Sci-Fi']"
+The Odd Couple,[u'Comedy']
+Gunsmoke,[u'Western']
+Quincy M.E.,"[u'Drama', u'Mystery', u'Crime']"
+Punky Brewster,"[u'Family', u'Comedy']"
+The Streets of San Francisco,"[u'Action', u'Crime', u'Drama', u'Mystery']"
+My Super Sweet 16,"[u'Documentary', u'Reality-TV']"
+Escaflowne,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Fantasy', u'Romance', u'Sci-Fi']"
+Red Widow,[u'Drama']
+Kung Fu Panda: Legends of Awesomeness,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family']"
+Animal Practice,[u'Comedy']
+The Equalizer,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Renegade,"[u'Action', u'Adventure', u'Crime', u'Drama']"
+Beyond Belief: Fact or Fiction,"[u'Mystery', u'Thriller', u'Fantasy', u'Horror', u'Sci-Fi']"
+Kr&#xF6;d M&#xE4;ndoon and the Flaming Sword of Fire,"[u'Action', u'Comedy']"
+Lip Service,[u'Drama']
+River Monsters,[u'Documentary']
+Running Wilde,[u'Comedy']
+Solsidan,"[u'Comedy', u'Drama']"
+The Sarah Jane Adventures,"[u'Drama', u'Family', u'Sci-Fi']"
+8 Out of 10 Cats,"[u'Comedy', u'Game-Show']"
+Hidden Palms,"[u'Drama', u'Mystery']"
+Mahabharat,"[u'Drama', u'War']"
+The Storyteller,[u'Fantasy']
+Geordie Shore,"[u'Comedy', u'Drama', u'Reality-TV', u'Romance']"
+Man Seeking Woman,[u'Comedy']
+King &#x26; Maxwell,"[u'Crime', u'Drama']"
+Whose Line Is It Anyway?,"[u'Comedy', u'Game-Show']"
+Battle Creek,"[u'Comedy', u'Crime', u'Drama']"
+Night Gallery,"[u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Sci-Fi', u'Thriller']"
+Mobile Suit Gundam Wing,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Romance', u'Sci-Fi']"
+The Benny Hill Show,[u'Comedy']
+Babar,"[u'Animation', u'Comedy', u'Drama', u'Family', u'Fantasy']"
+Tenacious D: The Complete Master Works,"[u'Comedy', u'Music']"
+Perry Mason,"[u'Crime', u'Drama', u'Mystery']"
+Tell Me You Love Me,"[u'Drama', u'Romance']"
+How the Universe Works,[u'Documentary']
+Shaman King,"[u'Animation', u'Action', u'Adventure', u'Fantasy']"
+LazyTown,"[u'Adventure', u'Comedy', u'Family', u'Music', u'Sport']"
+Murder in the First,"[u'Crime', u'Drama', u'Mystery']"
+Important Things with Demetri Martin,[u'Comedy']
+All Grown Up,"[u'Animation', u'Comedy', u'Drama', u'Family']"
+"Knowing Me, Knowing You with Alan Partridge","[u'Comedy', u'Talk-Show']"
+Deadman Wonderland,"[u'Animation', u'Action', u'Drama', u'Horror', u'Thriller']"
+Jonny Quest,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Outlaw Star,"[u'Animation', u'Comedy', u'Drama', u'Sci-Fi']"
+Wildboyz,"[u'Documentary', u'Adventure', u'Comedy']"
+Welcome to Sweden,[u'Comedy']
+Xiaolin Showdown,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family']"
+Saved by the Bell: The College Years,[u'Comedy']
+Avonlea,"[u'Drama', u'Adventure', u'Family', u'Mystery', u'Romance']"
+Flash Gordon,"[u'Action', u'Adventure', u'Drama', u'Sci-Fi']"
+Lights Out,[u'Drama']
+Unsolved Mysteries,"[u'Crime', u'Drama', u'Horror', u'Mystery', u'Thriller']"
+Big Train,[u'Comedy']
+Please Like Me,"[u'Comedy', u'Drama']"
+The Life of Mammals,[u'Documentary']
+Hart to Hart,"[u'Action', u'Adventure', u'Crime', u'Mystery', u'Romance']"
+Todd and the Book of Pure Evil,"[u'Comedy', u'Horror', u'Sci-Fi']"
+Klovn,[u'Comedy']
+Deal or No Deal,[u'Game-Show']
+Nathan Barley,[u'Comedy']
+The Naked Brothers Band,"[u'Comedy', u'Family', u'Musical']"
+The Greatest American Hero,"[u'Adventure', u'Comedy', u'Sci-Fi']"
+Mama&#x27;s Family,[u'Comedy']
+Tour of Duty,"[u'Action', u'Drama', u'War']"
+She-Ra: Princess of Power,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Two Pints of Lager and a Packet of Crisps,[u'Comedy']
+Last Exile,"[u'Action', u'Adventure', u'Animation', u'Fantasy']"
+Dog with a Blog,"[u'Comedy', u'Drama', u'Family']"
+Silent Witness,"[u'Crime', u'Drama', u'Mystery']"
+Dora the Explorer,"[u'Animation', u'Adventure', u'Family']"
+ReGenesis,"[u'Drama', u'Sci-Fi', u'Thriller']"
+Kingdom,[u'Drama']
+American Chopper: The Series,"[u'Comedy', u'Reality-TV', u'Sport']"
+Inside Amy Schumer,[u'Comedy']
+Open All Hours,[u'Comedy']
+"Nu, pogodi!","[u'Action', u'Family', u'Animation', u'Comedy']"
+Vratice se rode,"[u'Comedy', u'Crime', u'Drama', u'Romance']"
+Fatmag&#xFC;l&#x27;&#xFC;n Su&#xE7;u Ne?,"[u'Drama', u'Romance']"
+Lilo &#x26; Stitch: The Series,"[u'Animation', u'Family', u'Sci-Fi', u'Comedy']"
+Silk,[u'Drama']
+Designing Women,[u'Comedy']
+D.Gray-man,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Drama', u'Fantasy', u'Horror']"
+Rake,"[u'Action', u'Comedy', u'Drama']"
+Spy,[u'Comedy']
+Wildfire,"[u'Drama', u'Family', u'Romance']"
+Painkiller Jane,"[u'Action', u'Sci-Fi']"
+Spiral,"[u'Crime', u'Drama', u'Mystery']"
+Beware the Batman,"[u'Animation', u'Action']"
+The Osbournes,"[u'Comedy', u'Music', u'Reality-TV']"
+Deadliest Warrior,"[u'Action', u'Game-Show', u'History']"
+Dance Academy,"[u'Drama', u'Family']"
+Steven Universe,"[u'Animation', u'Action', u'Comedy', u'Family', u'Fantasy']"
+The Bob Newhart Show,[u'Comedy']
+Togetherness,"[u'Comedy', u'Drama']"
+First Wave,"[u'Adventure', u'Drama', u'Sci-Fi']"
+Kourtney &#x26; Kim Take Miami,[u'Reality-TV']
+The Middleman,"[u'Comedy', u'Drama', u'Sci-Fi']"
+Boys Over Flowers,"[u'Comedy', u'Drama', u'Romance']"
+CSI: Cyber,"[u'Crime', u'Drama']"
+The Catherine Tate Show,[u'Comedy']
+Satisfaction,[u'Drama']
+The Brak Show,"[u'Animation', u'Comedy', u'Sci-Fi']"
+Alpha House,"[u'Comedy', u'Drama']"
+Friends with Benefits,[u'Comedy']
+The Red Road,[u'Drama']
+Kidnapped,"[u'Crime', u'Drama']"
+Those Who Kill,"[u'Action', u'Crime', u'Thriller']"
+Dungeons &#x26; Dragons,"[u'Animation', u'Adventure', u'Comedy', u'Fantasy']"
+Pee-wee&#x27;s Playhouse,"[u'Family', u'Comedy', u'Musical']"
+Chicago Hope,"[u'Drama', u'Mystery', u'Thriller']"
+Dark Shadows,"[u'Drama', u'Fantasy', u'Horror', u'Mystery', u'Romance', u'Sci-Fi', u'Thriller']"
+The Almighty Johnsons,[u'Drama']
+The L.A. Complex,[u'Drama']
+Unfabulous,[u'Comedy']
+Inspector George Gently,"[u'Crime', u'Drama', u'Mystery']"
+Swat Kats: The Radical Squadron,"[u'Animation', u'Action', u'Family', u'Sci-Fi', u'Thriller']"
+Mercy,[u'Drama']
+Seven Days,"[u'Sci-Fi', u'Action', u'Drama']"
+The Inspector Lynley Mysteries,"[u'Crime', u'Drama', u'Mystery']"
+When They Cry,"[u'Animation', u'Horror', u'Mystery', u'Thriller']"
+Man Up,[u'Comedy']
+As Time Goes By,"[u'Comedy', u'Romance']"
+Law &#x26; Order: UK,"[u'Crime', u'Drama', u'Mystery']"
+Monday Mornings,[u'Drama']
+The Glee Project,[u'Reality-TV']
+Marvel&#x27;s Avengers Assemble,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+Less Than Perfect,[u'Comedy']
+Code Monkeys,"[u'Animation', u'Comedy']"
+Dennis the Menace,"[u'Animation', u'Family', u'Comedy']"
+Highway to Heaven,"[u'Drama', u'Family', u'Fantasy']"
+Cashmere Mafia,"[u'Comedy', u'Drama']"
+Ben 10: Alien Force,"[u'Animation', u'Action', u'Family', u'Sci-Fi']"
+The Man Show,"[u'Comedy', u'Talk-Show']"
+Quack Pack,"[u'Animation', u'Adventure', u'Comedy', u'Family']"
+Chaos,"[u'Action', u'Adventure', u'Drama']"
+I Hate My Teenage Daughter,[u'Comedy']
+Muppet Babies,"[u'Animation', u'Family']"
+L.A. Law,[u'Drama']
+Fate/Zero,"[u'Animation', u'Action', u'Fantasy']"
+Reckless,"[u'Crime', u'Drama']"
+Odyssey 5,"[u'Drama', u'Mystery', u'Sci-Fi']"
+Liv and Maddie,"[u'Comedy', u'Drama', u'Family']"
+Durarara!!,"[u'Animation', u'Drama', u'Thriller']"
+Living Single,[u'Comedy']
+Teachers,"[u'Comedy', u'Drama']"
+Fauji,"[u'Action', u'Drama']"
+Bent,[u'Comedy']
+S&#xFC;per Baba,"[u'Drama', u'Comedy', u'Family']"
+Kroll Show,[u'Comedy']
+Auction Hunters,[u'Reality-TV']
+Lab Rats,"[u'Action', u'Comedy', u'Sci-Fi']"
+The Mysterious Cities of Gold,"[u'Animation', u'Adventure', u'Family']"
+Romanzo criminale - La serie,"[u'Crime', u'Drama', u'Thriller']"
+Cake Boss,"[u'Family', u'Reality-TV']"
+The Saint,"[u'Action', u'Comedy', u'Crime', u'Drama']"
+Intruders,"[u'Mystery', u'Thriller']"
+Otvorena vrata,[u'Comedy']
+Il &#xE9;tait une fois... la vie,"[u'Animation', u'Family']"
+The Fast Show,[u'Comedy']
+Ja&#x27;mie: Private School Girl,[u'Comedy']
+American Dreams,"[u'Drama', u'Music']"
+Cavemen,[u'Comedy']
+Matador,[u'Drama']
+Good Eats,[u'Documentary']
+The No. 1 Ladies&#x27; Detective Agency,"[u'Comedy', u'Crime', u'Drama', u'Family', u'Mystery']"
+The Goodwin Games,[u'Comedy']
+N.H.K ni y&#xF4;koso!,"[u'Animation', u'Comedy', u'Drama', u'Romance']"
+Karadayi,"[u'Crime', u'Drama']"
+Swingtown,[u'Drama']
+Thunderbirds,"[u'Animation', u'Action', u'Family', u'Sci-Fi']"
+Robotech,"[u'Animation', u'Action', u'Adventure', u'Sci-Fi']"
+The Real Housewives of New Jersey,[u'Reality-TV']
+Criss Angel Mindfreak,[u'Reality-TV']
+Family Tree,[u'Comedy']
+Worst Week,[u'Comedy']
+Kill La Kill,"[u'Animation', u'Action', u'Comedy', u'Drama', u'Sci-Fi']"
+The Road Runner Show,"[u'Animation', u'Family', u'Comedy']"
+The Wild Wild West,"[u'Action', u'Adventure', u'Comedy', u'Sci-Fi', u'Thriller', u'Western']"
+Olympus,[u'Fantasy']
+Weird Science,"[u'Comedy', u'Sci-Fi']"
+Black Butler,"[u'Animation', u'Comedy', u'Crime', u'Drama', u'Horror', u'Mystery', u'Thriller']"
+Bobby&#x27;s World,"[u'Animation', u'Family']"
+Judge Judy,"[u'Crime', u'Reality-TV']"
+My Life as a Teenage Robot,"[u'Animation', u'Action', u'Comedy', u'Family', u'Sci-Fi']"
+Cardcaptor Sakura,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Fantasy', u'Romance']"
+Vice,"[u'Documentary', u'News']"
+The Man from U.N.C.L.E.,"[u'Action', u'Adventure', u'Crime']"
+Profiler,"[u'Crime', u'Drama', u'Thriller', u'Mystery']"
+Biker Mice from Mars,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Sci-Fi']"
+Emergency!,"[u'Action', u'Adventure', u'Comedy', u'Drama']"
+Hawthorne,[u'Drama']
+Voltron: Defender of the Universe,"[u'Animation', u'Family', u'Sci-Fi']"
+Would I Lie to You?,"[u'Comedy', u'Game-Show']"
+Sailor Moon,"[u'Animation', u'Action', u'Comedy', u'Fantasy', u'Romance', u'Thriller']"
+The Beast,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+The Real Housewives of Orange County,"[u'Documentary', u'Reality-TV']"
+Black Dynamite,"[u'Animation', u'Action', u'Comedy', u'Crime']"
+Big Brother: UK,"[u'Game-Show', u'Reality-TV']"
+Trauma,[u'Drama']
+Umbre,[u'Drama']
+Kolchak: The Night Stalker,"[u'Comedy', u'Horror', u'Mystery', u'Thriller']"
+The Ultimate Fighter,"[u'Action', u'Reality-TV', u'Sport']"
+Perfect Couples,"[u'Comedy', u'Romance']"
+Napoleon Dynamite,"[u'Animation', u'Comedy']"
+The Odd Couple,[u'Comedy']
+Los Serrano,"[u'Comedy', u'Family', u'Drama', u'Romance']"
+Him &#x26; Her,[u'Comedy']
+Bad Girls Club,[u'Reality-TV']
+The Real Housewives of Atlanta,[u'Reality-TV']
+The Lizzie Bennet Diaries,"[u'Comedy', u'Drama']"
+Pacific Blue,"[u'Action', u'Drama']"
+My Babysitter&#x27;s a Vampire,"[u'Action', u'Comedy', u'Fantasy']"
+Secrets and Lies,"[u'Crime', u'Drama']"
+Simon &#x26; Simon,"[u'Action', u'Mystery', u'Drama']"
+Marry Me,[u'Comedy']
+Bir Demet Tiyatro,"[u'Comedy', u'Family']"
+Miami Ink,"[u'Documentary', u'Reality-TV']"
+2 Stupid Dogs,"[u'Animation', u'Comedy', u'Family']"
+Basilisk: K&#xF4;ga ninp&#xF4; ch&#xF4;,"[u'Animation', u'Drama', u'Fantasy']"
+Girlfriends,[u'Comedy']
+Mental,[u'Drama']
+Camp Lazlo!,"[u'Animation', u'Comedy', u'Family']"
+The Invisible Man,"[u'Comedy', u'Thriller', u'Sci-Fi']"
+Burning Love,"[u'Comedy', u'Romance']"
+Undercover Boss,[u'Reality-TV']
+Dog Whisperer with Cesar Millan,"[u'Family', u'Reality-TV']"
+Gold Rush: Alaska,[u'Reality-TV']
+The Lost World,"[u'Action', u'Sci-Fi', u'Adventure']"
+Caroline in the City,[u'Comedy']
+Planet of the Apes,"[u'Adventure', u'Sci-Fi', u'Thriller']"
+Blakes 7,"[u'Adventure', u'Drama', u'Sci-Fi']"
+Testees,[u'Comedy']
+Glass Home,[u'Drama']
+The Case-Book of Sherlock Holmes,"[u'Crime', u'Drama', u'Horror', u'Mystery', u'Thriller']"
+The Chaser&#x27;s War on Everything,[u'Comedy']
+Cidade dos Homens,"[u'Comedy', u'Crime', u'Drama']"
+A Touch of Cloth,"[u'Action', u'Comedy', u'Crime', u'Mystery']"
+Blue&#x27;s Clues,"[u'Family', u'Animation']"
+The Returned,"[u'Drama', u'Horror']"
+Camp,"[u'Comedy', u'Drama']"
+Cybill,[u'Comedy']
+Allegiance,"[u'Drama', u'Thriller']"
+Friday the 13th,[u'Horror']
+Uncle Grandpa,"[u'Animation', u'Comedy', u'Fantasy']"
+Golden Years,"[u'Drama', u'Horror', u'Sci-Fi', u'Thriller']"
+Cavalcade of Cartoon Comedy,"[u'Animation', u'Comedy']"
+LA Ink,"[u'Documentary', u'Reality-TV']"
+Human Giant,[u'Comedy']
+Love Bites,[u'Comedy']
+16 and Pregnant,[u'Reality-TV']
+Comedians in Cars Getting Coffee,"[u'Comedy', u'Talk-Show']"
+Chosen,[u'Drama']
+Wishbone,"[u'Adventure', u'Comedy', u'Family']"
+Comedy Nights with Kapil,[u'Comedy']
+Memphis Beat,"[u'Comedy', u'Crime', u'Drama', u'Music']"
+Mr. Belvedere,"[u'Comedy', u'Family']"
+Megas XLR,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+XIII: The Series,"[u'Action', u'Crime', u'Mystery', u'Thriller']"
+Happily Divorced,[u'Comedy']
+1000 Ways to Die,"[u'Comedy', u'Drama', u'Horror']"
+Paranormal State,[u'Reality-TV']
+Beyblade,"[u'Animation', u'Action', u'Family', u'Sport', u'Thriller']"
+Full Metal Panic! The Second Raid,"[u'Action', u'Adventure', u'Animation', u'Comedy', u'Sci-Fi']"
+MASK,"[u'Animation', u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+St. Elsewhere,[u'Drama']
+Puella Magi Madoka Magica,"[u'Animation', u'Fantasy', u'Mystery', u'Thriller']"
+Once and Again,"[u'Drama', u'Family', u'Romance']"
+30 for 30,"[u'Documentary', u'Biography', u'Sport']"
+Hajime no ippo,"[u'Animation', u'Action', u'Comedy', u'Sport']"
+Dream On,[u'Comedy']
+Vampire Knight,"[u'Animation', u'Fantasy', u'Horror', u'Romance']"
+Mister Rogers&#x27; Neighborhood,"[u'Family', u'Fantasy', u'Music']"
+Bad Teacher,[u'Comedy']
+"Lud, zbunjen, normalan",[u'Comedy']
+Samurai X: Reflection,"[u'Animation', u'Action', u'Drama', u'Romance']"
+Beyaz Show,[u'Talk-Show']
+The Tribe,"[u'Drama', u'Romance', u'Sci-Fi']"
+Azumanga Daioh,"[u'Animation', u'Comedy']"
+Saxondale,[u'Comedy']
+Crusoe,"[u'Adventure', u'Drama']"
+Masters of the Universe vs. the Snake Men,"[u'Adventure', u'Animation', u'Family', u'Fantasy', u'Sci-Fi', u'Action']"
+The Monkees,"[u'Comedy', u'Music']"
+Silver Spoons,"[u'Comedy', u'Family']"
+&#xD6;yle Bir Ge&#xE7;er Zaman ki,[u'Drama']
+Scott &#x26; Bailey,"[u'Crime', u'Drama']"
+Undergrads,"[u'Animation', u'Comedy']"
+Plebs,[u'Comedy']
+Akame ga Kill!,"[u'Animation', u'Action', u'Comedy', u'Drama', u'Fantasy', u'Horror', u'Romance', u'Thriller']"
+The Boat,"[u'Adventure', u'Drama', u'Mystery', u'Sci-Fi']"
+Eden of the East,"[u'Animation', u'Action', u'Comedy', u'Drama', u'Mystery', u'Romance']"
+Golden Boy,"[u'Animation', u'Comedy']"
+Son of the Beach,[u'Comedy']
+Kathy Griffin: My Life on the D-List,"[u'Comedy', u'Reality-TV']"
+T.J. Hooker,"[u'Action', u'Crime', u'Drama']"
+Still Game,[u'Comedy']
+Grace Under Fire,"[u'Comedy', u'Romance']"
+Waterloo Road,"[u'Drama', u'Romance']"
+Whale Wars,"[u'Documentary', u'Reality-TV']"
+The Forgotten,"[u'Crime', u'Drama']"
+Back to You,[u'Comedy']
+Men in Black: The Series,"[u'Animation', u'Comedy', u'Sci-Fi', u'Action']"
+"True Jackson, VP",[u'Comedy']
+Kaygisizlar,[u'Comedy']
+Little Mosque on the Prairie,[u'Comedy']
+The Price Is Right,"[u'Family', u'Game-Show']"
+Jack of All Trades,"[u'Adventure', u'Action', u'Comedy', u'Fantasy']"
+Heidi: A Girl of the Alps,"[u'Animation', u'Adventure', u'Drama', u'Family', u'Mystery']"
+The New Scooby-Doo Movies,"[u'Animation', u'Comedy', u'Mystery']"
+Rob Dyrdek&#x27;s Fantasy Factory,"[u'Comedy', u'Reality-TV']"
+Unhappily Ever After,[u'Comedy']
+Ice Road Truckers,"[u'Documentary', u'Adventure', u'Reality-TV']"
+1 Erkek 1 Kadin,[u'Comedy']
+Kindred: The Embraced,"[u'Drama', u'Fantasy', u'Horror', u'Romance']"
+The New Adventures of Winnie the Pooh,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Comedy Bang! Bang!,"[u'Comedy', u'Talk-Show']"
+Destination Truth,[u'Reality-TV']
+The Moaning of Life,"[u'Adventure', u'Comedy', u'Reality-TV']"
+Dag,"[u'Comedy', u'Drama']"
+The Tunnel,[u'Drama']
+Growing Up Fisher,[u'Comedy']
+Another,"[u'Animation', u'Drama', u'Horror', u'Mystery']"
+NTSF:SD:SUV,[u'Comedy']
+Permanent Roommates,"[u'Comedy', u'Romance']"
+The Animals of Farthing Wood,"[u'Animation', u'Family']"
+Toradora!,"[u'Animation', u'Comedy', u'Romance']"
+Instant Star,"[u'Drama', u'Music']"
+Britain&#x27;s Got Talent,[u'Reality-TV']
+Slings and Arrows,[u'Comedy']
+In the Heat of the Night,"[u'Drama', u'Crime', u'Mystery']"
+Passions,[u'Drama']
+Degrassi High,"[u'Drama', u'Family', u'Romance']"
+Moesha,"[u'Comedy', u'Drama', u'Family']"
+Pepper Ann,"[u'Animation', u'Family', u'Comedy']"
+Point Pleasant,"[u'Crime', u'Drama', u'Horror', u'Mystery', u'Thriller']"
+Dual Survival,"[u'Adventure', u'Reality-TV']"
+K&#xF4;ky&#xF4; shihen Eureka Sebun,"[u'Animation', u'Drama', u'Romance', u'Sci-Fi']"
+Attack of the Show!,[u'News']
+Maude,[u'Comedy']
+Standoff,"[u'Crime', u'Drama', u'Romance', u'Thriller']"
+Maron,[u'Comedy']
+Genis aile,[u'Comedy']
+Sonic Highways,"[u'Documentary', u'Music']"
+Falcon Crest,[u'Drama']
+The Alfred Hitchcock Hour,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Alvin &#x26; the Chipmunks,"[u'Family', u'Animation', u'Comedy', u'Music']"
+Friday Night with Jonathan Ross,"[u'Comedy', u'Music', u'Talk-Show']"
+Cold Feet,"[u'Comedy', u'Drama', u'Romance']"
+Watchmen,"[u'Animation', u'Drama', u'Fantasy', u'Sci-Fi']"
+Hunter x Hunter,"[u'Adventure', u'Animation', u'Comedy']"
+Galactica 1980,[u'Sci-Fi']
+Kath &#x26; Kim,[u'Comedy']
+Baby Looney Tunes,"[u'Animation', u'Family']"
+A Haunting,[u'Documentary']
+Unsupervised,"[u'Animation', u'Comedy']"
+Rake,"[u'Comedy', u'Drama']"
+Trinity Blood,"[u'Animation', u'Action', u'Drama', u'Horror', u'Sci-Fi']"
+Snooki &#x26; JWOWW,[u'Reality-TV']
+Bravest Warriors,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Sci-Fi']"
+Moomin,"[u'Animation', u'Adventure', u'Comedy', u'Drama', u'Family', u'Fantasy', u'Thriller']"
+The Super Mario Bros. Super Show!,"[u'Animation', u'Family', u'Fantasy', u'Action', u'Adventure']"
+The Boarding School,[u'Mystery']
+The Fugitive,"[u'Adventure', u'Crime', u'Drama', u'Thriller']"
+Haibane renmei,"[u'Animation', u'Drama', u'Fantasy']"
+Last Tango in Halifax,[u'Drama']
+Future Boy Conan,"[u'Animation', u'Adventure', u'Comedy', u'Drama', u'Family', u'Sci-Fi']"
+Sullivan &#x26; Son,[u'Comedy']
+Full Metal Panic? Fumoffu,"[u'Animation', u'Action', u'Comedy', u'Romance']"
+The State Within,"[u'Drama', u'Thriller', u'War']"
+Late Night with David Letterman,"[u'Comedy', u'Music', u'Talk-Show']"
+Rob,[u'Comedy']
+American Restoration,[u'Reality-TV']
+Hunter,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Crank Yankers,"[u'Animation', u'Comedy']"
+Undercovers,"[u'Action', u'Thriller']"
+Heartbreak High,[u'Drama']
+Pair of Kings,[u'Comedy']
+Braquo,"[u'Crime', u'Thriller']"
+Count Duckula,"[u'Animation', u'Comedy', u'Family', u'Horror']"
+Mulaney,[u'Comedy']
+Jack &#x26; Bobby,[u'Drama']
+Air Emergency,"[u'Documentary', u'Drama', u'History', u'Reality-TV']"
+Meet the Browns,[u'Comedy']
+Bosom Buddies,[u'Comedy']
+Kourtney &#x26; Kim Take New York,"[u'Drama', u'Reality-TV']"
+Fate/stay night,"[u'Animation', u'Action', u'Adventure', u'Drama', u'Fantasy', u'Romance', u'Sci-Fi']"
+Raines,"[u'Crime', u'Drama']"
+Mission: Impossible,"[u'Action', u'Adventure', u'Crime', u'Drama', u'Thriller']"
+Rawhide,[u'Western']
+Women&#x27;s Murder Club,"[u'Crime', u'Drama', u'Mystery']"
+So Weird,"[u'Family', u'Adventure', u'Mystery', u'Thriller']"
+Mister Ed,"[u'Comedy', u'Family', u'Fantasy']"
+Sonic X,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Kenny Hotz&#x27;s Triumph of the Will,"[u'Comedy', u'Crime', u'Reality-TV']"
+Pippi Longstocking,"[u'Adventure', u'Family', u'Fantasy']"
+Sean Saves the World,[u'Comedy']
+Turkish for Beginners,[u'Comedy']
+The Real Housewives of New York City,[u'Reality-TV']
+1001 Nights,[u'Drama']
+Halo: Nightfall,"[u'Action', u'Adventure', u'Sci-Fi', u'Thriller']"
+Adventures of Sonic the Hedgehog,"[u'Animation', u'Adventure', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+Benidorm,[u'Comedy']
+Aqu&#xED; no hay quien viva,[u'Comedy']
+"Little People, Big World","[u'Documentary', u'Reality-TV']"
+Planetes,"[u'Animation', u'Sci-Fi']"
+Rebelde,"[u'Drama', u'Family', u'Music', u'Romance']"
+Dig,"[u'Drama', u'Mystery', u'Thriller']"
+Gene Simmons: Family Jewels,[u'Reality-TV']
+All My Children,"[u'Drama', u'Romance', u'Mystery']"
+Look Around You,[u'Comedy']
+Case Histories,"[u'Crime', u'Drama', u'Mystery']"
+"Sabrina, the Animated Series","[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Freddy&#x27;s Nightmares,"[u'Horror', u'Thriller']"
+Keen Eddie,"[u'Action', u'Comedy', u'Drama']"
+Taxi Brooklyn,"[u'Action', u'Comedy', u'Crime', u'Drama']"
+Combat Hospital,"[u'Drama', u'War']"
+Most Extreme Elimination Challenge,"[u'Action', u'Adventure', u'Comedy', u'Game-Show']"
+Fish Hooks,"[u'Animation', u'Adventure', u'Comedy']"
+Talking Dead,[u'Talk-Show']
+Yaprak D&#xF6;k&#xFC;m&#xFC;,[u'Drama']
+The Partridge Family,"[u'Comedy', u'Family', u'Music']"
+Danger 5,"[u'Adventure', u'Comedy']"
+Extreme Ghostbusters,"[u'Animation', u'Comedy', u'Family', u'Fantasy', u'Sci-Fi']"
+"Upstairs, Downstairs",[u'Drama']
+Odisseia,"[u'Comedy', u'Drama']"
+Madventures,[u'Documentary']
+Cagney &#x26; Lacey,"[u'Crime', u'Drama', u'Mystery']"
+Chopped,[u'Reality-TV']
+Fame,"[u'Drama', u'Music', u'Musical', u'Romance']"
+&#xC7;emberimde g&#xFC;l oya,[u'Drama']
+30 Days,"[u'Documentary', u'Reality-TV']"
+Rosemary &#x26; Thyme,"[u'Crime', u'Drama', u'Mystery']"
+A Shot at Love with Tila Tequila,"[u'Game-Show', u'Reality-TV', u'Romance']"
+The Jay Leno Show,"[u'Comedy', u'Talk-Show']"
+Betas,[u'Comedy']
+Are You Smarter Than a 5th Grader?,"[u'Family', u'Game-Show']"
+Beck,"[u'Crime', u'Mystery', u'Thriller']"
+The High Fructose Adventures of Annoying Orange,"[u'Animation', u'Action', u'Adventure', u'Comedy', u'Family', u'Fantasy']"
+The Life of Birds,[u'Documentary']
+Silver Fang,"[u'Animation', u'Action', u'Adventure', u'Family', u'Horror']"
+Spice and Wolf,"[u'Animation', u'Adventure', u'Fantasy']"
+Dr. Phil,"[u'Drama', u'Talk-Show']"
+Ideal,[u'Comedy']
+The State,[u'Comedy']
+Adam-12,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Sto para 5,"[u'Adventure', u'Comedy', u'Drama', u'Mystery']"
+Off Centre,[u'Comedy']
+Traffic Light,[u'Comedy']
+The Rifleman,"[u'Family', u'Western']"
+Tripping the Rift,"[u'Animation', u'Comedy', u'Fantasy', u'Sci-Fi']"
+"Auf Wiedersehen, Pet","[u'Comedy', u'Drama']"
+Killer Women,"[u'Drama', u'Western']"
+Benson,"[u'Comedy', u'Family']"
+Deadbeat,[u'Comedy']
+Wedding Band,"[u'Comedy', u'Drama']"
+Taarak Mehta Ka Ooltah Chashmah,"[u'Comedy', u'Family']"
+Digimon Frontier,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Sci-Fi', u'Thriller']"
+The Loop,[u'Comedy']
+Remember Darling,"[u'Drama', u'History', u'Romance']"
+China Beach,"[u'Drama', u'War']"
+The Little Mermaid,"[u'Animation', u'Family']"
+Gintama,"[u'Animation', u'Action', u'Comedy', u'Sci-Fi']"
+Mad,"[u'Animation', u'Comedy']"
+How to Live with Your Parents (For the Rest of Your Life),[u'Comedy']
+17 Kids and Counting,"[u'Documentary', u'Reality-TV']"
+Single Ladies,"[u'Comedy', u'Drama', u'Romance']"
+Hyperdrive,"[u'Comedy', u'Sci-Fi']"
+Unit 1,"[u'Action', u'Crime', u'Drama', u'Mystery', u'Thriller']"
+We Can Be Heroes,[u'Comedy']
+Hotel Hell,[u'Reality-TV']
+Top Boy,"[u'Crime', u'Drama', u'Thriller']"
+6Teen,"[u'Animation', u'Comedy', u'Family']"
+Adventures of Superman,"[u'Action', u'Adventure', u'Crime', u'Family', u'Sci-Fi']"
+French and Saunders,[u'Comedy']
+Intervention,"[u'Adventure', u'Reality-TV']"
+That &#x27;80s Show,[u'Comedy']
+Eek! the Cat,"[u'Animation', u'Comedy', u'Family']"
+The Royals,[u'Drama']
+Yu-Gi-Oh! GX,"[u'Animation', u'Sci-Fi', u'Thriller']"
+Alice,[u'Comedy']
+Kingdom,"[u'Comedy', u'Drama']"
+Review,[u'Comedy']
+Law &#x26; Order: LA,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Getting On,[u'Comedy']
+Little Bear,"[u'Animation', u'Family']"
+Vera,"[u'Crime', u'Drama', u'Mystery']"
+Empty Nest,"[u'Comedy', u'Family']"
+Game of Silence,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+Life in Cold Blood,[u'Documentary']
+Kaamelott,"[u'Comedy', u'Adventure', u'Fantasy']"
+Sword Art Online 2,"[u'Action', u'Adventure', u'Sci-Fi', u'Animation']"
+How to Be a Gentleman,[u'Comedy']
+Lovejoy,"[u'Comedy', u'Crime', u'Drama', u'Mystery']"
+Nitro Circus,"[u'Action', u'Comedy', u'Reality-TV', u'Sport']"
+Flavor of Love,"[u'Game-Show', u'Reality-TV', u'Romance']"
+Zorro,"[u'Adventure', u'Family', u'Western']"
+Snuff Box,[u'Comedy']
+Suddenly Susan,[u'Comedy']
+Spider-Man,"[u'Animation', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi']"
+Franklin,"[u'Animation', u'Family']"
+One Life to Live,[u'Drama']
+Clueless,[u'Comedy']
+The Bill,"[u'Crime', u'Drama']"
+Voyage to the Bottom of the Sea,"[u'Adventure', u'Sci-Fi']"
+Bob the Builder,"[u'Animation', u'Family']"
+Sit Down Shut Up,"[u'Animation', u'Comedy']"
+Drzavni Posao,[u'Comedy']
+Scare Tactics,"[u'Comedy', u'Horror', u'Reality-TV', u'Sci-Fi', u'Thriller']"
+Crime Scene Cleaner,[u'Comedy']
+Thomas &#x26; Friends,"[u'Animation', u'Family']"
+Fantastic Four,"[u'Action', u'Animation', u'Sci-Fi']"
+Poldark,[u'Drama']
+The Tonight Show Starring Johnny Carson,"[u'Comedy', u'Music', u'Talk-Show']"
+Smith,"[u'Crime', u'Drama', u'Thriller']"
+Blackpool,"[u'Comedy', u'Crime', u'Drama', u'Musical', u'Mystery', u'Romance']"
+Being Mary Jane,"[u'Drama', u'Romance']"
+60 Minutes,"[u'Documentary', u'News']"
+Kath &#x26; Kim,[u'Comedy']
+The Care Bears Family,"[u'Animation', u'Comedy', u'Family', u'Fantasy']"
+Iron Man: Armored Adventures,"[u'Animation', u'Action', u'Adventure', u'Family', u'Fantasy', u'Sci-Fi']"
+Bedlam,[u'Horror']
+Lizard Lick Towing,[u'Reality-TV']
+Glory Daze,[u'Comedy']
+So Random!,"[u'Comedy', u'Drama', u'Musical']"
+"You Rang, M&#x27;Lord?",[u'Comedy']
+Once Upon a Time... Man,"[u'Animation', u'Adventure', u'Drama', u'Family', u'History', u'War']"
+True Justice,"[u'Action', u'Crime', u'Drama', u'Thriller']"
+My Three Sons,"[u'Comedy', u'Family']"
+TMZ on TV,"[u'Comedy', u'News']"
+Monarch of the Glen,"[u'Comedy', u'Drama', u'Romance']"
+Ekmek teknesi,[u'Drama']
+Xavier: Renegade Angel,"[u'Animation', u'Adventure', u'Comedy']"
+Danger Mouse,"[u'Animation', u'Comedy', u'Family', u'Sci-Fi']"
+Sunset Beach,[u'Drama']
+Cosby,[u'Comedy']
+Horrible Histories,"[u'Comedy', u'Family', u'History']"
+The Bill Engvall Show,[u'Comedy']
+The Private Life of Plants,[u'Documentary']
+Boomtown,"[u'Crime', u'Drama', u'Mystery', u'Thriller']"
+Prince Caspian and the Voyage of the Dawn Treader,"[u'Family', u'Fantasy', u'Adventure']"
+Crime Story,"[u'Crime', u'Drama', u'Mystery']"
+Married,"[u'Comedy', u'Drama']"
+Wolfblood,[u'Fantasy']
+GTO,"[u'Animation', u'Comedy', u'Drama', u'Romance']"
+Cuckoo,[u'Comedy']
+Mobile Suit Gundam Seed,"[u'Animation', u'Action', u'Drama', u'Sci-Fi']"
+I Am Weasel,"[u'Animation', u'Comedy', u'Family']"
+The Great Jang-Geum,"[u'Biography', u'Drama', u'History']"
+Sons of Tucson,[u'Comedy']
+Hollywood Heights,
+Lassie,"[u'Adventure', u'Drama', u'Family']"
+Dante&#x27;s Cove,"[u'Drama', u'Horror', u'Mystery', u'Romance', u'Thriller']"
+The Record of the Lodoss War,"[u'Animation', u'Action', u'Adventure', u'Fantasy', u'Romance']"
+Boys Over Flowers,"[u'Comedy', u'Romance']"
+Kaun Banega Crorepati?,[u'Game-Show']
+That&#x27;s My Bush!,[u'Comedy']
+Mystery!: Cadfael,"[u'Crime', u'Drama', u'Mystery']"
+Deli Y&#xFC;rek,"[u'Adventure', u'Crime', u'Drama', u'Thriller']"
+Beakman&#x27;s World,"[u'Comedy', u'Family']"
+Hey Dude,"[u'Adventure', u'Comedy', u'Family']"
+Oggy and the Cockroaches,"[u'Animation', u'Family', u'Comedy']"
+Tremors,"[u'Sci-Fi', u'Action', u'Comedy', u'Horror']"
+My Two Dads,"[u'Comedy', u'Family']"
+Profit,[u'Drama']
+Gunslinger Girl,"[u'Animation', u'Action', u'Drama', u'Sci-Fi']"
+Sirens,
+Hangin&#x27; with Mr. Cooper,"[u'Comedy', u'Family', u'Sport']"
+Swamp People,"[u'Action', u'Reality-TV']"
+Slam Dunk,"[u'Animation', u'Comedy', u'Sport']"
+The Only Way Is Essex,[u'Reality-TV']
+Grantchester,"[u'Drama', u'Mystery']"
+Koffee with Karan,"[u'Comedy', u'Talk-Show']"
+Smosh,[u'Comedy']
+Clark and Michael,[u'Comedy']
+Raising the Bar,[u'Drama']
+The New Tom &#x26; Jerry Show,"[u'Animation', u'Family', u'Comedy']"
+Carpoolers,[u'Comedy']
+&#xC7;ok G&#xFC;zel Hareketler Bunlar,[u'Comedy']
+Six Degrees,
+Heartbeat,"[u'Drama', u'Comedy', u'Crime']"
+The Emperor&#x27;s New School,"[u'Animation', u'Comedy']"
+Fanboy &#x26; Chum Chum,"[u'Animation', u'Action', u'Adventure', u'Comedy']"
+D&#x27;Artanyan i tri mushketyora,"[u'Adventure', u'History', u'Musical']"
+The Lottery,[u'Sci-Fi']
+Delocated,[u'Comedy']
+The Awful Truth,"[u'Comedy', u'Documentary']"
+Black Jesus,[u'Comedy']
+Code Geass: Lelouch of the Rebellion,
+Beaver Falls,"[u'Comedy', u'Drama']"
+Schitt&#x27;s Creek,[u'Comedy']
+KaBlam!,"[u'Animation', u'Comedy', u'Family']"
+Pramface,[u'Comedy']
+The Eric Andre Show,"[u'Comedy', u'Talk-Show']"
+Forever Knight,"[u'Crime', u'Drama', u'Horror', u'Mystery']"
+Against the Wall,"[u'Crime', u'Drama']"
+Cristela,[u'Comedy']
+Power Rangers in Space,"[u'Action', u'Adventure', u'Family', u'Sci-Fi']"
+Reading Rainbow,[u'Family']
+Martial Law,"[u'Comedy', u'Crime', u'Action']"
+Beast Machines: Transformers,"[u'Action', u'Animation', u'Sci-Fi']"

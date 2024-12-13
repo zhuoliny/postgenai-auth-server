@@ -1,0 +1,14 @@
+[
+    {"wordSet1":["Harry Potter", "Howls Moving Castle", "Ponyo", "Totoro", "Lord of The Rings", "Inception", "Clueless", "Spirited Away"], "traps":[], "hint":"", "category":"Movie"},
+    {"wordSet2":["Avatar", "Derry Girls", "Great British Baking Show", "Gilmore Girls", "Grace and Frankie", "H2O", "Downton Abbey", "The Good Place", "Schitts Creek"], "traps":[], "hint":"", "category":"TVShow"},
+    {"wordSet3":["Ravioli", "Risotto", "Tacos", "Yogurt", "Burrata", "Dumplings", "Pie", "Goat Cheese"], "traps":[], "hint":"", "category":"Food"},
+    {"wordSet4":["Ben", "Zhuolin", "Shawn", "Heather", "Stanley", "Amy", "Alexis"], "traps":[], "hint":"", "category":"People"},
+    {"wordSet5":["Taylor Swift", "Taylor Tomlinson", "Zendaya", "Tom Holland", "Lana Del Ray", "Selena gomez", "Harry Styles", "Anne Hathaway"], "traps":["Elon Musk", "Kardashians", "Dua Lipa", "Donald Trump", "Bill Gates", "Jeff Bezos", "Kanye West", "Will Smith", "Chris Rock", "Drake", "Putin", "Zuckerburg", "J.K Rowling", "Jake Paul"], "hint":"", "category":"Celebrity"},
+    {"wordSet6":["Harry Potter", "Joan Didion", "The Song of Achilles", "The Hobbit", "The Lord of the Rings", "J. R. R. Tolkien", "Magic Tree House", "The Lorax"], "traps":[], "hint":"", "category":"Book&Author"},
+    {"wordSet7":["Bilbo Baggins", "Hermione Granger", "Ron Weasely", "Emily Gilmore", "The Lorax", "Richard Gilmore", "Grace", "Frankie"], "traps":[], "hint":"", "category":"Character"},
+    {"wordSet8":["Tijuana", "Paris", "Barcelona", "New York City", "Los Angelos", "San Fransisco", "San Diego", "Chicago"], "traps":[], "hint":"", "category":"City"},
+    {"wordSet9":["Taylor Swift", "Lana Del Ray", "Queen", "Beatles", "Cat Stevens", "Nina Simone", "ABBA", "Carole King"], "traps":[], "hint":"", "category":"Band&Artist"},
+    {"wordSet10":["Trader Joes", "Target", "Jamba Juice", "Whole Foods", "Michaels", "Petco", "Miu Miu", "Marshells"], "traps":[], "hint":"", "category":"Store"},
+    {"wordSet11":["Pickleball", "Bike", "Swim", "Kayak", "Reading", "Paint", "Origami", "Thrifting"], "traps":["Football", "Lacrosse", "Golf", "Sewing", "Fishing", "Singing", "Acting", "Guitar", "Ballroom Dancing", "Fencing", "Equestrian", "Bird Watching"], "hint":"", "category":"Hobby&Interest"},
+    {"wordSet12":["Spotify", "Netflix", "Hulu", "Prime", "Duolingo", "Pinterest", "Notion", "New York Times"], "traps":["Fox", "Twitter", "Apple Music", "Tiktok", "Apple News", "Snapchat", "Uber Eats", "Peacock", "Twitch", "ESPN", "Pandora", "Starbucks"], "hint":"", "category":"Website&App"}
+]
