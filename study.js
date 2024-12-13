@@ -187,11 +187,11 @@ export function previousPuzzle() {
     saveResponse();
 
     // create parameterized link
-    var prevPuzzleID = parseInt(puzzleID) - 1;
-    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
+    //var prevPuzzleID = parseInt(puzzleID) - 1;
+    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
-    window.open(url, "_self");
+    //window.open(url, "_self");
 }
 
 export function nextPuzzle() {
@@ -199,11 +199,11 @@ export function nextPuzzle() {
     saveResponse();
 
     // create parameterized link
-    var nextPuzzleID = parseInt(puzzleID) + 1;
-    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
+    //var nextPuzzleID = parseInt(puzzleID) + 1;
+    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
 
     // open link in new tab
-    window.open(url, "_self");
+    //window.open(url, "_self");
 }
 
 export function wrapUpSession() {
