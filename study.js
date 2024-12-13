@@ -45,10 +45,13 @@ let generaldata;
 
 // update puzzle after the category is loaded. 
 let selected_puzzle;
+let selected_puzzle_words;
+let selected_puzzle_traps;
+let selected_puzzle_category;
 (async() => {
     console.log("waiting for category to be loaded");
     while(category == undefined) 
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 500));
     console.log("category is loaded");
     updatePuzzle();
     updateButton();
