@@ -1,3 +1,24 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyA-iihA5zqu814Sp6eBano4TvkDJCgSkPg",
+  authDomain: "post-gai-server.firebaseapp.com",
+  databaseURL: "https://post-gai-server-default-rtdb.firebaseio.com",
+  projectId: "post-gai-server",
+  storageBucket: "post-gai-server.firebasestorage.app",
+  messagingSenderId: "263113946374",
+  appId: "1:263113946374:web:d8780045c285d108d7da87",
+  measurementId: "G-2CNLYTH1BV"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const database = getDatabase(app);
+
 // set & get parameters
 //const port = 8080;
 const queryString = window.location.search;
@@ -157,6 +178,40 @@ function wrapUpSession() {
 
     // open link in new tab
     window.open(url, "_self");
+}
+
+function saveResponse(userID, weekID, puzzleID) {
+    var selected_words = [];
+    var responses_div = document.getElementById("answerBox").children;
+
+    for(var i = 0; i < responses_div.length; i++) {
+        var a_response_div = responses_div[i];
+        var word_inside_div = a_response_div.children[0];
+        var selected_word = word_inside_div.innerHTML;
+
+        selected_words.push(selected_word);
+    }
+    selected_words.sort();
+
+    var unselected_words = [];
+    var wordSet_div = document.getElementById("words").children;
+
+    for(var i = 0; i < wordSet_div.length; i++) {
+        var a_word_wrap_div = wordSet_div[i];
+        var a_word_div = a_word_wrap_div.children[0];
+        var unselected_word = a_word_div.innerHTML;
+
+        unselected_words.push(unselected_word);
+    }
+    unselected_words.sort();
+
+    category[puzzleID - 1]["selectedWords"] = selected_words;
+    category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
+
+    set(ref(database, 'users/' + `${userID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
+        selected: selected_words,
+        unselected: unselected_words
+    });
 }
 
 sortable('.js-sortable-copy', {
