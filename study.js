@@ -48,7 +48,7 @@ let selected_puzzle;
 (async() => {
     console.log("waiting for category to be loaded");
     while(category == undefined) 
-        await new Promise(resolve => setTimeout(resolve, 500));
+        await new Promise(resolve => setTimeout(resolve, 1000));
     console.log("category is loaded");
     updatePuzzle();
     updateButton();
