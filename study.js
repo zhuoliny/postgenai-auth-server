@@ -128,7 +128,7 @@ function updatePuzzle() {
 
 function previousPuzzle() {
     // save responses before moving to previous puzzle
-    saveResponse();
+    saveResponse(userID, weekID, puzzleID);
 
     // create parameterized link
     //var prevPuzzleID = parseInt(puzzleID) - 1;
@@ -140,7 +140,7 @@ function previousPuzzle() {
 
 function nextPuzzle() {
     // save responses before moving to next puzzle
-    saveResponse();
+    saveResponse(userID, weekID, puzzleID);
 
     // create parameterized link
     //var nextPuzzleID = parseInt(puzzleID) + 1;
