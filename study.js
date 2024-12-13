@@ -197,7 +197,7 @@ export function previousPuzzle() {
     saveResponse();
 
     var prevPuzzleID = parseInt(puzzleID) - 1;
-    SetTimeout(waitingResponseToBeSaved, 2000, prevPuzzleID, userID, weekID);
+    setTimeout(waitingResponseToBeSaved, 2000, prevPuzzleID, userID, weekID);
 }
 
 export function nextPuzzle() {
@@ -205,7 +205,7 @@ export function nextPuzzle() {
     saveResponse();
 
     var nextPuzzleID = parseInt(puzzleID) + 1;
-    SetTimeout(waitingResponseToBeSaved, 2000, nextPuzzleID, userID, weekID);
+    setTimeout(waitingResponseToBeSaved, 2000, nextPuzzleID, userID, weekID);
 }
 
 export function wrapUpSession() {
