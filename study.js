@@ -147,39 +147,6 @@ function updatePuzzle() {
     } 
 }
 
-function previousPuzzle() {
-    // save responses before moving to previous puzzle
-    saveResponse(userID, weekID, puzzleID);
-
-    // create parameterized link
-    //var prevPuzzleID = parseInt(puzzleID) - 1;
-    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
-
-    // open link in new tab
-    //window.open(url, "_self");
-}
-
-function nextPuzzle() {
-    // save responses before moving to next puzzle
-    saveResponse(userID, weekID, puzzleID);
-
-    // create parameterized link
-    //var nextPuzzleID = parseInt(puzzleID) + 1;
-    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
-
-    // open link in new tab
-    //window.open(url, "_self");
-}
-
-function wrapUpSession() {
-    saveResponse();
-
-    const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
-
-    // open link in new tab
-    window.open(url, "_self");
-}
-
 function saveResponse(userID, weekID, puzzleID) {
     var selected_words = [];
     var responses_div = document.getElementById("answerBox").children;
@@ -211,7 +178,40 @@ function saveResponse(userID, weekID, puzzleID) {
     set(ref(database, 'users/' + `${userID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
         selected: selected_words,
         unselected: unselected_words
-    });
+    }); 
+}
+
+function previousPuzzle() {
+    // save responses before moving to previous puzzle
+    saveResponse(userID, weekID, puzzleID);
+
+    // create parameterized link
+    //var prevPuzzleID = parseInt(puzzleID) - 1;
+    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${prevPuzzleID}&userID=${userID}&weekID=${weekID}`
+
+    // open link in new tab
+    //window.open(url, "_self");
+}
+
+function nextPuzzle() {
+    // save responses before moving to next puzzle
+    saveResponse(userID, weekID, puzzleID);
+
+    // create parameterized link
+    //var nextPuzzleID = parseInt(puzzleID) + 1;
+    //const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${nextPuzzleID}&userID=${userID}&weekID=${weekID}`
+
+    // open link in new tab
+    //window.open(url, "_self");
+}
+
+function wrapUpSession() {
+    saveResponse();
+
+    const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
+
+    // open link in new tab
+    window.open(url, "_self");
 }
 
 sortable('.js-sortable-copy', {
