@@ -181,7 +181,7 @@ function saveResponse(userID, weekID, puzzleID) {
     }); 
 }
 
-function previousPuzzle() {
+export function previousPuzzle() {
     // save responses before moving to previous puzzle
     saveResponse(userID, weekID, puzzleID);
 
@@ -193,7 +193,7 @@ function previousPuzzle() {
     //window.open(url, "_self");
 }
 
-function nextPuzzle() {
+export function nextPuzzle() {
     // save responses before moving to next puzzle
     saveResponse(userID, weekID, puzzleID);
 
@@ -205,7 +205,7 @@ function nextPuzzle() {
     //window.open(url, "_self");
 }
 
-function wrapUpSession() {
+export function wrapUpSession() {
     saveResponse();
 
     const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
