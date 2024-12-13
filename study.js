@@ -150,40 +150,6 @@ function nextPuzzle() {
     //window.open(url, "_self");
 }
 
-function saveResponse() {
-    var selected_words = [];
-    var responses_div = document.getElementById("answerBox").children;
-
-    for(var i = 0; i < responses_div.length; i++) {
-        var a_response_div = responses_div[i];
-        var word_inside_div = a_response_div.children[0];
-        var selected_word = word_inside_div.innerHTML;
-
-        selected_words.push(selected_word);
-    }
-    selected_words.sort();
-
-    var unselected_words = [];
-    var wordSet_div = document.getElementById("words").children;
-
-    for(var i = 0; i < wordSet_div.length; i++) {
-        var a_word_wrap_div = wordSet_div[i];
-        var a_word_div = a_word_wrap_div.children[0];
-        var unselected_word = a_word_div.innerHTML;
-
-        unselected_words.push(unselected_word);
-    }
-    unselected_words.sort();
-
-    category[puzzleID - 1]["selectedWords"] = selected_words;
-    category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
-
-    set(ref(database, 'users/' + `${userID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
-        selected: selected_words,
-        unselected: unselected_words
-    });
-}
-
 function wrapUpSession() {
     saveResponse();
 
