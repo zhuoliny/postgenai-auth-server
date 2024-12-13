@@ -149,13 +149,13 @@ function updatePuzzle() {
     the_puzzle = [];
     if (selected_puzzle_traps.length > 4 && selected_puzzle_traps.length < 8) {
         the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 1)); // current # of trap is fixed; TODO: need to figure out the suitable # of traps.
-        the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-1-selected_puzzle_words, selected_puzzle_words));
+        the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-1-selected_puzzle_words.length, selected_puzzle_words));
     } else {
         if (selected_puzzle_traps.length > 8) {
             the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 2));
-            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-2-selected_puzzle_words, selected_puzzle_words));
+            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-2-selected_puzzle_words.length, selected_puzzle_words));
         } else {
-            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-selected_puzzle_words, selected_puzzle_words));
+            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-selected_puzzle_words.length, selected_puzzle_words));
         }
     }
     
