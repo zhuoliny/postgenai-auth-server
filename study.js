@@ -148,6 +148,7 @@ function updatePuzzle() {
 }
 
 function saveResponse() {
+    console.log(`puzzleid:${puzzleID}`);
     var selected_words = [];
     var responses_div = document.getElementById("answerBox").children;
 
