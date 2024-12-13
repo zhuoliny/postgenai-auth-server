@@ -48,6 +48,7 @@ let selected_puzzle;
 let selected_puzzle_words;
 let selected_puzzle_traps;
 let selected_puzzle_category;
+let the_puzzle;
 (async() => {
     console.log("waiting for category to be loaded");
     while(category == undefined) 
