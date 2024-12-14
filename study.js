@@ -143,7 +143,7 @@ function updatePuzzle() {
     (async() => {
         console.log("waiting for general data to be loaded");
         while(generaldata == undefined) 
-            await new Promise(resolve => setTimeout(resolve, 500));
+            await new Promise(resolve => setTimeout(resolve, 1500));
         console.log("general data is loaded");
     })();
 
