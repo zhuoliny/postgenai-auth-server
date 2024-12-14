@@ -82,7 +82,7 @@ function getRandomElementsFromArray(arr, n, avoid) {
     if (avoid != undefined) {
         taken.push(...avoid);
     }
-    
+
     if (n > len)
         throw new RangeError("getRandom: more elements taken than available");
     while (n--) {
@@ -197,7 +197,7 @@ function updatePuzzle() {
     // update hint
     document.getElementById(`hint`).innerHTML = selected_puzzle[2];
 
-    // update answer box
+    // update answer box to show saved responses in html
     /* var answerBox_div = document.getElementById("answerBox");
     for (let i = 0; i < selected_puzzle[2].length; i++) {
         var word_wrapper_div = document.createElement("div");
