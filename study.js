@@ -73,12 +73,14 @@ function loadCategory() {
     });
 }
 
-function loadGeneraldata(targetCategory) {
-    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/generaldata/${targetCategory}.csv`)
-    .done(function( data ) {
-        console.log("general data loading ...")
-        generaldata = data.csvToArray();
-    });
+async function loadGeneraldata(targetCategory) {
+    try {
+        const response = await fetch(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/generaldata/${targetCategory}.csv`);
+        const data = await response.text();
+        generaldata = data.split("\n");
+    } catch (error) {
+        console.error('Error fetching CSV:', error);
+    }
 }
 
 //function sendStudyParams() { }
@@ -141,9 +143,14 @@ function updatePuzzle() {
     (async() => {
         console.log("waiting for general data to be loaded");
         while(generaldata == undefined) 
-            await new Promise(resolve => setTimeout(resolve, 5000));
+            await new Promise(resolve => setTimeout(resolve, 500));
         console.log("general data is loaded");
     })();
+
+    var generaldataFirstCol = [];
+    for (let i = 0; i < generaldata.length; i++) {
+        generaldataFirstCol.push(generaldata[i].split(",")[0]);
+    }
 
     // build puzzle
     the_puzzle = [];

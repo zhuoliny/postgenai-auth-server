@@ -1,83 +1,165 @@
-Authors,Title
-Suzanne Collins,The Hunger Games
-"J.K. Rowling, Mary GrandPré",Harry Potter
-Stephenie Meyer,Twilight 
-Harper Lee,To Kill a Mockingbird
-F. Scott Fitzgerald,The Great Gatsby
-John Green,The Fault in Our Stars
-J.R.R. Tolkien,The Hobbit
-J.D. Salinger,The Catcher in the Rye
-Dan Brown,Angels & Demons
-Jane Austen,Pride and Prejudice
-Khaled Hosseini,The Kite Runner
-Veronica Roth,Divergent
-"George Orwell, Erich Fromm, Celâl Üster",1984
-George Orwell,Animal Farm
-"Anne Frank, Eleanor Roosevelt, B.M. Mooyaart-Doubleday",The Diary of a Young Girl
-"Stieg Larsson, Reg Keeland",The Girl with the Dragon Tattoo
-Alice Sebold,The Lovely Bones
-Dan Brown,The Da Vinci Code 
-William Golding,Lord of the Flies
-"William Shakespeare, Robert           Jackson",Romeo and Juliet
-Gillian Flynn,Gone Girl
-Kathryn Stockett,The Help
-John Steinbeck,Of Mice and Men
-Arthur Golden,Memoirs of a Geisha
-E.L. James,Fifty Shades of Grey
-"Paulo Coelho, Alan R. Clarke",The Alchemist
-Lois Lowry,The Giver
-C.S. Lewis,"The Lion, the Witch, and the Wardrobe "
-Audrey Niffenegger,The Time Traveler's Wife
-George R.R. Martin,A Game of Thrones
-Elizabeth Gilbert,"Eat, Pray, Love"
-Rick Riordan,The Lightning Thief
-Louisa May Alcott,Little Women 
-"Charlotte Brontë, Michael Mason",Jane Eyre
-Nicholas Sparks,The Notebook
-Yann Martel,Life of Pi
-Sara Gruen,Water for Elephants
-Markus Zusak,The Book Thief
-Ray Bradbury,Fahrenheit 451
-Shel Silverstein,Where the Sidewalk Ends
-Cassandra Clare,City of Bones
-Christopher Paolini,Eragon
-Douglas Adams,The Hitchhiker's Guide to the Galaxy
-Aldous Huxley,Brave New World
-Sue Monk Kidd,The Secret Life of Bees
-"Mark Twain, John Seelye, Guy Cardwell",The Adventures of Huckleberry Finn
-"E.B. White, Garth Williams, Rosemary Wells",Charlotte's Web
-Paula Hawkins,The Girl on the Train
-Philip Pullman,The Golden Compass
-"Emily Brontë, Richard J. Dunn",Wuthering Heights
-Jodi Picoult,My Sister's Keeper
-Kurt Vonnegut Jr.,Slaughterhouse-Five
-Margaret Mitchell,Gone with the Wind
-Khaled Hosseini,A Thousand Splendid Suns
-Stephen Chbosky,The Perks of Being a Wallflower
-Veronica Roth,Insurgent
-Orson Scott Card,Ender's Game
-"Mary Wollstonecraft Shelley, Percy Bysshe Shelley, Maurice Hindle",Frankenstein
-Stephen King,The Shining
-Stephenie Meyer,The Host
-John Green,Looking for Alaska
-Helen Fielding,Bridget Jones's Diary
-"Jane Austen, Tony Tanner, Ros Ballaster",Sense and Sensibility
-Lauren Weisberger,The Devil Wears Prada
-"Homer, Robert Fagles, E.V. Rieu, Frédéric Mugler, Bernard Knox",The Odyssey
-"Antoine de Saint-Exupéry, Richard Howard, Dom Marcos Barbosa, Melina Karakosta",The Little Prince
-Jeannette Walls,The Glass Castle
-Jon Krakauer,Into the Wild
-"Charles Dickens, Richard Maxwell, Hablot Knight Browne",A Tale of Two Cities
-Michael Crichton,Jurassic Park
-Shel Silverstein,The Giving Tree
-John Grisham,A Time to Kill
-"Elie Wiesel, Marion Wiesel",Night
-John Green,Paper Towns
-William Goldman,The Princess Bride 
-S.E. Hinton,The Outsiders
-James Dashner,The Maze Runner
-Frances Hodgson Burnett,The Secret Garden
-"Gabriel García Márquez, Gregory Rabassa",One Hundred Years of Solitude
-"Oscar Wilde, Jeffrey Eugenides",The Picture of Dorian Gray
-"Bram Stoker, Nina Auerbach, David J. Skal",Dracula
-"Stieg Larsson, Reg Keeland",The Girl Who Played with Fire
+Name
+The Hunger Games
+Harry Potter
+Twilight 
+To Kill a Mockingbird
+The Great Gatsby
+The Fault in Our Stars
+The Hobbit
+The Catcher in the Rye
+Angels & Demons
+Pride and Prejudice
+The Kite Runner
+Divergent
+1984
+Animal Farm
+The Diary of a Young Girl
+The Girl with the Dragon Tattoo
+The Lovely Bones
+The Da Vinci Code 
+Lord of the Flies
+Romeo and Juliet
+Gone Girl
+The Help
+Of Mice and Men
+Memoirs of a Geisha
+Fifty Shades of Grey
+The Alchemist
+The Giver
+"The Lion, the Witch, and the Wardrobe "
+The Time Traveler's Wife
+A Game of Thrones
+"Eat, Pray, Love"
+The Lightning Thief
+Little Women 
+Jane Eyre
+The Notebook
+Life of Pi
+Water for Elephants
+The Book Thief
+Fahrenheit 451
+Where the Sidewalk Ends
+City of Bones
+Eragon
+The Hitchhiker's Guide to the Galaxy
+Brave New World
+The Secret Life of Bees
+The Adventures of Huckleberry Finn
+Charlotte's Web
+The Girl on the Train
+The Golden Compass
+Wuthering Heights
+My Sister's Keeper
+Slaughterhouse-Five
+Gone with the Wind
+A Thousand Splendid Suns
+The Perks of Being a Wallflower
+Insurgent
+Ender's Game
+Frankenstein
+The Shining
+The Host
+Looking for Alaska
+Bridget Jones's Diary
+Sense and Sensibility
+The Devil Wears Prada
+The Odyssey
+The Little Prince
+The Glass Castle
+Into the Wild
+A Tale of Two Cities
+Jurassic Park
+The Giving Tree
+A Time to Kill
+Night
+Paper Towns
+The Princess Bride 
+The Outsiders
+The Maze Runner
+The Secret Garden
+One Hundred Years of Solitude
+The Picture of Dorian Gray
+Dracula
+The Girl Who Played with Fire
+Suzanne Collins
+"J.K. Rowling, Mary GrandPré"
+Stephenie Meyer
+Harper Lee
+F. Scott Fitzgerald
+John Green
+J.R.R. Tolkien
+J.D. Salinger
+Dan Brown
+Jane Austen
+Khaled Hosseini
+Veronica Roth
+"George Orwell, Erich Fromm, Celâl Üster"
+George Orwell
+"Anne Frank, Eleanor Roosevelt, B.M. Mooyaart-Doubleday"
+"Stieg Larsson, Reg Keeland"
+Alice Sebold
+Dan Brown
+William Golding
+"William Shakespeare, Robert           Jackson"
+Gillian Flynn
+Kathryn Stockett
+John Steinbeck
+Arthur Golden
+E.L. James
+"Paulo Coelho, Alan R. Clarke"
+Lois Lowry
+C.S. Lewis
+Audrey Niffenegger
+George R.R. Martin
+Elizabeth Gilbert
+Rick Riordan
+Louisa May Alcott
+"Charlotte Brontë, Michael Mason"
+Nicholas Sparks
+Yann Martel
+Sara Gruen
+Markus Zusak
+Ray Bradbury
+Shel Silverstein
+Cassandra Clare
+Christopher Paolini
+Douglas Adams
+Aldous Huxley
+Sue Monk Kidd
+"Mark Twain, John Seelye, Guy Cardwell"
+"E.B. White, Garth Williams, Rosemary Wells"
+Paula Hawkins
+Philip Pullman
+"Emily Brontë, Richard J. Dunn"
+Jodi Picoult
+Kurt Vonnegut Jr.
+Margaret Mitchell
+Khaled Hosseini
+Stephen Chbosky
+Veronica Roth
+Orson Scott Card
+"Mary Wollstonecraft Shelley, Percy Bysshe Shelley, Maurice Hindle"
+Stephen King
+Stephenie Meyer
+John Green
+Helen Fielding
+"Jane Austen, Tony Tanner, Ros Ballaster"
+Lauren Weisberger
+"Homer, Robert Fagles, E.V. Rieu, Frédéric Mugler, Bernard Knox"
+"Antoine de Saint-Exupéry, Richard Howard, Dom Marcos Barbosa, Melina Karakosta"
+Jeannette Walls
+Jon Krakauer
+"Charles Dickens, Richard Maxwell, Hablot Knight Browne"
+Michael Crichton
+Shel Silverstein
+John Grisham
+"Elie Wiesel, Marion Wiesel"
+John Green
+William Goldman
+S.E. Hinton
+James Dashner
+Frances Hodgson Burnett
+"Gabriel García Márquez, Gregory Rabassa"
+"Oscar Wilde, Jeffrey Eugenides"
+"Bram Stoker, Nina Auerbach, David J. Skal"
+"Stieg Larsson, Reg Keeland"
