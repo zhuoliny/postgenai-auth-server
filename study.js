@@ -78,6 +78,7 @@ async function loadGeneraldata(targetCategory) {
         const response = await fetch(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/generaldata/${targetCategory}.csv`);
         const data = await response.text();
         generaldata = data.split("\n");
+        console.log(data);
     } catch (error) {
         console.error('Error fetching CSV:', error);
     }
