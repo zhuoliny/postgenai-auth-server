@@ -41,14 +41,16 @@ document.getElementById("submitBtn").disabled = true;
 let category;
 loadCategory(); 
 
+let dataFlag = false;
 let generaldata;
+loadGeneraldata(selected_puzzle_category);
 
 // update puzzle after the category is loaded. 
 let selected_puzzle;
 let selected_puzzle_words;
 let selected_puzzle_traps;
 let selected_puzzle_category;
-let the_puzzle;
+let the_puzzle = [];
 (async() => {
     console.log("waiting for category to be loaded");
     while(category == undefined) 
@@ -81,6 +83,35 @@ async function loadGeneraldata(targetCategory) {
         console.log(data);
     } catch (error) {
         console.error('Error fetching CSV:', error);
+    }
+}
+
+function checkGeneraldata() {
+    if(generaldata == undefined) {
+        window.setTimeout(checkFlag, 100); /* this checks the flag every 100 milliseconds*/
+    } else {
+        var generaldataFirstCol = [];
+        for (let i = 0; i < generaldata.length; i++) {
+            generaldataFirstCol.push(generaldata[i].split(",")[0]);
+        }
+
+        // build puzzle
+        if (selected_puzzle_traps.length > 4 && selected_puzzle_traps.length < 8) {
+            the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 1)); // current # of trap is fixed; TODO: need to figure out the suitable # of traps.
+            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-1-selected_puzzle_words.length, selected_puzzle_words));
+        } else {
+            if (selected_puzzle_traps.length > 8) {
+                the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 2));
+                the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-2-selected_puzzle_words.length, selected_puzzle_words));
+            } else {
+                the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-selected_puzzle_words.length, selected_puzzle_words));
+            }
+        }
+        
+        // shuffle the words in the puzzle
+        shuffle(the_puzzle); 
+
+        console.log("general data is loaded and puzzle words extracted");
     }
 }
 
@@ -138,36 +169,9 @@ function updatePuzzle() {
     selected_puzzle_words = selected_puzzle[0];
     selected_puzzle_traps = selected_puzzle[1];
     selected_puzzle_category = selected_puzzle[3];
-    loadGeneraldata(selected_puzzle_category);
 
-    // get general data of the category
-    //while(generaldata == undefined) {
-    //    console.log("waiting for general data to be loaded");
-    //}
-    console.log("general data is loaded");
-
-    var generaldataFirstCol = [];
-    for (let i = 0; i < generaldata.length; i++) {
-        generaldataFirstCol.push(generaldata[i].split(",")[0]);
-    }
-
-    // build puzzle
-    the_puzzle = [];
-    if (selected_puzzle_traps.length > 4 && selected_puzzle_traps.length < 8) {
-        the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 1)); // current # of trap is fixed; TODO: need to figure out the suitable # of traps.
-        the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-1-selected_puzzle_words.length, selected_puzzle_words));
-    } else {
-        if (selected_puzzle_traps.length > 8) {
-            the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 2));
-            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-2-selected_puzzle_words.length, selected_puzzle_words));
-        } else {
-            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-selected_puzzle_words.length, selected_puzzle_words));
-        }
-    }
+    checkGeneraldata();
     
-    // shuffle the words in the puzzle
-    shuffle(the_puzzle); 
-
     // update word set
     var wordsSet_div = document.getElementById("words");
     for (let i = 0; i < the_puzzle[0].length; i++) {
