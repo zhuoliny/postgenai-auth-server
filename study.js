@@ -58,6 +58,37 @@ let the_puzzle = [];
     updateButton();
 })();
 
+function shuffle(array) {
+    let currentIndex = array.length;
+
+    // While there remain elements to shuffle...
+    while (currentIndex != 0) {
+
+        // Pick a remaining element...
+        let randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+}
+
+function getRandomElementsFromArray(arr, n, avoid) {
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+        taken.push(...avoid);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
+}
+
 function updateProgressBar() {
     var elem = document.getElementById("progressBar");
     var width = Math.round((puzzleID / maxPuzzleID) * 100);
@@ -93,15 +124,16 @@ function checkGeneraldata() {
         }
 
         // build puzzle
+        the_puzzle.push(...selected_puzzle_words);
         if (selected_puzzle_traps.length > 4 && selected_puzzle_traps.length < 8) {
             the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 1)); // current # of trap is fixed; TODO: need to figure out the suitable # of traps.
-            the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-1-selected_puzzle_words.length, selected_puzzle_words));
+            the_puzzle.push(...getRandomElementsFromArray(generaldataFirstCol, maxNumbWords-1-selected_puzzle_words.length, selected_puzzle_words));
         } else {
             if (selected_puzzle_traps.length > 8) {
                 the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 2));
-                the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-2-selected_puzzle_words.length, selected_puzzle_words));
+                the_puzzle.push(...getRandomElementsFromArray(generaldataFirstCol, maxNumbWords-2-selected_puzzle_words.length, selected_puzzle_words));
             } else {
-                the_puzzle.push(...getRandomElementsFromArray(generaldata, maxNumbWords-selected_puzzle_words.length, selected_puzzle_words));
+                the_puzzle.push(...getRandomElementsFromArray(generaldataFirstCol, maxNumbWords-selected_puzzle_words.length, selected_puzzle_words));
             }
         }
         
@@ -110,41 +142,30 @@ function checkGeneraldata() {
 
         console.log("general data is loaded and puzzle words extracted");
         console.log(the_puzzle);
+
+        // update words in html div
+        var wordsSet_div = document.getElementById("words");
+        for (let i = 0; i < the_puzzle.length; i++) {
+            console.log(the_puzzle[i]);
+            var word_wrapper_div = document.createElement("div");
+            word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
+            word_wrapper_div.setAttribute('draggable', 'true');
+            word_wrapper_div.setAttribute('role', 'option');
+            word_wrapper_div.setAttribute('aria-grabbed', 'false');
+
+            var the_word_div = document.createElement("div");
+            the_word_div.innerHTML = the_puzzle[i];
+            the_word_div.setAttribute('class', 'bg-blue py3 white center');
+            //var div_id = maxNumbWords - i;
+            //the_word_div.setAttribute('id', `word${div_id}`);
+
+            word_wrapper_div.appendChild(the_word_div);
+            wordsSet_div.appendChild(word_wrapper_div);
+        } 
     }
 }
 
 //function sendStudyParams() { }
-
-function shuffle(array) {
-    let currentIndex = array.length;
-
-    // While there remain elements to shuffle...
-    while (currentIndex != 0) {
-
-        // Pick a remaining element...
-        let randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-
-        // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
-    }
-}
-
-function getRandomElementsFromArray(arr, n, avoid) {
-    var result = new Array(n),
-        len = arr.length,
-        taken = new Array(len);
-        taken.push(...avoid);
-    if (n > len)
-        throw new RangeError("getRandom: more elements taken than available");
-    while (n--) {
-        var x = Math.floor(Math.random() * len);
-        result[n] = arr[x in taken ? taken[x] : x];
-        taken[x] = --len in taken ? taken[len] : len;
-    }
-    return result;
-}
 
 function updateButton() {
     if (puzzleID == 1) {
@@ -170,25 +191,6 @@ function updatePuzzle() {
 
     loadGeneraldata(selected_puzzle_category);
     checkGeneraldata();
-    
-    // update word set
-    var wordsSet_div = document.getElementById("words");
-    for (let i = 0; i < the_puzzle.length; i++) {
-        var word_wrapper_div = document.createElement("div");
-        word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
-        word_wrapper_div.setAttribute('draggable', 'true');
-        word_wrapper_div.setAttribute('role', 'option');
-        word_wrapper_div.setAttribute('aria-grabbed', 'false');
-
-        var the_word_div = document.createElement("div");
-        the_word_div.innerHTML = the_puzzle[i];
-        the_word_div.setAttribute('class', 'bg-blue py3 white center');
-        //var div_id = maxNumbWords - i;
-        //the_word_div.setAttribute('id', `word${div_id}`);
-
-        word_wrapper_div.appendChild(the_word_div);
-        wordsSet_div.appendChild(word_wrapper_div);
-    } 
 
     // update hint
     document.getElementById(`hint`).innerHTML = selected_puzzle[2];
