@@ -140,9 +140,9 @@ function updatePuzzle() {
     loadGeneraldata(selected_puzzle_category);
 
     // get general data of the category
-    while(generaldata == undefined) {
-        console.log("waiting for general data to be loaded");
-    }
+    //while(generaldata == undefined) {
+    //    console.log("waiting for general data to be loaded");
+    //}
     console.log("general data is loaded");
 
     var generaldataFirstCol = [];
