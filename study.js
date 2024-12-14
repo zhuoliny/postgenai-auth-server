@@ -78,7 +78,6 @@ async function loadGeneraldata(targetCategory) {
         const response = await fetch(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/generaldata/${targetCategory}.csv`);
         const data = await response.text();
         generaldata = data.split("\n");
-        console.log(data);
     } catch (error) {
         console.error('Error fetching CSV:', error);
     }
@@ -173,7 +172,7 @@ function updatePuzzle() {
     
     // update word set
     var wordsSet_div = document.getElementById("words");
-    for (let i = 0; i < the_puzzle[0].length; i++) {
+    for (let i = 0; i < the_puzzle.length; i++) {
         var word_wrapper_div = document.createElement("div");
         word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
         word_wrapper_div.setAttribute('draggable', 'true');
@@ -181,7 +180,7 @@ function updatePuzzle() {
         word_wrapper_div.setAttribute('aria-grabbed', 'false');
 
         var the_word_div = document.createElement("div");
-        the_word_div.innerHTML = the_puzzle[0][i];
+        the_word_div.innerHTML = the_puzzle[i];
         the_word_div.setAttribute('class', 'bg-blue py3 white center');
         //var div_id = maxNumbWords - i;
         //the_word_div.setAttribute('id', `word${div_id}`);
@@ -194,7 +193,7 @@ function updatePuzzle() {
     document.getElementById(`hint`).innerHTML = selected_puzzle[2];
 
     // update answer box
-    var answerBox_div = document.getElementById("answerBox");
+    /* var answerBox_div = document.getElementById("answerBox");
     for (let i = 0; i < selected_puzzle[2].length; i++) {
         var word_wrapper_div = document.createElement("div");
         word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
@@ -211,6 +210,7 @@ function updatePuzzle() {
         word_wrapper_div.appendChild(the_word_div);
         answerBox_div.appendChild(word_wrapper_div);
     } 
+    */
 }
 
 function saveResponse() {
