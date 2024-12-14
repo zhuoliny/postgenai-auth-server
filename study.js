@@ -78,7 +78,11 @@ function getRandomElementsFromArray(arr, n, avoid) {
     var result = new Array(n),
         len = arr.length,
         taken = new Array(len);
+
+    if (avoid != undefined) {
         taken.push(...avoid);
+    }
+    
     if (n > len)
         throw new RangeError("getRandom: more elements taken than available");
     while (n--) {
@@ -141,12 +145,10 @@ function checkGeneraldata() {
         shuffle(the_puzzle); 
 
         console.log("general data is loaded and puzzle words extracted");
-        console.log(the_puzzle);
 
         // update words in html div
         var wordsSet_div = document.getElementById("words");
         for (let i = 0; i < the_puzzle.length; i++) {
-            console.log(the_puzzle[i]);
             var word_wrapper_div = document.createElement("div");
             word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
             word_wrapper_div.setAttribute('draggable', 'true');
@@ -156,12 +158,12 @@ function checkGeneraldata() {
             var the_word_div = document.createElement("div");
             the_word_div.innerHTML = the_puzzle[i];
             the_word_div.setAttribute('class', 'bg-blue py3 white center');
-            //var div_id = maxNumbWords - i;
-            //the_word_div.setAttribute('id', `word${div_id}`);
 
             word_wrapper_div.appendChild(the_word_div);
             wordsSet_div.appendChild(word_wrapper_div);
         } 
+
+        console.log("puzzle built");
     }
 }
 
