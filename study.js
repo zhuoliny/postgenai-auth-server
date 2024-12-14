@@ -140,12 +140,10 @@ function updatePuzzle() {
     loadGeneraldata(selected_puzzle_category);
 
     // get general data of the category
-    (async() => {
+    while(generaldata == undefined) {
         console.log("waiting for general data to be loaded");
-        while(generaldata == undefined) 
-            await new Promise(resolve => setTimeout(resolve, 3000));
-        console.log("general data is loaded");
-    })();
+    }
+    console.log("general data is loaded");
 
     var generaldataFirstCol = [];
     for (let i = 0; i < generaldata.length; i++) {
