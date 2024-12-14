@@ -179,6 +179,7 @@ function updatePuzzle() {
         word_wrapper_div.setAttribute('role', 'option');
         word_wrapper_div.setAttribute('aria-grabbed', 'false');
 
+        console.log(the_puzzle[i]);
         var the_word_div = document.createElement("div");
         the_word_div.innerHTML = the_puzzle[i];
         the_word_div.setAttribute('class', 'bg-blue py3 white center');
