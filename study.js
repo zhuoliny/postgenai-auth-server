@@ -41,9 +41,7 @@ document.getElementById("submitBtn").disabled = true;
 let category;
 loadCategory(); 
 
-let dataFlag = false;
 let generaldata;
-loadGeneraldata(selected_puzzle_category);
 
 // update puzzle after the category is loaded. 
 let selected_puzzle;
@@ -170,6 +168,7 @@ function updatePuzzle() {
     selected_puzzle_traps = selected_puzzle[1];
     selected_puzzle_category = selected_puzzle[3];
 
+    loadGeneraldata(selected_puzzle_category);
     checkGeneraldata();
     
     // update word set
