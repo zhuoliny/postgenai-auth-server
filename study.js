@@ -86,7 +86,7 @@ async function loadGeneraldata(targetCategory) {
 
 function checkGeneraldata() {
     if(generaldata == undefined) {
-        window.setTimeout(checkFlag, 100); /* this checks the flag every 100 milliseconds*/
+        window.setTimeout(checkGeneraldata, 100); /* this checks the flag every 100 milliseconds*/
     } else {
         var generaldataFirstCol = [];
         for (let i = 0; i < generaldata.length; i++) {
