@@ -27,6 +27,7 @@ const urlParams = new URLSearchParams(queryString);
 const puzzleID = urlParams.get('puzzleID'); 
 const userID = urlParams.get('userID'); 
 const weekID = urlParams.get('weekID'); 
+const otheruserID = urlParams.get('otheruserID'); 
 //sendStudyParams();
 
 const maxPuzzleID = 12; 
@@ -101,7 +102,7 @@ function updateProgressBar() {
 }
 
 function loadCategory() {
-    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/category_week${weekID}.json`)
+    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/week${weekID}_${otheruserID}.json`)
     .done(function( data ) {
         console.log("category loading ...")
         category = data;
@@ -247,17 +248,17 @@ function saveResponse() {
     category[puzzleID - 1]["selectedWords"] = selected_words;
     category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
 
-    set(ref(database, 'users/' + `${userID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
+    set(ref(database, 'users/' + `${userID}/${otheruserID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
         selected: selected_words,
         unselected: unselected_words
     }); 
 }
 
-function waitingResponseToBeSaved(pid, uid, wid) {
+function waitingResponseToBeSaved(pid, uid, wid, ouid) {
     console.log("waiting response to be saved and then jump to the next puzzle");
 
     // create parameterized link
-    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${pid}&userID=${uid}&weekID=${wid}`
+    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${pid}&userID=${uid}&otheruserID=${ouid}&weekID=${wid}`
 
     // open link in new tab
     window.open(url, "_self");
@@ -268,7 +269,7 @@ export function previousPuzzle() {
     saveResponse();
 
     var prevPuzzleID = parseInt(puzzleID) - 1;
-    setTimeout(waitingResponseToBeSaved, 1000, prevPuzzleID, userID, weekID);
+    setTimeout(waitingResponseToBeSaved, 1000, prevPuzzleID, userID, weekID, otheruserID);
 }
 
 export function nextPuzzle() {
@@ -276,7 +277,7 @@ export function nextPuzzle() {
     saveResponse();
 
     var nextPuzzleID = parseInt(puzzleID) + 1;
-    setTimeout(waitingResponseToBeSaved, 1000, nextPuzzleID, userID, weekID);
+    setTimeout(waitingResponseToBeSaved, 1000, nextPuzzleID, userID, weekID, otheruserID);
 }
 
 export function wrapUpSession() {

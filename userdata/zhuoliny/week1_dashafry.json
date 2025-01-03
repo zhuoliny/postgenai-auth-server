@@ -1,0 +1,15 @@
+[
+    {"wordSet1":["Howls Moving Castle", "Inception", "Spirited Away", "Ready Player One", "Elf", "Everything Everywhere All at Once", "Frozen", "Indiana Jones"], "traps":[], "hint":"", "category":"Movie"},
+    {"wordSet2":["Friends", "Modern Family", "The Queen's Gambit", "Ali Wong", "Queer Eye", "The Bear", "Chopped", "MasterChef"], "traps":[], "hint":"", "category":"TVShow"},
+    {"wordSet3":["Dim Sum", "Dumplings", "Spaghetti", "Eggplant Lasagna", "Steak", "Bagel", "Pizza"], "traps":[], "hint":"", "category":"Food"},
+    {"wordSet4":["Ben", "Josephine", "Shawn", "Heather", "Stanley", "Amy", "Alexis"], "traps":[], "hint":"", "category":"People"},
+    {"wordSet5":["Taylor Tomlinson", "Ali Wong", "Joe Hisaishi", "Hayao Miyazaki", "Anya Taylor-Joy", "Saoirse Ronan"], "traps":["Elon Musk", "Kanye West", "Putin"], "hint":"", "category":"Celebrity"},
+    {"wordSet6":["The Witcher", "Ready Player One", "Do Androids Dream of Electric Sheep?", "The Little Women", "Coraline", "The Three Body Problem"], "traps":[], "hint":"", "category":"Book&Author"},
+    {"wordSet7":["Coraline", "Geralt of Rivia", "Wade Watts", "Harry Potter", "Voldemort", "Dumbledore", "Art3mis", "The Bear"], "traps":[], "hint":"", "category":"Character"},
+    {"wordSet8":["New York City", "Chicago", "San Diego", "Los Angeles", "Huston", "Boston", "Copenhegan", "Singapore"], "traps":[], "hint":"", "category":"City"},
+    {"wordSet9":["Joe Hisaishi", "Hayao Miyazaki", "Billie Eilish", "Queen", "Beatles", "Study Jazz Music", "Yuzuru Hanyu", "Taylor Swift"], "traps":[], "hint":"", "category":"Band&Artist"},
+    {"wordSet10":["Trader Joes", "Target", "Whole Foods", "Converse", "Nike", "Birkenstock", "Adidas", "Dr. Martin", "Uniqlo"], "traps":[], "hint":"", "category":"Store"},
+    {"wordSet11":["Minecraft", "Baldur's Gate 3", "Sims 4", "Monopoly", "Temple Run", "Fruit Ninja", "Subway Surfer", "Doodle Jump"], "traps":[], "hint":"", "category":"Game"},
+    {"wordSet12":["Biking", "Swimming", "Reading", "Painting", "Running", "Air Hockey", "Gaming", "Cooking"], "traps":[], "hint":"", "category":"Hobby&Interest"},
+    {"wordSet13":["Netflix", "Hulu", "Prime", "Duolingo", "Notion", "New York Times", "Instagram", "Youtube"], "traps":[], "hint":"", "category":"Website&App"}
+]
