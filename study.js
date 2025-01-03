@@ -264,6 +264,16 @@ function waitingResponseToBeSaved(pid, uid, wid, ouid) {
     window.open(url, "_self");
 }
 
+function waitingResponseToBeSaved_ty() {
+    console.log("waiting response to be saved and then show thank you msg");
+
+    // create parameterized link
+    const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
+
+    // open link in new tab
+    window.open(url, "_self");
+}
+
 export function previousPuzzle() {
     // save responses before moving to previous puzzle
     saveResponse();
@@ -283,10 +293,7 @@ export function nextPuzzle() {
 export function wrapUpSession() {
     saveResponse();
 
-    const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
-
-    // open link in new tab
-    window.open(url, "_self");
+    setTimeout(waitingResponseToBeSaved_ty, 1000);
 }
 
 sortable('.js-sortable-copy', {
