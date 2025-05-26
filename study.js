@@ -8,333 +8,36 @@ const firebaseConfig = {
   authDomain: "post-gai-server.firebaseapp.com",
   databaseURL: "https://post-gai-server-default-rtdb.firebaseio.com",
   projectId: "post-gai-server",
-  storageBucket: "post-gai-server.firebasestorage.app",
+  storageBucket: "post-gai-server.appspot.com",
   messagingSenderId: "263113946374",
   appId: "1:263113946374:web:d8780045c285d108d7da87",
   measurementId: "G-2CNLYTH1BV"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
-// set & get parameters
-//const port = 8080;
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
+const userID = urlParams.get("userID");
+const pairID = urlParams.get("pairID");
+const category = urlParams.get("category");
 
-const puzzleID = urlParams.get('puzzleID'); 
-const userID = urlParams.get('userID'); 
-const weekID = urlParams.get('weekID'); 
-const otheruserID = urlParams.get('otheruserID'); 
-//sendStudyParams();
+document.getElementById("submit").addEventListener("click", () => {
+  const wordInputs = document.querySelectorAll(".wordInput");
+  const wordLabels = [];
 
-const maxPuzzleID = 12; 
-const maxNumbWords = 16;
-
-updateProgressBar();
-
-document.getElementById("prevBtn").disabled = true;
-document.getElementById("nxtBtn").disabled = true;
-document.getElementById("submitBtn").disabled = true;
-
-let category;
-loadCategory(); 
-
-let generaldata;
-
-// update puzzle after the category is loaded. 
-let selected_puzzle;
-let selected_puzzle_words;
-let selected_puzzle_traps;
-let selected_puzzle_category;
-let the_puzzle = [];
-(async() => {
-    console.log("waiting for category to be loaded");
-    while(category == undefined) 
-        await new Promise(resolve => setTimeout(resolve, 500));
-    console.log("category is loaded");
-    updatePuzzle();
-    updateButton();
-})();
-
-function shuffle(array) {
-    let currentIndex = array.length;
-
-    // While there remain elements to shuffle...
-    while (currentIndex != 0) {
-
-        // Pick a remaining element...
-        let randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-
-        // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
-    }
-}
-
-function getRandomElementsFromArray(arr, n, avoid) {
-    var result = new Array(n),
-        len = arr.length,
-        taken = new Array(len);
-
-    if (avoid != undefined) {
-        taken.push(...avoid);
-    }
-
-    if (n > len)
-        throw new RangeError("getRandom: more elements taken than available");
-    while (n--) {
-        var x = Math.floor(Math.random() * len);
-        result[n] = arr[x in taken ? taken[x] : x];
-        taken[x] = --len in taken ? taken[len] : len;
-    }
-    return result;
-}
-
-function updateProgressBar() {
-    var elem = document.getElementById("progressBar");
-    var width = Math.round((puzzleID / maxPuzzleID) * 100);
-    elem.style.width = width + '%';
-    elem.textContent = puzzleID + '/' + maxPuzzleID ;
-}
-
-function loadCategory() {
-    $.getJSON(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/userdata/${userID}/week${weekID}_${otheruserID}.json`)
-    .done(function( data ) {
-        console.log("category loading ...")
-        category = data;
+  wordInputs.forEach(input => {
+    wordLabels.push({
+      word: input.value.trim(),
+      isCorrect: input.checked
     });
-}
+  });
 
-async function loadGeneraldata(targetCategory) {
-    try {
-        const response = await fetch(`https://raw.githubusercontent.com/zhuoliny/postgenai-auth-server/refs/heads/main/generaldata/${targetCategory}.csv`);
-        const data = await response.text();
-        generaldata = data.split("\n");
-    } catch (error) {
-        console.error('Error fetching CSV:', error);
-    }
-}
-
-function checkGeneraldata() {
-    if(generaldata == undefined) {
-        window.setTimeout(checkGeneraldata, 100); /* this checks the flag every 100 milliseconds*/
-    } else {
-        var generaldataFirstCol = [];
-        for (let i = 0; i < generaldata.length; i++) {
-            generaldataFirstCol.push(generaldata[i].split(",")[0]);
-        }
-
-        // build puzzle
-        the_puzzle.push(...selected_puzzle_words);
-        if (selected_puzzle_traps.length > 4 && selected_puzzle_traps.length < 8) {
-            the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 1)); // current # of trap is fixed; TODO: need to figure out the suitable # of traps.
-            the_puzzle.push(...getRandomElementsFromArray(generaldataFirstCol, maxNumbWords-1-selected_puzzle_words.length, selected_puzzle_words));
-        } else {
-            if (selected_puzzle_traps.length > 8) {
-                the_puzzle.push(...getRandomElementsFromArray(selected_puzzle_traps, 2));
-                the_puzzle.push(...getRandomElementsFromArray(generaldataFirstCol, maxNumbWords-2-selected_puzzle_words.length, selected_puzzle_words));
-            } else {
-                the_puzzle.push(...getRandomElementsFromArray(generaldataFirstCol, maxNumbWords-selected_puzzle_words.length, selected_puzzle_words));
-            }
-        }
-        
-        // shuffle the words in the puzzle
-        shuffle(the_puzzle); 
-
-        console.log("general data is loaded and puzzle words extracted");
-
-        // update words in html div
-        var wordsSet_div = document.getElementById("words");
-        for (let i = 0; i < the_puzzle.length; i++) {
-            var word_wrapper_div = document.createElement("div");
-            word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
-            word_wrapper_div.setAttribute('draggable', 'true');
-            word_wrapper_div.setAttribute('role', 'option');
-            word_wrapper_div.setAttribute('aria-grabbed', 'false');
-
-            var the_word_div = document.createElement("div");
-            the_word_div.innerHTML = the_puzzle[i];
-            the_word_div.setAttribute('class', 'bg-blue py3 white center');
-
-            word_wrapper_div.appendChild(the_word_div);
-            wordsSet_div.appendChild(word_wrapper_div);
-        } 
-
-        console.log("puzzle built");
-    }
-}
-
-//function sendStudyParams() { }
-
-function updateButton() {
-    if (puzzleID == 1) {
-        document.getElementById("prevBtn").disabled = true;
-    } else {
-        document.getElementById("prevBtn").disabled = false;
-    }
-
-    if (puzzleID == maxPuzzleID) {
-        document.getElementById("nxtBtn").disabled = true;
-        document.getElementById("submitBtn").disabled = false;
-    } else {
-        document.getElementById("nxtBtn").disabled = false;
-        document.getElementById("submitBtn").disabled = true;
-    }
-}
-
-function updatePuzzle() {
-    selected_puzzle = Object.values(category[puzzleID - 1]);
-    selected_puzzle_words = selected_puzzle[0];
-    selected_puzzle_traps = selected_puzzle[1];
-    selected_puzzle_category = selected_puzzle[3];
-
-    loadGeneraldata(selected_puzzle_category);
-    checkGeneraldata();
-
-    // update hint
-    document.getElementById(`hint`).innerHTML = selected_puzzle[2];
-
-    // update answer box to show saved responses in html
-    /* var answerBox_div = document.getElementById("answerBox");
-    for (let i = 0; i < selected_puzzle[2].length; i++) {
-        var word_wrapper_div = document.createElement("div");
-        word_wrapper_div.setAttribute('class', 'col col-3 px2 py1 h3');
-        word_wrapper_div.setAttribute('draggable', 'true');
-        word_wrapper_div.setAttribute('role', 'option');
-        word_wrapper_div.setAttribute('aria-grabbed', 'false');
-
-        var the_word_div = document.createElement("div");
-        the_word_div.innerHTML = selected_puzzle[2][i];
-        the_word_div.setAttribute('class', 'bg-blue py3 white center');
-        //var div_id = maxNumbWords - i;
-        //the_word_div.setAttribute('id', `word${div_id}`);
-
-        word_wrapper_div.appendChild(the_word_div);
-        answerBox_div.appendChild(word_wrapper_div);
-    } 
-    */
-}
-
-function saveResponse() {
-    console.log(`puzzleid:${puzzleID}`);
-    var selected_words = [];
-    var responses_div = document.getElementById("answerBox").children;
-
-    for(var i = 0; i < responses_div.length; i++) {
-        var a_response_div = responses_div[i];
-        var word_inside_div = a_response_div.children[0];
-        var selected_word = word_inside_div.innerHTML;
-
-        selected_words.push(selected_word);
-    }
-    selected_words.sort();
-
-    var unselected_words = [];
-    var wordSet_div = document.getElementById("words").children;
-
-    for(var i = 0; i < wordSet_div.length; i++) {
-        var a_word_wrap_div = wordSet_div[i];
-        var a_word_div = a_word_wrap_div.children[0];
-        var unselected_word = a_word_div.innerHTML;
-
-        unselected_words.push(unselected_word);
-    }
-    unselected_words.sort();
-
-    category[puzzleID - 1]["selectedWords"] = selected_words;
-    category[puzzleID - 1][`wordSet${puzzleID}`] = unselected_words;
-
-    set(ref(database, 'users/' + `${userID}/${otheruserID}/` + `week${weekID}/` + `puzzle${puzzleID}`), {
-        selected: selected_words,
-        unselected: unselected_words
-    }); 
-}
-
-function waitingResponseToBeSaved(pid, uid, wid, ouid) {
-    console.log("waiting response to be saved and then jump to the next puzzle");
-
-    // create parameterized link
-    const url = `https://zhuoliny.github.io/postgenai-auth-server/?puzzleID=${pid}&userID=${uid}&otheruserID=${ouid}&weekID=${wid}`
-
-    // open link in new tab
-    window.open(url, "_self");
-}
-
-function waitingResponseToBeSaved_ty() {
-    console.log("waiting response to be saved and then show thank you msg");
-
-    // create parameterized link
-    const url = `http://zhuoliny.github.io/postgenai-auth-server/thankyou.html`
-
-    // open link in new tab
-    window.open(url, "_self");
-}
-
-export function previousPuzzle() {
-    // save responses before moving to previous puzzle
-    saveResponse();
-
-    var prevPuzzleID = parseInt(puzzleID) - 1;
-    setTimeout(waitingResponseToBeSaved, 1000, prevPuzzleID, userID, weekID, otheruserID);
-}
-
-export function nextPuzzle() {
-    // save responses before moving to next puzzle
-    saveResponse();
-
-    var nextPuzzleID = parseInt(puzzleID) + 1;
-    setTimeout(waitingResponseToBeSaved, 1000, nextPuzzleID, userID, weekID, otheruserID);
-}
-
-export function wrapUpSession() {
-    saveResponse();
-
-    setTimeout(waitingResponseToBeSaved_ty, 1000);
-}
-
-sortable('.js-sortable-copy', {
-    forcePlaceholderSize: true,
-    copy: false,
-    acceptFrom: false,
-    acceptFrom: '.js-sortable-copy-target',
-    placeholderClass: 'mb1 bg-navy border border-yellow',
-    dropTargetContainerClass: 'is-drop-target',
-    maxItems: 16
-});
-sortable('.js-sortable-copy-target', {
-    forcePlaceholderSize: true,
-    copy: false,
-    acceptFrom: '.js-sortable-copy',
-    placeholderClass: 'mb1 border border-maroon',
-    dropTargetContainerClass: 'is-drop-target',
-    maxItems: 16
-});
-sortable('.js-grid', {
-            forcePlaceholderSize: true,
-            placeholderClass: 'col col-4 border border-maroon'
-});
-sortable('.js-sortable-connected', {
-    forcePlaceholderSize: true,
-    connectWith: '.js-connected',
-    handle: '.js-handle',
-    items: 'li',
-    placeholderClass: 'border border-white bg-orange mb1'
-});
-sortable('.js-sortable-inner-connected', {
-    forcePlaceholderSize: true,
-    connectWith: 'js-inner-connected',
-    handle: '.js-inner-handle',
-    items: '.item',
-    maxItems: 3,
-    placeholderClass: 'border border-white bg-orange mb1'
-});
-sortable('.js-sortable-buttons', {
-    forcePlaceholderSize: true,
-    items: 'li',
-    placeholderClass: 'border border-white mb1',
-    hoverClass: 'bg-yellow'
+  set(ref(database, 'pairs/' + pairID + '/' + userID + '/' + category), wordLabels)
+    .then(() => {
+      alert("Responses saved successfully!");
+      window.location.href = "thankyou.html";
+    });
 });
