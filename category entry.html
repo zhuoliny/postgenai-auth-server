@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Enter Categories</title>
+  <link rel="stylesheet" href="basscss.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="p2">
+  <div class="center">
+    <h2>Enter 3 Personal Categories</h2>
+    <p>Think of three niche categories, specific to your relationship. After you have agreed on categories, a list of words will be generated under that category and you will be asked to sort them into positive and negative boxes.  Examples of categories include: Countries We've Visited, Inside Jokes, Favorite Meals </p>
+    <p> Make sure there are at least 10 words that fit into your category </p>
+    <form id="categoryForm">
+      <input class="input block mb2" type="text" name="category1" placeholder="Category 1" required>
+      <input class="input block mb2" type="text" name="category2" placeholder="Category 2" required>
+      <input class="input block mb2" type="text" name="category3" placeholder="Category 3" required>
+      <button class="button bg-navy white" type="submit">Generate Puzzles</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('categoryForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      const categories = [formData.get('category1'), formData.get('category2'), formData.get('category3')];
+
+      const response = await fetch('/generateWords', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ categories })
+      });
+
+      const result = await response.json();
+      if (result.status === 'success') {
+        // Store data locally or pass via URL params, then go to the puzzle page
+        sessionStorage.setItem('generatedWords', JSON.stringify(result.words));
+        sessionStorage.setItem('categories', JSON.stringify(categories));
+        window.location.href = 'index.html';
+      } else {
+        alert('Failed to generate words.');
+      }
+    });
+  </script>
+</body>
+</html>
+

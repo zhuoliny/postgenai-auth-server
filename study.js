@@ -17,7 +17,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase(app);
-
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const userID = urlParams.get("userID");

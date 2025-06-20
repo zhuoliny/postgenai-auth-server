@@ -1,0 +1,24 @@
+{
+  "name": "postgenai-auth-server",
+  "version": "1.0.0",
+  "description": "- Install node.js and express.  - In terminal, run      - node server.js - In browser, go to http://localhost:8080/?puzzleID=1&userID=zhuzhu&weekID=1     - The userID, weekID and jsons (see in userdata folder) should be updated correspondingly.",
+  "main": "html5sortable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuoliny/postgenai-auth-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuoliny/postgenai-auth-server/issues"
+  },
+  "homepage": "https://github.com/zhuoliny/postgenai-auth-server#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
